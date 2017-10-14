@@ -6,6 +6,7 @@
   "author": "Daniel Brown <d.t.brown@outlook.com>",
   "license": "MIT",
   "scripts": {
+    "test": "jest",
     "lint": "eslint ."
   },
   "devDependencies": {
@@ -13,5 +14,6 @@
     "eslint-config-airbnb-base": "12.0.2",
     "eslint-plugin-import": "2.7.0",
     "eslint-plugin-jest": "21.2.0",
+    "jest": "21.2.1"
   }
 }
