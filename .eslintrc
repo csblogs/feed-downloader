@@ -5,5 +5,8 @@
   },
   "plugins": [
     "jest"
-  ]
+  ],
+  "rules": {
+    "new-cap": ["error", { "newIsCapExceptionPattern": "^Boom.\\w" }]
+  }
 }

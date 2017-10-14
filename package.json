@@ -15,5 +15,9 @@
     "eslint-plugin-import": "2.7.0",
     "eslint-plugin-jest": "21.2.0",
     "jest": "21.2.1"
+  },
+  "dependencies": {
+    "boom": "6.0.0",
+    "xml2js": "0.4.19"
   }
 }
