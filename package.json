@@ -5,4 +5,13 @@
   "repository": "https://github.com/csblogs/feed-downloader.git",
   "author": "Daniel Brown <d.t.brown@outlook.com>",
   "license": "MIT",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "4.9.0",
+    "eslint-config-airbnb-base": "12.0.2",
+    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-jest": "21.2.0",
+  }
 }
