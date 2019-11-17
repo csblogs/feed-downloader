@@ -27,14 +27,37 @@ export async function getAllFeeds(): Promise<IFeed[]> {
   return feeds;
 }
 
+function getLastModifiedFromHeaders(headers: Headers) {
+  const lastModifiedHeader = headers.get('last-modified');
+  const dateHeader = headers.get('date');
+
+  if (lastModifiedHeader) {
+    return new Date(lastModifiedHeader);
+  }
+
+  if (dateHeader) {
+    return new Date(dateHeader);
+  }
+
+  return null;
+}
+
 export async function downloadFeedIfModified(feed: IFeed): Promise<IFeedDownload> {
+  const response = await fetch(feed.url, {
+    headers: {
+      'If-Modified-Since': feed.lastModified.toUTCString(),
+      'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36'
+    }
+  });
+
+  const feedXML = await response.text();
+  const newLastModified = getLastModifiedFromHeaders(response.headers);
+  
   return {
-    id: '1',
-    url: 'https://dannycomputerscientist.wordpress.com/feed.xml',
-    lastModified: new Date(),
-    feedXML: '<>',
-    newLastModified: null
-  };
+    ...feed,
+    feedXML,
+    newLastModified
+  }
 }
 
 export async function updateFeedLastModified(client: PoolClient, feedId: string, newLastModified: Date) {
