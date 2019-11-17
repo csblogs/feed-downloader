@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/csblogs/feed-downloader#readme",
   "dependencies": {
+    "node-fetch": "^2.6.0",
     "pg": "^7.12.1"
   },
   "devDependencies": {
