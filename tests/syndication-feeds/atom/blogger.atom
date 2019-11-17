@@ -1,382 +1,581 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="http://www.blogger.com/styles/atom.css" type="text/css"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/" xmlns:blogger="http://schemas.google.com/blogger/2008" xmlns:georss="http://www.georss.org/georss" xmlns:gd="http://schemas.google.com/g/2005" xmlns:thr="http://purl.org/syndication/thread/1.0">
-    <id>tag:blogger.com,1999:blog-5929733967601850887</id>
-    <updated>2016-02-25T09:25:27.702-08:00</updated>
-    <category term="opengl" />
-    <category term="opentk" />
-    <category term="glsl" />
-    <category term="lighting" />
-    <category term="3d" />
-    <category term="Blinn-Phong" />
-    <category term="cylinder" />
-    <category term="fragment" />
-    <category term="physics" />
-    <category term="vertex" />
-    <category term="2d" />
-    <category term="4.5" />
-    <category term="Blinn" />
-    <category term="Phong" />
-    <category term="basic" />
-    <category term="c#" />
-    <category term="casting" />
-    <category term="clip" />
-    <category term="clipping" />
-    <category term="cloth" />
-    <category term="collision" />
-    <category term="coordinates" />
-    <category term="coords" />
-    <category term="cut" />
-    <category term="diffuse" />
-    <category term="dragon" />
-    <category term="eye" />
-    <category term="fish" />
-    <category term="fish-eye" />
-    <category term="geometry" />
-    <category term="gl_InstanceID" />
-    <category term="graphics" />
-    <category term="half" />
-    <category term="hooke's" />
-    <category term="id" />
-    <category term="in" />
-    <category term="instance" />
-    <category term="instanced" />
-    <category term="instanceid" />
-    <category term="law" />
-    <category term="lens" />
-    <category term="lines" />
-    <category term="love" />
-    <category term="love2d" />
-    <category term="lua" />
-    <category term="mapping" />
-    <category term="model" />
-    <category term="opent" />
-    <category term="plane" />
-    <category term="portal" />
-    <category term="ray" />
-    <category term="raycaster" />
-    <category term="raycasting" />
-    <category term="shader" />
-    <category term="shaders" />
-    <category term="simulation" />
-    <category term="spheres" />
-    <category term="springs" />
-    <category term="stanford" />
-    <category term="texture" />
-    <category term="texturemapping" />
-    <title type="text">Richard Bamford's Blog</title>
-    <subtitle type="html"></subtitle>
-    <link rel="http://schemas.google.com/g/2005#feed" type="application/atom+xml" href="http://richardbamford.blogspot.com/feeds/posts/default" />
-    <link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/5929733967601850887/posts/default" />
-    <link rel="alternate" type="text/html" href="http://richardbamford.blogspot.com/" />
-    <link rel="hub" href="http://pubsubhubbub.appspot.com/" />
-    <author>
-        <name>Richard Bamford</name>
-        <email>noreply@blogger.com</email>
-        <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="//lh6.googleusercontent.com/-Z97AgYrQsno/AAAAAAAAAAI/AAAAAAAADlY/ZTaYxjrSX8I/s512-c/photo.jpg" />
-    </author>
-    <generator version="7.00" uri="http://www.blogger.com">Blogger</generator>
-    <openSearch:totalResults>10</openSearch:totalResults>
-    <openSearch:startIndex>1</openSearch:startIndex>
-    <openSearch:itemsPerPage>25</openSearch:itemsPerPage>
-    <entry>
-        <id>tag:blogger.com,1999:blog-5929733967601850887.post-6099523359118578280</id>
-        <published>2016-02-25T09:25:00.001-08:00</published>
-        <updated>2016-02-25T09:25:27.716-08:00</updated>
-        <category scheme="http://www.blogger.com/atom/ns#" term="3d" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="Blinn-Phong" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="c#" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="glsl" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="lighting" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="opengl" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="opentk" />
-        <title type="text">Graphics Work</title>
-        <content type="html">A quick update on what I've been working on recently.&lt;br /&gt;&lt;br /&gt;For one of my modules Simulations and 3D Graphics, we were set a task to learn lighting and materials. So far I have implemented a single light, using ADS and blinn-phong (again).&lt;br /&gt;&lt;br /&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://1.bp.blogspot.com/-74kEkoti2zU/Vs84kp7mLdI/AAAAAAAAEM0/MFcbjuNxPM8/s1600/2016-02-25_17-18-06.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="504" src="https://1.bp.blogspot.com/-74kEkoti2zU/Vs84kp7mLdI/AAAAAAAAEM0/MFcbjuNxPM8/s640/2016-02-25_17-18-06.png" width="640" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;The camera can rotate, move forward/backward. The armadillo can be rotated on it's &lt;span data-dobid="hdw"&gt;pedestal and the whole scene can be rotated.&lt;/span&gt;</content>
-        <link rel="replies" type="application/atom+xml" href="http://richardbamford.blogspot.com/feeds/6099523359118578280/comments/default" title="Post Comments" />
-        <link rel="replies" type="text/html" href="http://richardbamford.blogspot.com/2016/02/graphics-work.html#comment-form" title="0 Comments" />
-        <link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/5929733967601850887/posts/default/6099523359118578280" />
-        <link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/5929733967601850887/posts/default/6099523359118578280" />
-        <link rel="alternate" type="text/html" href="http://richardbamford.blogspot.com/2016/02/graphics-work.html" title="Graphics Work" />
-        <author>
-            <name>Richard Bamford</name>
-            <uri>https://plus.google.com/116983402531371448405</uri>
-            <email>noreply@blogger.com</email>
-            <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="//lh6.googleusercontent.com/-Z97AgYrQsno/AAAAAAAAAAI/AAAAAAAADlY/ZTaYxjrSX8I/s512-c/photo.jpg" />
-        </author>
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://1.bp.blogspot.com/-74kEkoti2zU/Vs84kp7mLdI/AAAAAAAAEM0/MFcbjuNxPM8/s72-c/2016-02-25_17-18-06.png" height="72" width="72" />
-        <thr:total>0</thr:total>
-        <gd:extendedProperty name="commentSource" value="1" />
-        <gd:extendedProperty name="commentModerationMode" value="FILTERED_POSTMOD" />
-    </entry>
-    <entry>
-        <id>tag:blogger.com,1999:blog-5929733967601850887.post-5011870169235350844</id>
-        <published>2016-02-07T07:52:00.000-08:00</published>
-        <updated>2016-02-07T07:52:10.279-08:00</updated>
-        <category scheme="http://www.blogger.com/atom/ns#" term="3d" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="4.5" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="Blinn" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="Blinn-Phong" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="dragon" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="glsl" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="lighting" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="model" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="opengl" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="opentk" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="Phong" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="stanford" />
-        <title type="text">Project 5: Stanford dragon rendering</title>
-        <content type="html">&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;iframe width="320" height="266" class="YOUTUBE-iframe-video" data-thumbnail-src="https://i.ytimg.com/vi/WxSnZkz1lsU/0.jpg" src="https://www.youtube.com/embed/WxSnZkz1lsU?feature=player_embedded" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;This dragon is one of the many models which the Stanford University Computer Graphics Laboratory scanned. More info http://graphics.stanford.edu/data/3Dscanrep/. I used this to practice for an upcoming module, it is made in OpenTK and uses OpenGL 4.5.&lt;br /&gt;&amp;nbsp; &lt;br /&gt;Work for this included:&lt;br /&gt;&lt;ul&gt;&lt;li&gt;Loading vertex and normal data from .OBJ.&lt;/li&gt;&lt;li&gt;Parsing material file for Blinn-Phong attributes.&lt;/li&gt;&lt;li&gt;Blinn-Phong glsl shaders.&lt;/li&gt;&lt;li&gt;Setting model/view/projection matrices.&lt;/li&gt;&lt;li&gt;Configuring camera and light positions. &lt;/li&gt;&lt;/ul&gt;&lt;br /&gt;</content>
-        <link rel="replies" type="application/atom+xml" href="http://richardbamford.blogspot.com/feeds/5011870169235350844/comments/default" title="Post Comments" />
-        <link rel="replies" type="text/html" href="http://richardbamford.blogspot.com/2016/02/project-5-stanford-dragon-rendering.html#comment-form" title="0 Comments" />
-        <link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/5929733967601850887/posts/default/5011870169235350844" />
-        <link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/5929733967601850887/posts/default/5011870169235350844" />
-        <link rel="alternate" type="text/html" href="http://richardbamford.blogspot.com/2016/02/project-5-stanford-dragon-rendering.html" title="Project 5: Stanford dragon rendering" />
-        <author>
-            <name>Richard Bamford</name>
-            <uri>https://plus.google.com/116983402531371448405</uri>
-            <email>noreply@blogger.com</email>
-            <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="//lh6.googleusercontent.com/-Z97AgYrQsno/AAAAAAAAAAI/AAAAAAAADlY/ZTaYxjrSX8I/s512-c/photo.jpg" />
-        </author>
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://img.youtube.com/vi/WxSnZkz1lsU/default.jpg" height="72" width="72" />
-        <thr:total>0</thr:total>
-        <gd:extendedProperty name="commentSource" value="1" />
-        <gd:extendedProperty name="commentModerationMode" value="FILTERED_POSTMOD" />
-    </entry>
-    <entry>
-        <id>tag:blogger.com,1999:blog-5929733967601850887.post-9212394011200744572</id>
-        <published>2016-02-02T07:34:00.000-08:00</published>
-        <updated>2016-02-02T07:43:29.194-08:00</updated>
-        <category scheme="http://www.blogger.com/atom/ns#" term="casting" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="coordinates" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="coords" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="diffuse" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="eye" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="fish" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="fish-eye" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="graphics" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="lens" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="lighting" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="love" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="love2d" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="lua" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="mapping" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="ray" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="raycaster" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="raycasting" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="shader" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="texture" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="texturemapping" />
-        <title type="text">Project 4: Ray casting with a 2d graphics library.</title>
-        <content type="html">&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;iframe allowfullscreen="" class="YOUTUBE-iframe-video" data-thumbnail-src="https://i.ytimg.com/vi/NDld7yg9-tA/0.jpg" frameborder="0" height="266" src="https://www.youtube.com/embed/NDld7yg9-tA?feature=player_embedded" width="320"&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;br /&gt;Implementing this using one of my favorite frameworks (https://love2d.org/) in Lua was a lot of fun!&lt;br /&gt;&lt;br /&gt;This is heavily inspired by Wolfenstein 3D.&lt;br /&gt;&lt;br /&gt;It involved simple trigonometry, calculating ray/shape intersections, figuring out how to map textures and lighting effects. &lt;br /&gt;&lt;br /&gt;A problem I encountered was a fisheye lens effect, because for each ray projected into the world, I would map the intersection distance directly to the height a wall (which is a group of line slices). However what I needed to do was calculate the perpendicular distance of the intersection using the projection plane as a reference.&lt;br /&gt;&lt;br /&gt;&lt;table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="text-align: center;"&gt;&lt;a href="http://3.bp.blogspot.com/-9cjtEfP2sQo/VrDLiMCoUyI/AAAAAAAAEMI/qyUEqsLw1GA/s1600/love_2016-02-01_14-32-10.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"&gt;&lt;img border="0" height="480" src="http://3.bp.blogspot.com/-9cjtEfP2sQo/VrDLiMCoUyI/AAAAAAAAEMI/qyUEqsLw1GA/s640/love_2016-02-01_14-32-10.png" width="640" /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;Fish-lens effect&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;br /&gt;&lt;br /&gt;Here's a great image which helped me understand the problem a lot, originally my raycasting method resembled the one of the far right.&lt;br /&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="http://4.bp.blogspot.com/-_LnPjXpZqjA/VrDMJOot28I/AAAAAAAAEMU/VYcphsDB9sw/s1600/vfNHqW0.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="640" src="http://4.bp.blogspot.com/-_LnPjXpZqjA/VrDMJOot28I/AAAAAAAAEMU/VYcphsDB9sw/s640/vfNHqW0.png" width="426" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;Here are the resources I used:&lt;br /&gt;&lt;ul&gt;&lt;li&gt;http://permadi.com/1996/05/ray-casting-tutorial-table-of-contents/ - Help with the projection plane/intersection distance calculation.&lt;/li&gt;&lt;li&gt;https://en.wikipedia.org/wiki/Linear_interpolation - How I map the texture coordinates onto the side of a shape given a set of intersections with it.&lt;/li&gt;&lt;/ul&gt;</content>
-        <link rel="replies" type="application/atom+xml" href="http://richardbamford.blogspot.com/feeds/9212394011200744572/comments/default" title="Post Comments" />
-        <link rel="replies" type="text/html" href="http://richardbamford.blogspot.com/2016/02/project-4-ray-casting-with-2d-graphics.html#comment-form" title="0 Comments" />
-        <link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/5929733967601850887/posts/default/9212394011200744572" />
-        <link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/5929733967601850887/posts/default/9212394011200744572" />
-        <link rel="alternate" type="text/html" href="http://richardbamford.blogspot.com/2016/02/project-4-ray-casting-with-2d-graphics.html" title="Project 4: Ray casting with a 2d graphics library." />
-        <author>
-            <name>Richard Bamford</name>
-            <uri>https://plus.google.com/116983402531371448405</uri>
-            <email>noreply@blogger.com</email>
-            <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="//lh6.googleusercontent.com/-Z97AgYrQsno/AAAAAAAAAAI/AAAAAAAADlY/ZTaYxjrSX8I/s512-c/photo.jpg" />
-        </author>
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://img.youtube.com/vi/NDld7yg9-tA/default.jpg" height="72" width="72" />
-        <thr:total>0</thr:total>
-        <gd:extendedProperty name="commentSource" value="1" />
-        <gd:extendedProperty name="commentModerationMode" value="FILTERED_POSTMOD" />
-    </entry>
-    <entry>
-        <id>tag:blogger.com,1999:blog-5929733967601850887.post-497692649345766842</id>
-        <published>2016-01-16T08:39:00.002-08:00</published>
-        <updated>2016-01-16T08:39:07.489-08:00</updated>
-        <category scheme="http://www.blogger.com/atom/ns#" term="fragment" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="geometry" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="gl_InstanceID" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="id" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="instance" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="instanced" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="instanceid" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="opengl" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="opent" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="shaders" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="vertex" />
-        <title type="text">Project 3: Grass Sim</title>
-        <content type="html">&lt;h3&gt;Overview &lt;/h3&gt;One of the main problems with rendering lots of primitives, is each one requires its own draw call/position definition.&lt;br /&gt;A solution to this is instanced rendering, where you give opengl a set of vertices and tell it to render it X amount of times. Since it computes everything internally from then on the cost of it is near 0.&lt;br /&gt;&lt;br /&gt;Instanced rendering does this (pseudo code):&lt;br /&gt;&lt;blockquote class="tr_bq"&gt;for 0, X do&lt;/blockquote&gt;&lt;blockquote class="tr_bq"&gt;&lt;blockquote class="tr_bq"&gt;Set Instance ID&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;blockquote class="tr_bq"&gt;&lt;blockquote class="tr_bq"&gt;DrawArrays/DrawElements.etc&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;br /&gt;In the form of this:&lt;br /&gt;&lt;blockquote class="tr_bq"&gt;GL.DrawArraysInstanced(PrimitiveType.Triangles, 0, 3, X);&lt;/blockquote&gt;&lt;br /&gt;So now the fun part involves the shaders because each instance cannot be given a unique uniform value (which is what I do normally).&lt;br /&gt;Each instance has an ID from 0-&amp;gt;X, utilising this in interesting ways allows you to produce cool effects for practically free.&lt;br /&gt;&lt;br /&gt;Here's what I came up with after playing around with it:&lt;br /&gt;&lt;br /&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="http://3.bp.blogspot.com/-pEt7AB8J900/VppsrWFAGAI/AAAAAAAAELs/fgYESBcFvqU/s1600/2016-01-16_15-59-50.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="315" src="http://3.bp.blogspot.com/-pEt7AB8J900/VppsrWFAGAI/AAAAAAAAELs/fgYESBcFvqU/s400/2016-01-16_15-59-50.png" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;Video after adding a time uniform:&lt;br /&gt;&lt;br /&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;object width="320" height="266" class="BLOG_video_class" id="BLOG_video-118d916f1aafd861" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"&gt;&lt;param name="movie" value="//www.youtube.com/get_player"&gt;&lt;param name="bgcolor" value="#FFFFFF"&gt;&lt;param name="allowfullscreen" value="true"&gt;&lt;param name="flashvars" value="flvurl=http://redirector.googlevideo.com/videoplayback?id%3D118d916f1aafd861%26itag%3D5%26source%3Dblogger%26app%3Dblogger%26cmo%3Dsensitive_content%3Dyes%26ip%3D0.0.0.0%26ipbits%3D0%26expire%3D1458568615%26sparams%3Dip,ipbits,expire,id,itag,source%26signature%3DB7EE502BE7E784100773C649CC571A66AA142B3B.222D7DA91439A92C23512AA7DC32412E2D720F1B%26key%3Dck2&amp;amp;iurl=http://video.google.com/ThumbnailServer2?app%3Dblogger%26contentid%3D118d916f1aafd861%26offsetms%3D5000%26itag%3Dw160%26sigh%3DWHAmPlqhzD6reFD8niXzA9-Yz7w&amp;amp;autoplay=0&amp;amp;ps=blogger"&gt;&lt;embed src="//www.youtube.com/get_player" type="application/x-shockwave-flash" width="320" height="266" bgcolor="#FFFFFF" flashvars="flvurl=http://redirector.googlevideo.com/videoplayback?id%3D118d916f1aafd861%26itag%3D5%26source%3Dblogger%26app%3Dblogger%26cmo%3Dsensitive_content%3Dyes%26ip%3D0.0.0.0%26ipbits%3D0%26expire%3D1458568615%26sparams%3Dip,ipbits,expire,id,itag,source%26signature%3DB7EE502BE7E784100773C649CC571A66AA142B3B.222D7DA91439A92C23512AA7DC32412E2D720F1B%26key%3Dck2&amp;iurl=http://video.google.com/ThumbnailServer2?app%3Dblogger%26contentid%3D118d916f1aafd861%26offsetms%3D5000%26itag%3Dw160%26sigh%3DWHAmPlqhzD6reFD8niXzA9-Yz7w&amp;autoplay=0&amp;ps=blogger" allowFullScreen="true" /&gt;&lt;/object&gt;&lt;/div&gt;&lt;h3&gt;&amp;nbsp;&lt;/h3&gt;&lt;h3&gt;Vertex Shader Details&lt;/h3&gt;To distribute the triangles uniformly given a number from 0 -&amp;gt; 10,000.&lt;br /&gt;&lt;blockquote class="tr_bq"&gt;int x = int( mod( gl_InstanceID, 100 ) );&lt;/blockquote&gt;&lt;blockquote class="tr_bq"&gt;int z = int( gl_InstanceID / 100 );&lt;/blockquote&gt;&lt;br /&gt;To offset the period of each triangle's sin value (not worked out how to make fake-random numbers on shaders yet). Give uT as a value from 0, 2PI. Remember uT is defined once for all the "grass".&lt;br /&gt;&lt;blockquote class="tr_bq"&gt;float sVal = sin( gl_InstanceID + uT ); &lt;/blockquote&gt;&lt;blockquote class="tr_bq"&gt;oDisplace = vec3( sVal, 0, 0 );&lt;/blockquote&gt;&lt;br /&gt;&lt;h3&gt;Conclusion&lt;/h3&gt;My "grass" is nothing like grass yet, I'll be posting more in the next few days with any progress. I think colouring them is my next objective and then figuring out that tricky random displacement problem.&lt;br /&gt;&lt;br /&gt;Here's a download link if you want to give it a spin:&lt;a href="http://richardbamford.io/dmp/GrassSim.zip" target="_blank"&gt; LINK&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;</content>
-        <link rel="replies" type="application/atom+xml" href="http://richardbamford.blogspot.com/feeds/497692649345766842/comments/default" title="Post Comments" />
-        <link rel="replies" type="text/html" href="http://richardbamford.blogspot.com/2016/01/project-3-grass-sim.html#comment-form" title="0 Comments" />
-        <link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/5929733967601850887/posts/default/497692649345766842" />
-        <link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/5929733967601850887/posts/default/497692649345766842" />
-        <link rel="alternate" type="text/html" href="http://richardbamford.blogspot.com/2016/01/project-3-grass-sim.html" title="Project 3: Grass Sim" />
-        <author>
-            <name>Richard Bamford</name>
-            <uri>https://plus.google.com/116983402531371448405</uri>
-            <email>noreply@blogger.com</email>
-            <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="//lh6.googleusercontent.com/-Z97AgYrQsno/AAAAAAAAAAI/AAAAAAAADlY/ZTaYxjrSX8I/s512-c/photo.jpg" />
-        </author>
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://3.bp.blogspot.com/-pEt7AB8J900/VppsrWFAGAI/AAAAAAAAELs/fgYESBcFvqU/s72-c/2016-01-16_15-59-50.png" height="72" width="72" />
-        <thr:total>0</thr:total>
-        <gd:extendedProperty name="commentSource" value="1" />
-        <gd:extendedProperty name="commentModerationMode" value="FILTERED_POSTMOD" />
-    </entry>
-    <entry>
-        <id>tag:blogger.com,1999:blog-5929733967601850887.post-9110201319771171384</id>
-        <published>2016-01-14T06:08:00.000-08:00</published>
-        <updated>2016-01-14T06:08:11.487-08:00</updated>
-        <title type="text">Cloth Simulation Update</title>
-        <content type="html">Some of the issues I found with the system since my last post:&lt;br /&gt;&lt;ul&gt;&lt;li&gt;I assumed that all constraints had the same rest length, now it takes into account shear and linear constraint lengths.&lt;/li&gt;&lt;li&gt;I only accounted for X,Y properties of each point which caused points to act strangely when close to each other, I have changed it to work in 3D. Although the view only looks 2D.&lt;/li&gt;&lt;/ul&gt;&amp;nbsp;Here's the result:&lt;br /&gt;&lt;br /&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;object width="320" height="266" class="BLOG_video_class" id="BLOG_video-2e67387fb183cab7" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"&gt;&lt;param name="movie" value="//www.youtube.com/get_player"&gt;&lt;param name="bgcolor" value="#FFFFFF"&gt;&lt;param name="allowfullscreen" value="true"&gt;&lt;param name="flashvars" value="flvurl=http://redirector.googlevideo.com/videoplayback?id%3D2e67387fb183cab7%26itag%3D5%26source%3Dblogger%26app%3Dblogger%26cmo%3Dsensitive_content%3Dyes%26ip%3D0.0.0.0%26ipbits%3D0%26expire%3D1458568615%26sparams%3Dip,ipbits,expire,id,itag,source%26signature%3DA69F9D7B60F2F26C79414C28439EEF2E508A7A75.382387AC1C239A08105AD2EBA50EDDCE5FBE2ED0%26key%3Dck2&amp;amp;iurl=http://video.google.com/ThumbnailServer2?app%3Dblogger%26contentid%3D2e67387fb183cab7%26offsetms%3D5000%26itag%3Dw160%26sigh%3D6IwhHY9Czqd1T1Pb_BKFASMIPng&amp;amp;autoplay=0&amp;amp;ps=blogger"&gt;&lt;embed src="//www.youtube.com/get_player" type="application/x-shockwave-flash" width="320" height="266" bgcolor="#FFFFFF" flashvars="flvurl=http://redirector.googlevideo.com/videoplayback?id%3D2e67387fb183cab7%26itag%3D5%26source%3Dblogger%26app%3Dblogger%26cmo%3Dsensitive_content%3Dyes%26ip%3D0.0.0.0%26ipbits%3D0%26expire%3D1458568615%26sparams%3Dip,ipbits,expire,id,itag,source%26signature%3DA69F9D7B60F2F26C79414C28439EEF2E508A7A75.382387AC1C239A08105AD2EBA50EDDCE5FBE2ED0%26key%3Dck2&amp;iurl=http://video.google.com/ThumbnailServer2?app%3Dblogger%26contentid%3D2e67387fb183cab7%26offsetms%3D5000%26itag%3Dw160%26sigh%3D6IwhHY9Czqd1T1Pb_BKFASMIPng&amp;autoplay=0&amp;ps=blogger" allowFullScreen="true" /&gt;&lt;/object&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;</content>
-        <link rel="replies" type="application/atom+xml" href="http://richardbamford.blogspot.com/feeds/9110201319771171384/comments/default" title="Post Comments" />
-        <link rel="replies" type="text/html" href="http://richardbamford.blogspot.com/2016/01/cloth-simulation-update.html#comment-form" title="0 Comments" />
-        <link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/5929733967601850887/posts/default/9110201319771171384" />
-        <link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/5929733967601850887/posts/default/9110201319771171384" />
-        <link rel="alternate" type="text/html" href="http://richardbamford.blogspot.com/2016/01/cloth-simulation-update.html" title="Cloth Simulation Update" />
-        <author>
-            <name>Richard Bamford</name>
-            <uri>https://plus.google.com/116983402531371448405</uri>
-            <email>noreply@blogger.com</email>
-            <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="//lh6.googleusercontent.com/-Z97AgYrQsno/AAAAAAAAAAI/AAAAAAAADlY/ZTaYxjrSX8I/s512-c/photo.jpg" />
-        </author>
-        <thr:total>0</thr:total>
-        <gd:extendedProperty name="commentSource" value="1" />
-        <gd:extendedProperty name="commentModerationMode" value="FILTERED_POSTMOD" />
-    </entry>
-    <entry>
-        <id>tag:blogger.com,1999:blog-5929733967601850887.post-5570022127981432618</id>
-        <published>2016-01-12T06:11:00.001-08:00</published>
-        <updated>2016-01-12T06:18:16.008-08:00</updated>
-        <category scheme="http://www.blogger.com/atom/ns#" term="2d" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="cloth" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="hooke's" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="law" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="lines" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="opengl" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="opentk" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="physics" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="simulation" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="springs" />
-        <title type="text">Project 2: Cloth Simulation</title>
-        <content type="html">Cloth simulation using opengl and c#.&lt;br /&gt;&lt;br /&gt;My previous project was about learning the graphics api opengl (lighting/models/projections/shaders) and I feel like if I wanted to carry it on I would have to start again from scratch using things I learned the first time around.&lt;br /&gt;Instead I am focusing on some other concepts which have been on my bucket list for a while now, cloth simulations.&lt;br /&gt;&lt;table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="text-align: center;"&gt;&lt;a href="http://3.bp.blogspot.com/-4jTmvI8SOGQ/VpUEH5zIxYI/AAAAAAAAELM/TXeyyIxPHxQ/s1600/Cloth_Simulation_2016-01-11_18-57-39.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"&gt;&lt;img border="0" height="301" src="http://3.bp.blogspot.com/-4jTmvI8SOGQ/VpUEH5zIxYI/AAAAAAAAELM/TXeyyIxPHxQ/s400/Cloth_Simulation_2016-01-11_18-57-39.png" width="400" /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;In the beginning there were lines and dots.&lt;/td&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;&lt;/td&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;&lt;/td&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;&lt;/td&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;My first task was how to effectively render a "cloth" matrix (?) so that I could visually see the system, this is actually quite a challenge when opengl is focused on 3d not 2d.&lt;br /&gt;&lt;br /&gt;I set up the model-view-projection matrix using an &lt;a href="http://www.scratchapixel.com/lessons/3d-basic-rendering/perspective-and-orthographic-projection-matrix" target="_blank"&gt;Orthographic Projection&lt;/a&gt;.&lt;br /&gt;Then since the original coordinate system goes (0, +Y, 0) up the screen, (+X, 0, 0) along the screen it was not intuitive to debug so I applied a scale of (0, -1, 0) and a translation, because (0, 0, 0) is the center of the screen in opengl, to transform it into Cartesian coordinates.&lt;br /&gt;&lt;br /&gt;Ok... so now I can draw some dots and lines in the right place.&lt;br /&gt;&lt;br /&gt;My next task was figuring out the formulas that I needed to use to calculate the forces acting on each dot and how they would interact with each other.&lt;br /&gt;There is A LOT of information on the internet about cloth simulations so if you're looking for an in-depth overview of it look elsewhere. Personally I started with this useful snippet of a paper which can be found here &lt;a href="https://www.google.co.uk/url?sa=t&amp;amp;rct=j&amp;amp;q=&amp;amp;esrc=s&amp;amp;source=web&amp;amp;cd=1&amp;amp;ved=0ahUKEwiBrfKht6TKAhUCORQKHWo-CsgQFggjMAA&amp;amp;url=https%3A%2F%2Fnccastaff.bournemouth.ac.uk%2Fjmacey%2FMastersProjects%2FMsc05%2Fcloth_simulation.pdf&amp;amp;usg=AFQjCNEbqF55GC0fOEwfha7pMpULnAo2dQ&amp;amp;sig2=vHNDolpVnQ0kcRQ5iwVI_g&amp;amp;cad=rja" target="_blank"&gt;[1].&amp;nbsp;&lt;/a&gt;&lt;br /&gt;&lt;table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="text-align: center;"&gt;&lt;a href="http://1.bp.blogspot.com/-gtLKK3swqTc/VpUG11kiCSI/AAAAAAAAELY/7GZioZg7oqs/s1600/cloth_simulation.pdf_-_Adobe_Acrobat_Reader_DC_2016-01-11_18-27-34.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"&gt;&lt;img border="0" height="400" src="http://1.bp.blogspot.com/-gtLKK3swqTc/VpUG11kiCSI/AAAAAAAAELY/7GZioZg7oqs/s400/cloth_simulation.pdf_-_Adobe_Acrobat_Reader_DC_2016-01-11_18-27-34.png" width="393" /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;After a while there came physics.&lt;/td&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;I knew that cloths can be simulated as a set of point masses connected by springs, thankfully forces on springs are fairly simple to calculate (shown above).&lt;br /&gt;So I set up my system where each point mass knows about it's neighbors (similar to the game of life) information and made sure all the calculations happen in the right order.&lt;br /&gt;&lt;br /&gt;The most frustrating part about this ordeal was the coefficients, since my system isn't "real" what should Ks and Kd be? In the end I just plugged in several different values and went with the ones which looked the most realistic (still not finished with that bit).&lt;br /&gt;This was a huge step because if the damping isn't perfect then the points oscillate out of control (practically undamped) or just stay still (overdamped), &lt;a href="https://en.wikipedia.org/wiki/Damping" target="_blank"&gt;damping&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;The top left and right points are "pinned" so the force the exert on their neighbors is proportional to the distance between them and some large constant X. Still not sure about this one.&lt;br /&gt;&lt;br /&gt;Anyway here is my current product, there is still a lot to do with shear and linear springs (I think?), making the forces propagate across the system nicely, lighting and filling in the lines.&lt;br /&gt;&lt;br /&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;object width="320" height="266" class="BLOG_video_class" id="BLOG_video-6e0c0ec723b51724" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"&gt;&lt;param name="movie" value="//www.youtube.com/get_player"&gt;&lt;param name="bgcolor" value="#FFFFFF"&gt;&lt;param name="allowfullscreen" value="true"&gt;&lt;param name="flashvars" value="flvurl=http://redirector.googlevideo.com/videoplayback?id%3D6e0c0ec723b51724%26itag%3D5%26source%3Dblogger%26app%3Dblogger%26cmo%3Dsensitive_content%3Dyes%26ip%3D0.0.0.0%26ipbits%3D0%26expire%3D1458568615%26sparams%3Dip,ipbits,expire,id,itag,source%26signature%3D85C78485DD63ACAD803696E0A5012542BC4C42F8.8595D97B996F1851928F62D12575A892BDEA6613%26key%3Dck2&amp;amp;iurl=http://video.google.com/ThumbnailServer2?app%3Dblogger%26contentid%3D6e0c0ec723b51724%26offsetms%3D5000%26itag%3Dw160%26sigh%3DlnaTat_pNARh3eYo5AiAQbju46A&amp;amp;autoplay=0&amp;amp;ps=blogger"&gt;&lt;embed src="//www.youtube.com/get_player" type="application/x-shockwave-flash" width="320" height="266" bgcolor="#FFFFFF" flashvars="flvurl=http://redirector.googlevideo.com/videoplayback?id%3D6e0c0ec723b51724%26itag%3D5%26source%3Dblogger%26app%3Dblogger%26cmo%3Dsensitive_content%3Dyes%26ip%3D0.0.0.0%26ipbits%3D0%26expire%3D1458568615%26sparams%3Dip,ipbits,expire,id,itag,source%26signature%3D85C78485DD63ACAD803696E0A5012542BC4C42F8.8595D97B996F1851928F62D12575A892BDEA6613%26key%3Dck2&amp;iurl=http://video.google.com/ThumbnailServer2?app%3Dblogger%26contentid%3D6e0c0ec723b51724%26offsetms%3D5000%26itag%3Dw160%26sigh%3DlnaTat_pNARh3eYo5AiAQbju46A&amp;autoplay=0&amp;ps=blogger" allowFullScreen="true" /&gt;&lt;/object&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;It was fun to see the points fly wildly about dragging other points with it on it's quest for freedom. Maybe I should implement spring breaking sometime...&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;</content>
-        <link rel="replies" type="application/atom+xml" href="http://richardbamford.blogspot.com/feeds/5570022127981432618/comments/default" title="Post Comments" />
-        <link rel="replies" type="text/html" href="http://richardbamford.blogspot.com/2016/01/project-2-cloth-simulation.html#comment-form" title="0 Comments" />
-        <link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/5929733967601850887/posts/default/5570022127981432618" />
-        <link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/5929733967601850887/posts/default/5570022127981432618" />
-        <link rel="alternate" type="text/html" href="http://richardbamford.blogspot.com/2016/01/project-2-cloth-simulation.html" title="Project 2: Cloth Simulation" />
-        <author>
-            <name>Richard Bamford</name>
-            <uri>https://plus.google.com/116983402531371448405</uri>
-            <email>noreply@blogger.com</email>
-            <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="//lh6.googleusercontent.com/-Z97AgYrQsno/AAAAAAAAAAI/AAAAAAAADlY/ZTaYxjrSX8I/s512-c/photo.jpg" />
-        </author>
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://3.bp.blogspot.com/-4jTmvI8SOGQ/VpUEH5zIxYI/AAAAAAAAELM/TXeyyIxPHxQ/s72-c/Cloth_Simulation_2016-01-11_18-57-39.png" height="72" width="72" />
-        <thr:total>0</thr:total>
-        <gd:extendedProperty name="commentSource" value="1" />
-        <gd:extendedProperty name="commentModerationMode" value="FILTERED_POSTMOD" />
-    </entry>
-    <entry>
-        <id>tag:blogger.com,1999:blog-5929733967601850887.post-1413525881167526891</id>
-        <published>2016-01-09T14:09:00.000-08:00</published>
-        <updated>2016-01-09T14:13:41.272-08:00</updated>
-        <category scheme="http://www.blogger.com/atom/ns#" term="basic" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="collision" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="cylinder" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="glsl" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="opengl" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="opentk" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="physics" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="portal" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="spheres" />
-        <title type="text">Sketchy physics simulations.</title>
-        <content type="html">Today I attempted to wrap my head around portals...&lt;br /&gt;&lt;br /&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;iframe allowfullscreen="" class="YOUTUBE-iframe-video" data-thumbnail-src="https://i.ytimg.com/vi/MjeMOhb9enI/0.jpg" frameborder="0" height="266" src="https://www.youtube.com/embed/MjeMOhb9enI?feature=player_embedded" width="320"&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;br /&gt;&lt;hr /&gt;&lt;br /&gt;In my simulation, when the spheres reach the bottom of the tube, they are teleported  to the right hand surface of the cylinder. Maintaining speed but changing the sphere's direction.&lt;br /&gt;&lt;br /&gt;Initially I ran into a problem of them gaining energy over time, since the force which pushed them from the portal is proportional to the velocity it hits the bottom and the position of the ball along the horizontal axis.&lt;br /&gt;&lt;br /&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;object width="320" height="266" class="BLOG_video_class" id="BLOG_video-1e83991b353cffdb" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"&gt;&lt;param name="movie" value="//www.youtube.com/get_player"&gt;&lt;param name="bgcolor" value="#FFFFFF"&gt;&lt;param name="allowfullscreen" value="true"&gt;&lt;param name="flashvars" value="flvurl=http://redirector.googlevideo.com/videoplayback?id%3D1e83991b353cffdb%26itag%3D5%26source%3Dblogger%26app%3Dblogger%26cmo%3Dsensitive_content%3Dyes%26ip%3D0.0.0.0%26ipbits%3D0%26expire%3D1458568615%26sparams%3Dip,ipbits,expire,id,itag,source%26signature%3DAB5938EDA6C21C51063BA3D0610050531E27F6A6.80DD3F560E34F059C7948666FD6A9AC29A89D98E%26key%3Dck2&amp;amp;iurl=http://video.google.com/ThumbnailServer2?app%3Dblogger%26contentid%3D1e83991b353cffdb%26offsetms%3D5000%26itag%3Dw160%26sigh%3DAAbyX3vDyHZvWpRLGSsiSPWH7oo&amp;amp;autoplay=0&amp;amp;ps=blogger"&gt;&lt;embed src="//www.youtube.com/get_player" type="application/x-shockwave-flash" width="320" height="266" bgcolor="#FFFFFF" flashvars="flvurl=http://redirector.googlevideo.com/videoplayback?id%3D1e83991b353cffdb%26itag%3D5%26source%3Dblogger%26app%3Dblogger%26cmo%3Dsensitive_content%3Dyes%26ip%3D0.0.0.0%26ipbits%3D0%26expire%3D1458568615%26sparams%3Dip,ipbits,expire,id,itag,source%26signature%3DAB5938EDA6C21C51063BA3D0610050531E27F6A6.80DD3F560E34F059C7948666FD6A9AC29A89D98E%26key%3Dck2&amp;iurl=http://video.google.com/ThumbnailServer2?app%3Dblogger%26contentid%3D1e83991b353cffdb%26offsetms%3D5000%26itag%3Dw160%26sigh%3DAAbyX3vDyHZvWpRLGSsiSPWH7oo&amp;autoplay=0&amp;ps=blogger" allowFullScreen="true" /&gt;&lt;/object&gt;&lt;/div&gt;&lt;br /&gt;Then after some thinking with my trusty whiteboard...&lt;br /&gt;&lt;br /&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="http://2.bp.blogspot.com/-kTSC6ElMChI/VpF94IoG01I/AAAAAAAAELA/bXPdtZViKf8/s1600/12516658_10207946538003191_1669704460_o.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="300" src="http://2.bp.blogspot.com/-kTSC6ElMChI/VpF94IoG01I/AAAAAAAAELA/bXPdtZViKf8/s400/12516658_10207946538003191_1669704460_o.jpg" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;I realised that it was because I wasn't forcing the spheres out with the same amount of energy the spheres had at the bottom of the tube! Momentum!&lt;br /&gt;&lt;br /&gt;Another issue I had was that spheres would converge, I figured it was something to do with the way I was applying drag to the velocity of the spheres. After all portals can't exist in a real physical model without hacks can they? In my opinion I think this one looks the most... real. Since everything loses energy it makes sense that this would happen "in real life" to me?&lt;br /&gt;&lt;br /&gt;Here's what I mean:&lt;br /&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;object width="320" height="266" class="BLOG_video_class" id="BLOG_video-a337803051c7efcd" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"&gt;&lt;param name="movie" value="//www.youtube.com/get_player"&gt;&lt;param name="bgcolor" value="#FFFFFF"&gt;&lt;param name="allowfullscreen" value="true"&gt;&lt;param name="flashvars" value="flvurl=http://redirector.googlevideo.com/videoplayback?id%3Da337803051c7efcd%26itag%3D5%26source%3Dblogger%26app%3Dblogger%26cmo%3Dsensitive_content%3Dyes%26ip%3D0.0.0.0%26ipbits%3D0%26expire%3D1458568615%26sparams%3Dip,ipbits,expire,id,itag,source%26signature%3D4F06F6ABA6605B518792B994C82EF93209C112C7.43B98E288B5A7502833FD67CF89D747E2B67440D%26key%3Dck2&amp;amp;iurl=http://video.google.com/ThumbnailServer2?app%3Dblogger%26contentid%3Da337803051c7efcd%26offsetms%3D5000%26itag%3Dw160%26sigh%3Dfz6JqudyDeIuqNSkvoglxO_lqjU&amp;amp;autoplay=0&amp;amp;ps=blogger"&gt;&lt;embed src="//www.youtube.com/get_player" type="application/x-shockwave-flash" width="320" height="266" bgcolor="#FFFFFF" flashvars="flvurl=http://redirector.googlevideo.com/videoplayback?id%3Da337803051c7efcd%26itag%3D5%26source%3Dblogger%26app%3Dblogger%26cmo%3Dsensitive_content%3Dyes%26ip%3D0.0.0.0%26ipbits%3D0%26expire%3D1458568615%26sparams%3Dip,ipbits,expire,id,itag,source%26signature%3D4F06F6ABA6605B518792B994C82EF93209C112C7.43B98E288B5A7502833FD67CF89D747E2B67440D%26key%3Dck2&amp;iurl=http://video.google.com/ThumbnailServer2?app%3Dblogger%26contentid%3Da337803051c7efcd%26offsetms%3D5000%26itag%3Dw160%26sigh%3Dfz6JqudyDeIuqNSkvoglxO_lqjU&amp;autoplay=0&amp;ps=blogger" allowFullScreen="true" /&gt;&lt;/object&gt;&lt;/div&gt;&lt;br /&gt;But i prefer the look of things when we bend physics a bit, here's what I have now! (Beware it has music)&lt;br /&gt;&lt;br /&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;object width="320" height="266" class="BLOG_video_class" id="BLOG_video-cea5753e8e24b0a" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"&gt;&lt;param name="movie" value="//www.youtube.com/get_player"&gt;&lt;param name="bgcolor" value="#FFFFFF"&gt;&lt;param name="allowfullscreen" value="true"&gt;&lt;param name="flashvars" value="flvurl=http://redirector.googlevideo.com/videoplayback?id%3D0cea5753e8e24b0a%26itag%3D5%26source%3Dblogger%26app%3Dblogger%26cmo%3Dsensitive_content%3Dyes%26ip%3D0.0.0.0%26ipbits%3D0%26expire%3D1458568615%26sparams%3Dip,ipbits,expire,id,itag,source%26signature%3D3F3B23EBBCC23ECB28D191F31B35A136A78ACAE4.6717484A70CD082D95AEE4279969AE16642F0621%26key%3Dck2&amp;amp;iurl=http://video.google.com/ThumbnailServer2?app%3Dblogger%26contentid%3D0cea5753e8e24b0a%26offsetms%3D5000%26itag%3Dw160%26sigh%3D5pKD7gOBh5lVYHgWd0er5n3kGGc&amp;amp;autoplay=0&amp;amp;ps=blogger"&gt;&lt;embed src="//www.youtube.com/get_player" type="application/x-shockwave-flash" width="320" height="266" bgcolor="#FFFFFF" flashvars="flvurl=http://redirector.googlevideo.com/videoplayback?id%3D0cea5753e8e24b0a%26itag%3D5%26source%3Dblogger%26app%3Dblogger%26cmo%3Dsensitive_content%3Dyes%26ip%3D0.0.0.0%26ipbits%3D0%26expire%3D1458568615%26sparams%3Dip,ipbits,expire,id,itag,source%26signature%3D3F3B23EBBCC23ECB28D191F31B35A136A78ACAE4.6717484A70CD082D95AEE4279969AE16642F0621%26key%3Dck2&amp;iurl=http://video.google.com/ThumbnailServer2?app%3Dblogger%26contentid%3D0cea5753e8e24b0a%26offsetms%3D5000%26itag%3Dw160%26sigh%3D5pKD7gOBh5lVYHgWd0er5n3kGGc&amp;autoplay=0&amp;ps=blogger" allowFullScreen="true" /&gt;&lt;/object&gt;&lt;/div&gt;&lt;br /&gt;I'm happy with this result and hopefully in the next few days I can iron out all the issues with the collision model, and explain fully how I did it. Right now the collisions are kind of hacky and not optimised. In brief it works through the distance of any sphere to the Y axis and the direction from that sphere to the Y axis.&lt;br /&gt;&lt;br /&gt;&lt;hr /&gt;&lt;br /&gt;It was really fun getting into physics concepts again! It has been ages since i have implemented things like this. Still my code is quite expensive, it uses a lot of normalising and distance calculations which I want to optimize.&lt;br /&gt;&lt;br /&gt;See you soon!&lt;br /&gt;&lt;br /&gt;Here's a link to the program so far:&amp;nbsp;&lt;a href="http://richardbamford.io/dmp/Balls.zip" target="_blank"&gt;Sphere Simulation&lt;/a&gt; &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;</content>
-        <link rel="replies" type="application/atom+xml" href="http://richardbamford.blogspot.com/feeds/1413525881167526891/comments/default" title="Post Comments" />
-        <link rel="replies" type="text/html" href="http://richardbamford.blogspot.com/2016/01/sketchy-physics.html#comment-form" title="0 Comments" />
-        <link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/5929733967601850887/posts/default/1413525881167526891" />
-        <link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/5929733967601850887/posts/default/1413525881167526891" />
-        <link rel="alternate" type="text/html" href="http://richardbamford.blogspot.com/2016/01/sketchy-physics.html" title="Sketchy physics simulations." />
-        <author>
-            <name>Richard Bamford</name>
-            <uri>https://plus.google.com/116983402531371448405</uri>
-            <email>noreply@blogger.com</email>
-            <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="//lh6.googleusercontent.com/-Z97AgYrQsno/AAAAAAAAAAI/AAAAAAAADlY/ZTaYxjrSX8I/s512-c/photo.jpg" />
-        </author>
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://img.youtube.com/vi/MjeMOhb9enI/default.jpg" height="72" width="72" />
-        <thr:total>0</thr:total>
-        <gd:extendedProperty name="commentSource" value="1" />
-        <gd:extendedProperty name="commentModerationMode" value="FILTERED_POSTMOD" />
-    </entry>
-    <entry>
-        <id>tag:blogger.com,1999:blog-5929733967601850887.post-8484651056685552202</id>
-        <published>2016-01-08T13:04:00.002-08:00</published>
-        <updated>2016-01-08T13:04:24.160-08:00</updated>
-        <category scheme="http://www.blogger.com/atom/ns#" term="clip" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="clipping" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="cut" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="cylinder" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="fragment" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="glsl" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="half" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="in" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="opengl" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="opentk" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="plane" />
-        <category scheme="http://www.blogger.com/atom/ns#" term="vertex" />
-        <title type="text">OpenGL clipping technique.</title>
-        <content type="html">Part of the physics simulation I am working on at the moment involves cutting a cylinder in half, so that spheres have a defined space to interact but we can also view them.&lt;br /&gt;&lt;br /&gt;First I created a cylinder in 3ds max, with normals included. I didn't create the half cylinder because I want to have multiple cylinder objects for the spheres to collide with (also I was interested in the process).&lt;br /&gt;&lt;br /&gt;So I implemented an extra expression in my GLSL fragment shader, to say:&lt;br /&gt;&lt;blockquote class="tr_bq"&gt;&amp;nbsp;If the X value (the camera looks down the X axis) of a fragment (in worldspace) is &amp;lt; 0 then discard that fragment.&lt;/blockquote&gt;&lt;br /&gt;Initially, using the `discard` in-built function I got really strange results, with some fragments being removed and some staying. It looked like static on a TV.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;This problem was solved by implementing alpha blending, and setting the alpha value of fragments I want to discard to 0.0.&lt;br /&gt;&lt;br /&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="http://3.bp.blogspot.com/-G3QD_xhi51Q/VpAhBHbFYMI/AAAAAAAAEKo/E8qryBiypFs/s1600/Falling_Spheres_%2528FPS_29.5528360379105%2529_2016-01-08_16-02-18.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="301" src="http://3.bp.blogspot.com/-G3QD_xhi51Q/VpAhBHbFYMI/AAAAAAAAEKo/E8qryBiypFs/s400/Falling_Spheres_%2528FPS_29.5528360379105%2529_2016-01-08_16-02-18.png" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;This was great! however I wanted more control over the clipping (hardcoded at the time), so I decided to define a "clipping plane" (a vector which represents the normal of the plane).&lt;br /&gt;&lt;br /&gt;Then I find the cosine of the position of any given fragment (in world space) and that clipping plane normal. If that value &amp;lt; 0 then I know that that fragment is behind the "face" of the plane, so it can be discarded. Here's the GLSL code to implement that:&lt;br /&gt;&lt;blockquote class="tr_bq"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; outColour.a = max(0.0, sign( dot( ClipPlane.xyz, vVaryingPos ) ) );&lt;/blockquote&gt;&amp;nbsp;Where vVaryingPos is the position of the vertex in world space, computed in the vertex shader like:&lt;br /&gt;&lt;blockquote class="tr_bq"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; vVaryingPos = ( modelMatrix * vec4( vVertex, 1.0 ) ).xyz;&lt;/blockquote&gt;&lt;br /&gt;The resulting image was exactly the same, awesome! Now I can do funky things like...&lt;br /&gt;&lt;br /&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;object width="320" height="266" class="BLOG_video_class" id="BLOG_video-e242fc8babbf236a" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"&gt;&lt;param name="movie" value="//www.youtube.com/get_player"&gt;&lt;param name="bgcolor" value="#FFFFFF"&gt;&lt;param name="allowfullscreen" value="true"&gt;&lt;param name="flashvars" value="flvurl=http://redirector.googlevideo.com/videoplayback?id%3De242fc8babbf236a%26itag%3D5%26source%3Dblogger%26app%3Dblogger%26cmo%3Dsensitive_content%3Dyes%26ip%3D0.0.0.0%26ipbits%3D0%26expire%3D1458568615%26sparams%3Dip,ipbits,expire,id,itag,source%26signature%3DA9178B841785DF1EC40007512BA67A257168C418.85E0197BBA7D0E7B3D00A41DB49EA41DF9FCE6F3%26key%3Dck2&amp;amp;iurl=http://video.google.com/ThumbnailServer2?app%3Dblogger%26contentid%3De242fc8babbf236a%26offsetms%3D5000%26itag%3Dw160%26sigh%3Df0CmD3rBjzHbNK3qepM1ElZNDsA&amp;amp;autoplay=0&amp;amp;ps=blogger"&gt;&lt;embed src="//www.youtube.com/get_player" type="application/x-shockwave-flash" width="320" height="266" bgcolor="#FFFFFF" flashvars="flvurl=http://redirector.googlevideo.com/videoplayback?id%3De242fc8babbf236a%26itag%3D5%26source%3Dblogger%26app%3Dblogger%26cmo%3Dsensitive_content%3Dyes%26ip%3D0.0.0.0%26ipbits%3D0%26expire%3D1458568615%26sparams%3Dip,ipbits,expire,id,itag,source%26signature%3DA9178B841785DF1EC40007512BA67A257168C418.85E0197BBA7D0E7B3D00A41DB49EA41DF9FCE6F3%26key%3Dck2&amp;iurl=http://video.google.com/ThumbnailServer2?app%3Dblogger%26contentid%3De242fc8babbf236a%26offsetms%3D5000%26itag%3Dw160%26sigh%3Df0CmD3rBjzHbNK3qepM1ElZNDsA&amp;autoplay=0&amp;ps=blogger" allowFullScreen="true" /&gt;&lt;/object&gt;&lt;/div&gt;Due to face culling and the fact the cylinder only has normals facing inwards, when the back of the cylinder faces us, it isn't rendered!&lt;a href="http://www.gamedev.net/page/resources/_/technical/graphics-programming-and-theory/3d-backface-culling-r1088" target="_blank"&gt; See here.&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;</content>
-        <link rel="replies" type="application/atom+xml" href="http://richardbamford.blogspot.com/feeds/8484651056685552202/comments/default" title="Post Comments" />
-        <link rel="replies" type="text/html" href="http://richardbamford.blogspot.com/2016/01/opengl-clipping-technique.html#comment-form" title="0 Comments" />
-        <link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/5929733967601850887/posts/default/8484651056685552202" />
-        <link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/5929733967601850887/posts/default/8484651056685552202" />
-        <link rel="alternate" type="text/html" href="http://richardbamford.blogspot.com/2016/01/opengl-clipping-technique.html" title="OpenGL clipping technique." />
-        <author>
-            <name>Richard Bamford</name>
-            <uri>https://plus.google.com/116983402531371448405</uri>
-            <email>noreply@blogger.com</email>
-            <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="//lh6.googleusercontent.com/-Z97AgYrQsno/AAAAAAAAAAI/AAAAAAAADlY/ZTaYxjrSX8I/s512-c/photo.jpg" />
-        </author>
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://3.bp.blogspot.com/-G3QD_xhi51Q/VpAhBHbFYMI/AAAAAAAAEKo/E8qryBiypFs/s72-c/Falling_Spheres_%2528FPS_29.5528360379105%2529_2016-01-08_16-02-18.png" height="72" width="72" />
-        <thr:total>0</thr:total>
-        <gd:extendedProperty name="commentSource" value="1" />
-        <gd:extendedProperty name="commentModerationMode" value="FILTERED_POSTMOD" />
-    </entry>
-    <entry>
-        <id>tag:blogger.com,1999:blog-5929733967601850887.post-2742824337749349908</id>
-        <published>2016-01-07T07:03:00.004-08:00</published>
-        <updated>2016-01-07T07:03:57.088-08:00</updated>
-        <title type="text">First programming book arrived!</title>
-        <content type="html">&lt;table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="text-align: center;"&gt;&lt;a href="http://1.bp.blogspot.com/-KAnSHTWPwkM/Vo59yCWV-KI/AAAAAAAAEKQ/T5Cn457lfGU/s1600/oglsuperbible.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"&gt;&lt;img border="0" height="400" src="http://1.bp.blogspot.com/-KAnSHTWPwkM/Vo59yCWV-KI/AAAAAAAAEKQ/T5Cn457lfGU/s400/oglsuperbible.jpg" width="298" /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;&lt;a href="http://www.amazon.co.uk/OpenGL-Superbible-Comprehensive-Tutorial-Reference/dp/0672337479/ref=sr_1_1?ie=UTF8&amp;amp;qid=1452178682&amp;amp;sr=8-1&amp;amp;keywords=superbible" target="_blank"&gt;Amazon Link&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;br /&gt;Very pleased with the purchase! Hopefully I can now finish some 3D code I have been tearing my hair out over. It even has sections on Compute Shaders (which I am very interested in, OpenCL is too cryptic for me.).</content>
-        <link rel="replies" type="application/atom+xml" href="http://richardbamford.blogspot.com/feeds/2742824337749349908/comments/default" title="Post Comments" />
-        <link rel="replies" type="text/html" href="http://richardbamford.blogspot.com/2016/01/first-programming-book-arrived.html#comment-form" title="0 Comments" />
-        <link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/5929733967601850887/posts/default/2742824337749349908" />
-        <link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/5929733967601850887/posts/default/2742824337749349908" />
-        <link rel="alternate" type="text/html" href="http://richardbamford.blogspot.com/2016/01/first-programming-book-arrived.html" title="First programming book arrived!" />
-        <author>
-            <name>Richard Bamford</name>
-            <uri>https://plus.google.com/116983402531371448405</uri>
-            <email>noreply@blogger.com</email>
-            <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="//lh6.googleusercontent.com/-Z97AgYrQsno/AAAAAAAAAAI/AAAAAAAADlY/ZTaYxjrSX8I/s512-c/photo.jpg" />
-        </author>
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://1.bp.blogspot.com/-KAnSHTWPwkM/Vo59yCWV-KI/AAAAAAAAEKQ/T5Cn457lfGU/s72-c/oglsuperbible.jpg" height="72" width="72" />
-        <thr:total>0</thr:total>
-        <gd:extendedProperty name="commentSource" value="1" />
-        <gd:extendedProperty name="commentModerationMode" value="FILTERED_POSTMOD" />
-    </entry>
-    <entry>
-        <id>tag:blogger.com,1999:blog-5929733967601850887.post-3829295357487297386</id>
-        <published>2016-01-05T09:00:00.000-08:00</published>
-        <updated>2016-01-05T09:08:07.896-08:00</updated>
-        <title type="text">Ten Golden Usability Rules</title>
-        <content type="html">&lt;i&gt;&lt;span style="font-weight: normal;"&gt;Taken from Jakob Nielsen in his book `Usability Engineering`.&lt;/span&gt;&lt;/i&gt;&lt;br /&gt;&lt;ol&gt;&lt;li&gt;&lt;span style="font-weight: normal;"&gt;&lt;/span&gt;&lt;span style="font-weight: normal;"&gt;&lt;b&gt;Use simple and natural dialog/language.&lt;/b&gt; Since every additional feature or item of information on a screen is one more thing to &lt;u&gt;learn&lt;/u&gt;,  one more thing to misunderstand and one more thing to search the user  interface should be simplified as much as possible. Less is more.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-weight: normal;"&gt;&lt;b&gt;Use language that fits the user group.&lt;/b&gt; The language should be based on user's language and not the system-oriented terms. Translation from one language to another is &lt;u&gt;more than just words&lt;/u&gt;. Time, current, phrases, metaphors, measurements all must fit the culture of the user group.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-weight: normal;"&gt;&lt;b&gt;Minimize the load on short-term memory.&lt;/b&gt; Users should &lt;u&gt;not have to remember information&lt;/u&gt; from one part of the interface to another. Instructions of usage should be visible or easily retrievable whenever appropriate.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-weight: normal;"&gt;&lt;b&gt;Make the graphical user interface coherent and consistent.&lt;/b&gt; The same action should always have the same &lt;u&gt;effect&lt;/u&gt;.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-weight: normal;"&gt;&lt;b&gt;Give the ability to use shortcuts.&lt;/b&gt; Accelerators (unseen by novices) may &lt;u&gt;increase the speed of operation&lt;/u&gt; and therefore efficiency through using things like; function keys, command keys, macros, etc.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-weight: normal;"&gt;&lt;b&gt;Give feedback to the user's actions. &lt;/b&gt;The feedback should be given within reasonable time which would make the system more pleasant. At a 0.1s delay the user feels the system is responding &lt;u&gt;immediately&lt;/u&gt;, 1s delay is around the &lt;u&gt;limit that humans flow of thought will stay interrupted&lt;/u&gt; and a 10s delay is the limit to keep user's attention focused on the dialog. As always the user should always have feedback about waiting times, which in itself increases the time people are willing to wait.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-weight: normal;"&gt;&lt;b&gt;Avoid error situations. &lt;/b&gt;&lt;/span&gt;&lt;span style="font-weight: normal;"&gt;&lt;span style="font-weight: normal;"&gt;Ask the user for &lt;u&gt;confirmation &lt;/u&gt;on actions, avoid having similar commands in the interface.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-weight: normal;"&gt;&lt;span style="font-weight: normal;"&gt;&lt;b&gt;Give clear exit marks. &lt;/b&gt;Users make mistakes, so providing an &lt;u&gt;"emergency exit"&lt;/u&gt; to &lt;u&gt;leave an unwanted&lt;/u&gt; state without having to go through extended dialogue is essential. Eg. Cancel should be offered when the operation takes a long time and backing up actions provided in navigation bars.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-weight: normal;"&gt;&lt;span style="font-weight: normal;"&gt;&lt;b&gt;Give clear and understandable error messages. &lt;/b&gt;Similar to 2, provide the user with information that is &lt;u&gt;precise and discrete&lt;/u&gt;. They should always be &lt;u&gt;polite and not intimidating&lt;/u&gt; for example "ILLEGAL, FATAL ACTION, JOB ABORTED!" is bad.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-weight: normal;"&gt;&lt;span style="font-weight: normal;"&gt;&lt;b&gt;Give clear help and understandable documentation. &lt;/b&gt;List the concrete steps that should be carried out, but the help should not be too large.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;br /&gt;&lt;br /&gt;So taking these points into account, what is your opinion on these interfaces? Comment below!&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="text-align: center;"&gt;&lt;a href="http://4.bp.blogspot.com/-1BRIIrdYkBY/Vov0uFtqEJI/AAAAAAAAEJc/s_cQ1CIpggQ/s1600/2016-01-05_16-48-46.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"&gt;&lt;img border="0" height="394" src="http://4.bp.blogspot.com/-1BRIIrdYkBY/Vov0uFtqEJI/AAAAAAAAEJc/s_cQ1CIpggQ/s640/2016-01-05_16-48-46.png" width="640" /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;1. Blogger&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="text-align: center;"&gt;&lt;a href="http://3.bp.blogspot.com/-zbUdgeQaJBM/Vov04MQxKWI/AAAAAAAAEJo/gi0OmUsDURI/s1600/2016-01-05_16-49-36.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"&gt;&lt;img border="0" height="588" src="http://3.bp.blogspot.com/-zbUdgeQaJBM/Vov04MQxKWI/AAAAAAAAEJo/gi0OmUsDURI/s640/2016-01-05_16-49-36.png" width="640" /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;2. Sublime Text 3&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="text-align: center;"&gt;&lt;a href="http://4.bp.blogspot.com/-tYKT7rukzbk/Vov0qt7UxYI/AAAAAAAAEJQ/OSp3T8TC2uQ/s1600/2016-01-05_16-48-12.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"&gt;&lt;img border="0" height="474" src="http://4.bp.blogspot.com/-tYKT7rukzbk/Vov0qt7UxYI/AAAAAAAAEJQ/OSp3T8TC2uQ/s640/2016-01-05_16-48-12.png" width="640" /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;3. Word 2013&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="text-align: center;"&gt;&lt;a href="http://3.bp.blogspot.com/-Q8pdohgMmTA/Vov0oVnYPEI/AAAAAAAAEJE/0g78S1pYLUA/s1600/2016-01-05_16-47-50.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"&gt;&lt;img border="0" height="496" src="http://3.bp.blogspot.com/-Q8pdohgMmTA/Vov0oVnYPEI/AAAAAAAAEJE/0g78S1pYLUA/s640/2016-01-05_16-47-50.jpg" width="640" /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;4. Windows 10 Store&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;br /&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="text-align: center;"&gt;&lt;img border="0" height="414" src="http://1.bp.blogspot.com/-G0RODqs-HFY/Vov06txZbsI/AAAAAAAAEJ0/wF38YCMghIw/s640/Zeuxis_2016-01-05_16-50-42.png" style="margin-left: auto; margin-right: auto;" width="640" /&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;5. Zeuxis Texture Generator &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="http://1.bp.blogspot.com/-G0RODqs-HFY/Vov06txZbsI/AAAAAAAAEJ0/wF38YCMghIw/s1600/Zeuxis_2016-01-05_16-50-42.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&amp;nbsp;&lt;/a&gt; &lt;/div&gt;&lt;br /&gt;&lt;table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="text-align: center;"&gt;&lt;a href="http://2.bp.blogspot.com/-Gzpli1JjbJY/Vov1JPysDAI/AAAAAAAAEKA/Yx1200BGpYo/s1600/2015-10-21_11-12-26.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"&gt;&lt;img border="0" height="492" src="http://2.bp.blogspot.com/-Gzpli1JjbJY/Vov1JPysDAI/AAAAAAAAEKA/Yx1200BGpYo/s640/2015-10-21_11-12-26.jpg" width="640" /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;6. Dead Remains Garry's mod gamemode&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;br /&gt;&amp;nbsp;&lt;b&gt;This post was a revision exercise for my "2D Graphics and UI Design" module at the University of Hull, all rights reserved to their respective owners.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;</content>
-        <link rel="replies" type="application/atom+xml" href="http://richardbamford.blogspot.com/feeds/3829295357487297386/comments/default" title="Post Comments" />
-        <link rel="replies" type="text/html" href="http://richardbamford.blogspot.com/2016/01/ten-golden-usability-rules.html#comment-form" title="0 Comments" />
-        <link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/5929733967601850887/posts/default/3829295357487297386" />
-        <link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/5929733967601850887/posts/default/3829295357487297386" />
-        <link rel="alternate" type="text/html" href="http://richardbamford.blogspot.com/2016/01/ten-golden-usability-rules.html" title="Ten Golden Usability Rules" />
-        <author>
-            <name>Richard Bamford</name>
-            <uri>https://plus.google.com/116983402531371448405</uri>
-            <email>noreply@blogger.com</email>
-            <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="//lh6.googleusercontent.com/-Z97AgYrQsno/AAAAAAAAAAI/AAAAAAAADlY/ZTaYxjrSX8I/s512-c/photo.jpg" />
-        </author>
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://4.bp.blogspot.com/-1BRIIrdYkBY/Vov0uFtqEJI/AAAAAAAAEJc/s_cQ1CIpggQ/s72-c/2016-01-05_16-48-46.png" height="72" width="72" />
-        <thr:total>0</thr:total>
-        <gd:extendedProperty name="commentSource" value="1" />
-        <gd:extendedProperty name="commentModerationMode" value="FILTERED_POSTMOD" />
-    </entry>
+	<id>
+		tag:blogger.com,1999:blog-5929733967601850887
+	</id>
+	<updated>
+		2016-02-25T09:25:27.702-08:00
+	</updated>
+	<category term="opengl" />
+	<category term="opentk" />
+	<category term="glsl" />
+	<category term="lighting" />
+	<category term="3d" />
+	<category term="Blinn-Phong" />
+	<category term="cylinder" />
+	<category term="fragment" />
+	<category term="physics" />
+	<category term="vertex" />
+	<category term="2d" />
+	<category term="4.5" />
+	<category term="Blinn" />
+	<category term="Phong" />
+	<category term="basic" />
+	<category term="c#" />
+	<category term="casting" />
+	<category term="clip" />
+	<category term="clipping" />
+	<category term="cloth" />
+	<category term="collision" />
+	<category term="coordinates" />
+	<category term="coords" />
+	<category term="cut" />
+	<category term="diffuse" />
+	<category term="dragon" />
+	<category term="eye" />
+	<category term="fish" />
+	<category term="fish-eye" />
+	<category term="geometry" />
+	<category term="gl_InstanceID" />
+	<category term="graphics" />
+	<category term="half" />
+	<category term="hooke's" />
+	<category term="id" />
+	<category term="in" />
+	<category term="instance" />
+	<category term="instanced" />
+	<category term="instanceid" />
+	<category term="law" />
+	<category term="lens" />
+	<category term="lines" />
+	<category term="love" />
+	<category term="love2d" />
+	<category term="lua" />
+	<category term="mapping" />
+	<category term="model" />
+	<category term="opent" />
+	<category term="plane" />
+	<category term="portal" />
+	<category term="ray" />
+	<category term="raycaster" />
+	<category term="raycasting" />
+	<category term="shader" />
+	<category term="shaders" />
+	<category term="simulation" />
+	<category term="spheres" />
+	<category term="springs" />
+	<category term="stanford" />
+	<category term="texture" />
+	<category term="texturemapping" />
+	<title type="text">
+		Richard Bamford's Blog
+	</title>
+	<subtitle type="html">
+	</subtitle>
+	<link rel="http://schemas.google.com/g/2005#feed" type="application/atom+xml" href="http://richardbamford.blogspot.com/feeds/posts/default" />
+	<link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/5929733967601850887/posts/default" />
+	<link rel="alternate" type="text/html" href="http://richardbamford.blogspot.com/" />
+	<link rel="hub" href="http://pubsubhubbub.appspot.com/" />
+	<author>
+		<name>
+			Richard Bamford
+		</name>
+		<email>
+			noreply@blogger.com
+		</email>
+		<image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="//lh6.googleusercontent.com/-Z97AgYrQsno/AAAAAAAAAAI/AAAAAAAADlY/ZTaYxjrSX8I/s512-c/photo.jpg" />
+	</author>
+	<generator version="7.00" uri="http://www.blogger.com">
+		Blogger
+	</generator>
+	<totalResults>
+		10
+	</totalResults>
+	<startIndex>
+		1
+	</startIndex>
+	<itemsPerPage>
+		25
+	</itemsPerPage>
+	<entry>
+		<id>
+			tag:blogger.com,1999:blog-5929733967601850887.post-6099523359118578280
+		</id>
+		<published>
+			2016-02-25T09:25:00.001-08:00
+		</published>
+		<updated>
+			2016-02-25T09:25:27.716-08:00
+		</updated>
+		<category scheme="http://www.blogger.com/atom/ns#" term="3d" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="Blinn-Phong" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="c#" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="glsl" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="lighting" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="opengl" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="opentk" />
+		<title type="text">
+			Graphics Work
+		</title>
+		<content type="html">
+			A quick update on what I've been working on recently.&lt;br /&gt;&lt;br /&gt;For one of my modules Simulations and 3D Graphics, we were set a task to learn lighting and materials. So far I have implemented a single light, using ADS and blinn-phong (again).&lt;br /&gt;&lt;br /&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://1.bp.blogspot.com/-74kEkoti2zU/Vs84kp7mLdI/AAAAAAAAEM0/MFcbjuNxPM8/s1600/2016-02-25_17-18-06.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="504" src="https://1.bp.blogspot.com/-74kEkoti2zU/Vs84kp7mLdI/AAAAAAAAEM0/MFcbjuNxPM8/s640/2016-02-25_17-18-06.png" width="640" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;The camera can rotate, move forward/backward. The armadillo can be rotated on it's &lt;span data-dobid="hdw"&gt;pedestal and the whole scene can be rotated.&lt;/span&gt;
+		</content>
+		<link rel="replies" type="application/atom+xml" href="http://richardbamford.blogspot.com/feeds/6099523359118578280/comments/default" title="Post Comments" />
+		<link rel="replies" type="text/html" href="http://richardbamford.blogspot.com/2016/02/graphics-work.html#comment-form" title="0 Comments" />
+		<link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/5929733967601850887/posts/default/6099523359118578280" />
+		<link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/5929733967601850887/posts/default/6099523359118578280" />
+		<link rel="alternate" type="text/html" href="http://richardbamford.blogspot.com/2016/02/graphics-work.html" title="Graphics Work" />
+		<author>
+			<name>
+				Richard Bamford
+			</name>
+			<uri>
+				https://plus.google.com/116983402531371448405
+			</uri>
+			<email>
+				noreply@blogger.com
+			</email>
+			<image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="//lh6.googleusercontent.com/-Z97AgYrQsno/AAAAAAAAAAI/AAAAAAAADlY/ZTaYxjrSX8I/s512-c/photo.jpg" />
+		</author>
+		<thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://1.bp.blogspot.com/-74kEkoti2zU/Vs84kp7mLdI/AAAAAAAAEM0/MFcbjuNxPM8/s72-c/2016-02-25_17-18-06.png" height="72" width="72" />
+		<total>
+			0
+		</total>
+		<extendedProperty name="commentSource" value="1" />
+		<extendedProperty name="commentModerationMode" value="FILTERED_POSTMOD" />
+	</entry>
+	<entry>
+		<id>
+			tag:blogger.com,1999:blog-5929733967601850887.post-5011870169235350844
+		</id>
+		<published>
+			2016-02-07T07:52:00.000-08:00
+		</published>
+		<updated>
+			2016-02-07T07:52:10.279-08:00
+		</updated>
+		<category scheme="http://www.blogger.com/atom/ns#" term="3d" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="4.5" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="Blinn" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="Blinn-Phong" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="dragon" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="glsl" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="lighting" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="model" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="opengl" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="opentk" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="Phong" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="stanford" />
+		<title type="text">
+			Project 5: Stanford dragon rendering
+		</title>
+		<content type="html">
+			&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;iframe width="320" height="266" class="YOUTUBE-iframe-video" data-thumbnail-src="https://i.ytimg.com/vi/WxSnZkz1lsU/0.jpg" src="https://www.youtube.com/embed/WxSnZkz1lsU?feature=player_embedded" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;This dragon is one of the many models which the Stanford University Computer Graphics Laboratory scanned. More info http://graphics.stanford.edu/data/3Dscanrep/. I used this to practice for an upcoming module, it is made in OpenTK and uses OpenGL 4.5.&lt;br /&gt;&amp;nbsp; &lt;br /&gt;Work for this included:&lt;br /&gt;&lt;ul&gt;&lt;li&gt;Loading vertex and normal data from .OBJ.&lt;/li&gt;&lt;li&gt;Parsing material file for Blinn-Phong attributes.&lt;/li&gt;&lt;li&gt;Blinn-Phong glsl shaders.&lt;/li&gt;&lt;li&gt;Setting model/view/projection matrices.&lt;/li&gt;&lt;li&gt;Configuring camera and light positions. &lt;/li&gt;&lt;/ul&gt;&lt;br /&gt;
+		</content>
+		<link rel="replies" type="application/atom+xml" href="http://richardbamford.blogspot.com/feeds/5011870169235350844/comments/default" title="Post Comments" />
+		<link rel="replies" type="text/html" href="http://richardbamford.blogspot.com/2016/02/project-5-stanford-dragon-rendering.html#comment-form" title="0 Comments" />
+		<link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/5929733967601850887/posts/default/5011870169235350844" />
+		<link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/5929733967601850887/posts/default/5011870169235350844" />
+		<link rel="alternate" type="text/html" href="http://richardbamford.blogspot.com/2016/02/project-5-stanford-dragon-rendering.html" title="Project 5: Stanford dragon rendering" />
+		<author>
+			<name>
+				Richard Bamford
+			</name>
+			<uri>
+				https://plus.google.com/116983402531371448405
+			</uri>
+			<email>
+				noreply@blogger.com
+			</email>
+			<image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="//lh6.googleusercontent.com/-Z97AgYrQsno/AAAAAAAAAAI/AAAAAAAADlY/ZTaYxjrSX8I/s512-c/photo.jpg" />
+		</author>
+		<thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://img.youtube.com/vi/WxSnZkz1lsU/default.jpg" height="72" width="72" />
+		<total>
+			0
+		</total>
+		<extendedProperty name="commentSource" value="1" />
+		<extendedProperty name="commentModerationMode" value="FILTERED_POSTMOD" />
+	</entry>
+	<entry>
+		<id>
+			tag:blogger.com,1999:blog-5929733967601850887.post-9212394011200744572
+		</id>
+		<published>
+			2016-02-02T07:34:00.000-08:00
+		</published>
+		<updated>
+			2016-02-02T07:43:29.194-08:00
+		</updated>
+		<category scheme="http://www.blogger.com/atom/ns#" term="casting" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="coordinates" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="coords" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="diffuse" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="eye" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="fish" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="fish-eye" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="graphics" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="lens" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="lighting" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="love" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="love2d" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="lua" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="mapping" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="ray" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="raycaster" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="raycasting" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="shader" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="texture" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="texturemapping" />
+		<title type="text">
+			Project 4: Ray casting with a 2d graphics library.
+		</title>
+		<content type="html">
+			&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;iframe allowfullscreen="" class="YOUTUBE-iframe-video" data-thumbnail-src="https://i.ytimg.com/vi/NDld7yg9-tA/0.jpg" frameborder="0" height="266" src="https://www.youtube.com/embed/NDld7yg9-tA?feature=player_embedded" width="320"&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;br /&gt;Implementing this using one of my favorite frameworks (https://love2d.org/) in Lua was a lot of fun!&lt;br /&gt;&lt;br /&gt;This is heavily inspired by Wolfenstein 3D.&lt;br /&gt;&lt;br /&gt;It involved simple trigonometry, calculating ray/shape intersections, figuring out how to map textures and lighting effects. &lt;br /&gt;&lt;br /&gt;A problem I encountered was a fisheye lens effect, because for each ray projected into the world, I would map the intersection distance directly to the height a wall (which is a group of line slices). However what I needed to do was calculate the perpendicular distance of the intersection using the projection plane as a reference.&lt;br /&gt;&lt;br /&gt;&lt;table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="text-align: center;"&gt;&lt;a href="http://3.bp.blogspot.com/-9cjtEfP2sQo/VrDLiMCoUyI/AAAAAAAAEMI/qyUEqsLw1GA/s1600/love_2016-02-01_14-32-10.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"&gt;&lt;img border="0" height="480" src="http://3.bp.blogspot.com/-9cjtEfP2sQo/VrDLiMCoUyI/AAAAAAAAEMI/qyUEqsLw1GA/s640/love_2016-02-01_14-32-10.png" width="640" /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;Fish-lens effect&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;br /&gt;&lt;br /&gt;Here's a great image which helped me understand the problem a lot, originally my raycasting method resembled the one of the far right.&lt;br /&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="http://4.bp.blogspot.com/-_LnPjXpZqjA/VrDMJOot28I/AAAAAAAAEMU/VYcphsDB9sw/s1600/vfNHqW0.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="640" src="http://4.bp.blogspot.com/-_LnPjXpZqjA/VrDMJOot28I/AAAAAAAAEMU/VYcphsDB9sw/s640/vfNHqW0.png" width="426" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;Here are the resources I used:&lt;br /&gt;&lt;ul&gt;&lt;li&gt;http://permadi.com/1996/05/ray-casting-tutorial-table-of-contents/ - Help with the projection plane/intersection distance calculation.&lt;/li&gt;&lt;li&gt;https://en.wikipedia.org/wiki/Linear_interpolation - How I map the texture coordinates onto the side of a shape given a set of intersections with it.&lt;/li&gt;&lt;/ul&gt;
+		</content>
+		<link rel="replies" type="application/atom+xml" href="http://richardbamford.blogspot.com/feeds/9212394011200744572/comments/default" title="Post Comments" />
+		<link rel="replies" type="text/html" href="http://richardbamford.blogspot.com/2016/02/project-4-ray-casting-with-2d-graphics.html#comment-form" title="0 Comments" />
+		<link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/5929733967601850887/posts/default/9212394011200744572" />
+		<link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/5929733967601850887/posts/default/9212394011200744572" />
+		<link rel="alternate" type="text/html" href="http://richardbamford.blogspot.com/2016/02/project-4-ray-casting-with-2d-graphics.html" title="Project 4: Ray casting with a 2d graphics library." />
+		<author>
+			<name>
+				Richard Bamford
+			</name>
+			<uri>
+				https://plus.google.com/116983402531371448405
+			</uri>
+			<email>
+				noreply@blogger.com
+			</email>
+			<image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="//lh6.googleusercontent.com/-Z97AgYrQsno/AAAAAAAAAAI/AAAAAAAADlY/ZTaYxjrSX8I/s512-c/photo.jpg" />
+		</author>
+		<thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://img.youtube.com/vi/NDld7yg9-tA/default.jpg" height="72" width="72" />
+		<total>
+			0
+		</total>
+		<extendedProperty name="commentSource" value="1" />
+		<extendedProperty name="commentModerationMode" value="FILTERED_POSTMOD" />
+	</entry>
+	<entry>
+		<id>
+			tag:blogger.com,1999:blog-5929733967601850887.post-497692649345766842
+		</id>
+		<published>
+			2016-01-16T08:39:00.002-08:00
+		</published>
+		<updated>
+			2016-01-16T08:39:07.489-08:00
+		</updated>
+		<category scheme="http://www.blogger.com/atom/ns#" term="fragment" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="geometry" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="gl_InstanceID" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="id" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="instance" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="instanced" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="instanceid" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="opengl" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="opent" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="shaders" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="vertex" />
+		<title type="text">
+			Project 3: Grass Sim
+		</title>
+		<content type="html">
+			&lt;h3&gt;Overview &lt;/h3&gt;One of the main problems with rendering lots of primitives, is each one requires its own draw call/position definition.&lt;br /&gt;A solution to this is instanced rendering, where you give opengl a set of vertices and tell it to render it X amount of times. Since it computes everything internally from then on the cost of it is near 0.&lt;br /&gt;&lt;br /&gt;Instanced rendering does this (pseudo code):&lt;br /&gt;&lt;blockquote class="tr_bq"&gt;for 0, X do&lt;/blockquote&gt;&lt;blockquote class="tr_bq"&gt;&lt;blockquote class="tr_bq"&gt;Set Instance ID&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;blockquote class="tr_bq"&gt;&lt;blockquote class="tr_bq"&gt;DrawArrays/DrawElements.etc&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;br /&gt;In the form of this:&lt;br /&gt;&lt;blockquote class="tr_bq"&gt;GL.DrawArraysInstanced(PrimitiveType.Triangles, 0, 3, X);&lt;/blockquote&gt;&lt;br /&gt;So now the fun part involves the shaders because each instance cannot be given a unique uniform value (which is what I do normally).&lt;br /&gt;Each instance has an ID from 0-&amp;gt;X, utilising this in interesting ways allows you to produce cool effects for practically free.&lt;br /&gt;&lt;br /&gt;Here's what I came up with after playing around with it:&lt;br /&gt;&lt;br /&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="http://3.bp.blogspot.com/-pEt7AB8J900/VppsrWFAGAI/AAAAAAAAELs/fgYESBcFvqU/s1600/2016-01-16_15-59-50.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="315" src="http://3.bp.blogspot.com/-pEt7AB8J900/VppsrWFAGAI/AAAAAAAAELs/fgYESBcFvqU/s400/2016-01-16_15-59-50.png" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;Video after adding a time uniform:&lt;br /&gt;&lt;br /&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;object width="320" height="266" class="BLOG_video_class" id="BLOG_video-118d916f1aafd861" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"&gt;&lt;param name="movie" value="//www.youtube.com/get_player"&gt;&lt;param name="bgcolor" value="#FFFFFF"&gt;&lt;param name="allowfullscreen" value="true"&gt;&lt;param name="flashvars" value="flvurl=http://redirector.googlevideo.com/videoplayback?id%3D118d916f1aafd861%26itag%3D5%26source%3Dblogger%26app%3Dblogger%26cmo%3Dsensitive_content%3Dyes%26ip%3D0.0.0.0%26ipbits%3D0%26expire%3D1458568615%26sparams%3Dip,ipbits,expire,id,itag,source%26signature%3DB7EE502BE7E784100773C649CC571A66AA142B3B.222D7DA91439A92C23512AA7DC32412E2D720F1B%26key%3Dck2&amp;amp;iurl=http://video.google.com/ThumbnailServer2?app%3Dblogger%26contentid%3D118d916f1aafd861%26offsetms%3D5000%26itag%3Dw160%26sigh%3DWHAmPlqhzD6reFD8niXzA9-Yz7w&amp;amp;autoplay=0&amp;amp;ps=blogger"&gt;&lt;embed src="//www.youtube.com/get_player" type="application/x-shockwave-flash" width="320" height="266" bgcolor="#FFFFFF" flashvars="flvurl=http://redirector.googlevideo.com/videoplayback?id%3D118d916f1aafd861%26itag%3D5%26source%3Dblogger%26app%3Dblogger%26cmo%3Dsensitive_content%3Dyes%26ip%3D0.0.0.0%26ipbits%3D0%26expire%3D1458568615%26sparams%3Dip,ipbits,expire,id,itag,source%26signature%3DB7EE502BE7E784100773C649CC571A66AA142B3B.222D7DA91439A92C23512AA7DC32412E2D720F1B%26key%3Dck2&amp;iurl=http://video.google.com/ThumbnailServer2?app%3Dblogger%26contentid%3D118d916f1aafd861%26offsetms%3D5000%26itag%3Dw160%26sigh%3DWHAmPlqhzD6reFD8niXzA9-Yz7w&amp;autoplay=0&amp;ps=blogger" allowFullScreen="true" /&gt;&lt;/object&gt;&lt;/div&gt;&lt;h3&gt;&amp;nbsp;&lt;/h3&gt;&lt;h3&gt;Vertex Shader Details&lt;/h3&gt;To distribute the triangles uniformly given a number from 0 -&amp;gt; 10,000.&lt;br /&gt;&lt;blockquote class="tr_bq"&gt;int x = int( mod( gl_InstanceID, 100 ) );&lt;/blockquote&gt;&lt;blockquote class="tr_bq"&gt;int z = int( gl_InstanceID / 100 );&lt;/blockquote&gt;&lt;br /&gt;To offset the period of each triangle's sin value (not worked out how to make fake-random numbers on shaders yet). Give uT as a value from 0, 2PI. Remember uT is defined once for all the "grass".&lt;br /&gt;&lt;blockquote class="tr_bq"&gt;float sVal = sin( gl_InstanceID + uT ); &lt;/blockquote&gt;&lt;blockquote class="tr_bq"&gt;oDisplace = vec3( sVal, 0, 0 );&lt;/blockquote&gt;&lt;br /&gt;&lt;h3&gt;Conclusion&lt;/h3&gt;My "grass" is nothing like grass yet, I'll be posting more in the next few days with any progress. I think colouring them is my next objective and then figuring out that tricky random displacement problem.&lt;br /&gt;&lt;br /&gt;Here's a download link if you want to give it a spin:&lt;a href="http://richardbamford.io/dmp/GrassSim.zip" target="_blank"&gt; LINK&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
+		</content>
+		<link rel="replies" type="application/atom+xml" href="http://richardbamford.blogspot.com/feeds/497692649345766842/comments/default" title="Post Comments" />
+		<link rel="replies" type="text/html" href="http://richardbamford.blogspot.com/2016/01/project-3-grass-sim.html#comment-form" title="0 Comments" />
+		<link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/5929733967601850887/posts/default/497692649345766842" />
+		<link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/5929733967601850887/posts/default/497692649345766842" />
+		<link rel="alternate" type="text/html" href="http://richardbamford.blogspot.com/2016/01/project-3-grass-sim.html" title="Project 3: Grass Sim" />
+		<author>
+			<name>
+				Richard Bamford
+			</name>
+			<uri>
+				https://plus.google.com/116983402531371448405
+			</uri>
+			<email>
+				noreply@blogger.com
+			</email>
+			<image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="//lh6.googleusercontent.com/-Z97AgYrQsno/AAAAAAAAAAI/AAAAAAAADlY/ZTaYxjrSX8I/s512-c/photo.jpg" />
+		</author>
+		<thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://3.bp.blogspot.com/-pEt7AB8J900/VppsrWFAGAI/AAAAAAAAELs/fgYESBcFvqU/s72-c/2016-01-16_15-59-50.png" height="72" width="72" />
+		<total>
+			0
+		</total>
+		<extendedProperty name="commentSource" value="1" />
+		<extendedProperty name="commentModerationMode" value="FILTERED_POSTMOD" />
+	</entry>
+	<entry>
+		<id>
+			tag:blogger.com,1999:blog-5929733967601850887.post-9110201319771171384
+		</id>
+		<published>
+			2016-01-14T06:08:00.000-08:00
+		</published>
+		<updated>
+			2016-01-14T06:08:11.487-08:00
+		</updated>
+		<title type="text">
+			Cloth Simulation Update
+		</title>
+		<content type="html">
+			Some of the issues I found with the system since my last post:&lt;br /&gt;&lt;ul&gt;&lt;li&gt;I assumed that all constraints had the same rest length, now it takes into account shear and linear constraint lengths.&lt;/li&gt;&lt;li&gt;I only accounted for X,Y properties of each point which caused points to act strangely when close to each other, I have changed it to work in 3D. Although the view only looks 2D.&lt;/li&gt;&lt;/ul&gt;&amp;nbsp;Here's the result:&lt;br /&gt;&lt;br /&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;object width="320" height="266" class="BLOG_video_class" id="BLOG_video-2e67387fb183cab7" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"&gt;&lt;param name="movie" value="//www.youtube.com/get_player"&gt;&lt;param name="bgcolor" value="#FFFFFF"&gt;&lt;param name="allowfullscreen" value="true"&gt;&lt;param name="flashvars" value="flvurl=http://redirector.googlevideo.com/videoplayback?id%3D2e67387fb183cab7%26itag%3D5%26source%3Dblogger%26app%3Dblogger%26cmo%3Dsensitive_content%3Dyes%26ip%3D0.0.0.0%26ipbits%3D0%26expire%3D1458568615%26sparams%3Dip,ipbits,expire,id,itag,source%26signature%3DA69F9D7B60F2F26C79414C28439EEF2E508A7A75.382387AC1C239A08105AD2EBA50EDDCE5FBE2ED0%26key%3Dck2&amp;amp;iurl=http://video.google.com/ThumbnailServer2?app%3Dblogger%26contentid%3D2e67387fb183cab7%26offsetms%3D5000%26itag%3Dw160%26sigh%3D6IwhHY9Czqd1T1Pb_BKFASMIPng&amp;amp;autoplay=0&amp;amp;ps=blogger"&gt;&lt;embed src="//www.youtube.com/get_player" type="application/x-shockwave-flash" width="320" height="266" bgcolor="#FFFFFF" flashvars="flvurl=http://redirector.googlevideo.com/videoplayback?id%3D2e67387fb183cab7%26itag%3D5%26source%3Dblogger%26app%3Dblogger%26cmo%3Dsensitive_content%3Dyes%26ip%3D0.0.0.0%26ipbits%3D0%26expire%3D1458568615%26sparams%3Dip,ipbits,expire,id,itag,source%26signature%3DA69F9D7B60F2F26C79414C28439EEF2E508A7A75.382387AC1C239A08105AD2EBA50EDDCE5FBE2ED0%26key%3Dck2&amp;iurl=http://video.google.com/ThumbnailServer2?app%3Dblogger%26contentid%3D2e67387fb183cab7%26offsetms%3D5000%26itag%3Dw160%26sigh%3D6IwhHY9Czqd1T1Pb_BKFASMIPng&amp;autoplay=0&amp;ps=blogger" allowFullScreen="true" /&gt;&lt;/object&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;
+		</content>
+		<link rel="replies" type="application/atom+xml" href="http://richardbamford.blogspot.com/feeds/9110201319771171384/comments/default" title="Post Comments" />
+		<link rel="replies" type="text/html" href="http://richardbamford.blogspot.com/2016/01/cloth-simulation-update.html#comment-form" title="0 Comments" />
+		<link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/5929733967601850887/posts/default/9110201319771171384" />
+		<link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/5929733967601850887/posts/default/9110201319771171384" />
+		<link rel="alternate" type="text/html" href="http://richardbamford.blogspot.com/2016/01/cloth-simulation-update.html" title="Cloth Simulation Update" />
+		<author>
+			<name>
+				Richard Bamford
+			</name>
+			<uri>
+				https://plus.google.com/116983402531371448405
+			</uri>
+			<email>
+				noreply@blogger.com
+			</email>
+			<image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="//lh6.googleusercontent.com/-Z97AgYrQsno/AAAAAAAAAAI/AAAAAAAADlY/ZTaYxjrSX8I/s512-c/photo.jpg" />
+		</author>
+		<total>
+			0
+		</total>
+		<extendedProperty name="commentSource" value="1" />
+		<extendedProperty name="commentModerationMode" value="FILTERED_POSTMOD" />
+	</entry>
+	<entry>
+		<id>
+			tag:blogger.com,1999:blog-5929733967601850887.post-5570022127981432618
+		</id>
+		<published>
+			2016-01-12T06:11:00.001-08:00
+		</published>
+		<updated>
+			2016-01-12T06:18:16.008-08:00
+		</updated>
+		<category scheme="http://www.blogger.com/atom/ns#" term="2d" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="cloth" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="hooke's" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="law" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="lines" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="opengl" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="opentk" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="physics" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="simulation" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="springs" />
+		<title type="text">
+			Project 2: Cloth Simulation
+		</title>
+		<content type="html">
+			Cloth simulation using opengl and c#.&lt;br /&gt;&lt;br /&gt;My previous project was about learning the graphics api opengl (lighting/models/projections/shaders) and I feel like if I wanted to carry it on I would have to start again from scratch using things I learned the first time around.&lt;br /&gt;Instead I am focusing on some other concepts which have been on my bucket list for a while now, cloth simulations.&lt;br /&gt;&lt;table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="text-align: center;"&gt;&lt;a href="http://3.bp.blogspot.com/-4jTmvI8SOGQ/VpUEH5zIxYI/AAAAAAAAELM/TXeyyIxPHxQ/s1600/Cloth_Simulation_2016-01-11_18-57-39.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"&gt;&lt;img border="0" height="301" src="http://3.bp.blogspot.com/-4jTmvI8SOGQ/VpUEH5zIxYI/AAAAAAAAELM/TXeyyIxPHxQ/s400/Cloth_Simulation_2016-01-11_18-57-39.png" width="400" /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;In the beginning there were lines and dots.&lt;/td&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;&lt;/td&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;&lt;/td&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;&lt;/td&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;My first task was how to effectively render a "cloth" matrix (?) so that I could visually see the system, this is actually quite a challenge when opengl is focused on 3d not 2d.&lt;br /&gt;&lt;br /&gt;I set up the model-view-projection matrix using an &lt;a href="http://www.scratchapixel.com/lessons/3d-basic-rendering/perspective-and-orthographic-projection-matrix" target="_blank"&gt;Orthographic Projection&lt;/a&gt;.&lt;br /&gt;Then since the original coordinate system goes (0, +Y, 0) up the screen, (+X, 0, 0) along the screen it was not intuitive to debug so I applied a scale of (0, -1, 0) and a translation, because (0, 0, 0) is the center of the screen in opengl, to transform it into Cartesian coordinates.&lt;br /&gt;&lt;br /&gt;Ok... so now I can draw some dots and lines in the right place.&lt;br /&gt;&lt;br /&gt;My next task was figuring out the formulas that I needed to use to calculate the forces acting on each dot and how they would interact with each other.&lt;br /&gt;There is A LOT of information on the internet about cloth simulations so if you're looking for an in-depth overview of it look elsewhere. Personally I started with this useful snippet of a paper which can be found here &lt;a href="https://www.google.co.uk/url?sa=t&amp;amp;rct=j&amp;amp;q=&amp;amp;esrc=s&amp;amp;source=web&amp;amp;cd=1&amp;amp;ved=0ahUKEwiBrfKht6TKAhUCORQKHWo-CsgQFggjMAA&amp;amp;url=https%3A%2F%2Fnccastaff.bournemouth.ac.uk%2Fjmacey%2FMastersProjects%2FMsc05%2Fcloth_simulation.pdf&amp;amp;usg=AFQjCNEbqF55GC0fOEwfha7pMpULnAo2dQ&amp;amp;sig2=vHNDolpVnQ0kcRQ5iwVI_g&amp;amp;cad=rja" target="_blank"&gt;[1].&amp;nbsp;&lt;/a&gt;&lt;br /&gt;&lt;table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="text-align: center;"&gt;&lt;a href="http://1.bp.blogspot.com/-gtLKK3swqTc/VpUG11kiCSI/AAAAAAAAELY/7GZioZg7oqs/s1600/cloth_simulation.pdf_-_Adobe_Acrobat_Reader_DC_2016-01-11_18-27-34.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"&gt;&lt;img border="0" height="400" src="http://1.bp.blogspot.com/-gtLKK3swqTc/VpUG11kiCSI/AAAAAAAAELY/7GZioZg7oqs/s400/cloth_simulation.pdf_-_Adobe_Acrobat_Reader_DC_2016-01-11_18-27-34.png" width="393" /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;After a while there came physics.&lt;/td&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;I knew that cloths can be simulated as a set of point masses connected by springs, thankfully forces on springs are fairly simple to calculate (shown above).&lt;br /&gt;So I set up my system where each point mass knows about it's neighbors (similar to the game of life) information and made sure all the calculations happen in the right order.&lt;br /&gt;&lt;br /&gt;The most frustrating part about this ordeal was the coefficients, since my system isn't "real" what should Ks and Kd be? In the end I just plugged in several different values and went with the ones which looked the most realistic (still not finished with that bit).&lt;br /&gt;This was a huge step because if the damping isn't perfect then the points oscillate out of control (practically undamped) or just stay still (overdamped), &lt;a href="https://en.wikipedia.org/wiki/Damping" target="_blank"&gt;damping&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;The top left and right points are "pinned" so the force the exert on their neighbors is proportional to the distance between them and some large constant X. Still not sure about this one.&lt;br /&gt;&lt;br /&gt;Anyway here is my current product, there is still a lot to do with shear and linear springs (I think?), making the forces propagate across the system nicely, lighting and filling in the lines.&lt;br /&gt;&lt;br /&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;object width="320" height="266" class="BLOG_video_class" id="BLOG_video-6e0c0ec723b51724" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"&gt;&lt;param name="movie" value="//www.youtube.com/get_player"&gt;&lt;param name="bgcolor" value="#FFFFFF"&gt;&lt;param name="allowfullscreen" value="true"&gt;&lt;param name="flashvars" value="flvurl=http://redirector.googlevideo.com/videoplayback?id%3D6e0c0ec723b51724%26itag%3D5%26source%3Dblogger%26app%3Dblogger%26cmo%3Dsensitive_content%3Dyes%26ip%3D0.0.0.0%26ipbits%3D0%26expire%3D1458568615%26sparams%3Dip,ipbits,expire,id,itag,source%26signature%3D85C78485DD63ACAD803696E0A5012542BC4C42F8.8595D97B996F1851928F62D12575A892BDEA6613%26key%3Dck2&amp;amp;iurl=http://video.google.com/ThumbnailServer2?app%3Dblogger%26contentid%3D6e0c0ec723b51724%26offsetms%3D5000%26itag%3Dw160%26sigh%3DlnaTat_pNARh3eYo5AiAQbju46A&amp;amp;autoplay=0&amp;amp;ps=blogger"&gt;&lt;embed src="//www.youtube.com/get_player" type="application/x-shockwave-flash" width="320" height="266" bgcolor="#FFFFFF" flashvars="flvurl=http://redirector.googlevideo.com/videoplayback?id%3D6e0c0ec723b51724%26itag%3D5%26source%3Dblogger%26app%3Dblogger%26cmo%3Dsensitive_content%3Dyes%26ip%3D0.0.0.0%26ipbits%3D0%26expire%3D1458568615%26sparams%3Dip,ipbits,expire,id,itag,source%26signature%3D85C78485DD63ACAD803696E0A5012542BC4C42F8.8595D97B996F1851928F62D12575A892BDEA6613%26key%3Dck2&amp;iurl=http://video.google.com/ThumbnailServer2?app%3Dblogger%26contentid%3D6e0c0ec723b51724%26offsetms%3D5000%26itag%3Dw160%26sigh%3DlnaTat_pNARh3eYo5AiAQbju46A&amp;autoplay=0&amp;ps=blogger" allowFullScreen="true" /&gt;&lt;/object&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;It was fun to see the points fly wildly about dragging other points with it on it's quest for freedom. Maybe I should implement spring breaking sometime...&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+		</content>
+		<link rel="replies" type="application/atom+xml" href="http://richardbamford.blogspot.com/feeds/5570022127981432618/comments/default" title="Post Comments" />
+		<link rel="replies" type="text/html" href="http://richardbamford.blogspot.com/2016/01/project-2-cloth-simulation.html#comment-form" title="0 Comments" />
+		<link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/5929733967601850887/posts/default/5570022127981432618" />
+		<link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/5929733967601850887/posts/default/5570022127981432618" />
+		<link rel="alternate" type="text/html" href="http://richardbamford.blogspot.com/2016/01/project-2-cloth-simulation.html" title="Project 2: Cloth Simulation" />
+		<author>
+			<name>
+				Richard Bamford
+			</name>
+			<uri>
+				https://plus.google.com/116983402531371448405
+			</uri>
+			<email>
+				noreply@blogger.com
+			</email>
+			<image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="//lh6.googleusercontent.com/-Z97AgYrQsno/AAAAAAAAAAI/AAAAAAAADlY/ZTaYxjrSX8I/s512-c/photo.jpg" />
+		</author>
+		<thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://3.bp.blogspot.com/-4jTmvI8SOGQ/VpUEH5zIxYI/AAAAAAAAELM/TXeyyIxPHxQ/s72-c/Cloth_Simulation_2016-01-11_18-57-39.png" height="72" width="72" />
+		<total>
+			0
+		</total>
+		<extendedProperty name="commentSource" value="1" />
+		<extendedProperty name="commentModerationMode" value="FILTERED_POSTMOD" />
+	</entry>
+	<entry>
+		<id>
+			tag:blogger.com,1999:blog-5929733967601850887.post-1413525881167526891
+		</id>
+		<published>
+			2016-01-09T14:09:00.000-08:00
+		</published>
+		<updated>
+			2016-01-09T14:13:41.272-08:00
+		</updated>
+		<category scheme="http://www.blogger.com/atom/ns#" term="basic" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="collision" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="cylinder" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="glsl" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="opengl" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="opentk" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="physics" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="portal" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="spheres" />
+		<title type="text">
+			Sketchy physics simulations.
+		</title>
+		<content type="html">
+			Today I attempted to wrap my head around portals...&lt;br /&gt;&lt;br /&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;iframe allowfullscreen="" class="YOUTUBE-iframe-video" data-thumbnail-src="https://i.ytimg.com/vi/MjeMOhb9enI/0.jpg" frameborder="0" height="266" src="https://www.youtube.com/embed/MjeMOhb9enI?feature=player_embedded" width="320"&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;br /&gt;&lt;hr /&gt;&lt;br /&gt;In my simulation, when the spheres reach the bottom of the tube, they are teleported  to the right hand surface of the cylinder. Maintaining speed but changing the sphere's direction.&lt;br /&gt;&lt;br /&gt;Initially I ran into a problem of them gaining energy over time, since the force which pushed them from the portal is proportional to the velocity it hits the bottom and the position of the ball along the horizontal axis.&lt;br /&gt;&lt;br /&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;object width="320" height="266" class="BLOG_video_class" id="BLOG_video-1e83991b353cffdb" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"&gt;&lt;param name="movie" value="//www.youtube.com/get_player"&gt;&lt;param name="bgcolor" value="#FFFFFF"&gt;&lt;param name="allowfullscreen" value="true"&gt;&lt;param name="flashvars" value="flvurl=http://redirector.googlevideo.com/videoplayback?id%3D1e83991b353cffdb%26itag%3D5%26source%3Dblogger%26app%3Dblogger%26cmo%3Dsensitive_content%3Dyes%26ip%3D0.0.0.0%26ipbits%3D0%26expire%3D1458568615%26sparams%3Dip,ipbits,expire,id,itag,source%26signature%3DAB5938EDA6C21C51063BA3D0610050531E27F6A6.80DD3F560E34F059C7948666FD6A9AC29A89D98E%26key%3Dck2&amp;amp;iurl=http://video.google.com/ThumbnailServer2?app%3Dblogger%26contentid%3D1e83991b353cffdb%26offsetms%3D5000%26itag%3Dw160%26sigh%3DAAbyX3vDyHZvWpRLGSsiSPWH7oo&amp;amp;autoplay=0&amp;amp;ps=blogger"&gt;&lt;embed src="//www.youtube.com/get_player" type="application/x-shockwave-flash" width="320" height="266" bgcolor="#FFFFFF" flashvars="flvurl=http://redirector.googlevideo.com/videoplayback?id%3D1e83991b353cffdb%26itag%3D5%26source%3Dblogger%26app%3Dblogger%26cmo%3Dsensitive_content%3Dyes%26ip%3D0.0.0.0%26ipbits%3D0%26expire%3D1458568615%26sparams%3Dip,ipbits,expire,id,itag,source%26signature%3DAB5938EDA6C21C51063BA3D0610050531E27F6A6.80DD3F560E34F059C7948666FD6A9AC29A89D98E%26key%3Dck2&amp;iurl=http://video.google.com/ThumbnailServer2?app%3Dblogger%26contentid%3D1e83991b353cffdb%26offsetms%3D5000%26itag%3Dw160%26sigh%3DAAbyX3vDyHZvWpRLGSsiSPWH7oo&amp;autoplay=0&amp;ps=blogger" allowFullScreen="true" /&gt;&lt;/object&gt;&lt;/div&gt;&lt;br /&gt;Then after some thinking with my trusty whiteboard...&lt;br /&gt;&lt;br /&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="http://2.bp.blogspot.com/-kTSC6ElMChI/VpF94IoG01I/AAAAAAAAELA/bXPdtZViKf8/s1600/12516658_10207946538003191_1669704460_o.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="300" src="http://2.bp.blogspot.com/-kTSC6ElMChI/VpF94IoG01I/AAAAAAAAELA/bXPdtZViKf8/s400/12516658_10207946538003191_1669704460_o.jpg" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;I realised that it was because I wasn't forcing the spheres out with the same amount of energy the spheres had at the bottom of the tube! Momentum!&lt;br /&gt;&lt;br /&gt;Another issue I had was that spheres would converge, I figured it was something to do with the way I was applying drag to the velocity of the spheres. After all portals can't exist in a real physical model without hacks can they? In my opinion I think this one looks the most... real. Since everything loses energy it makes sense that this would happen "in real life" to me?&lt;br /&gt;&lt;br /&gt;Here's what I mean:&lt;br /&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;object width="320" height="266" class="BLOG_video_class" id="BLOG_video-a337803051c7efcd" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"&gt;&lt;param name="movie" value="//www.youtube.com/get_player"&gt;&lt;param name="bgcolor" value="#FFFFFF"&gt;&lt;param name="allowfullscreen" value="true"&gt;&lt;param name="flashvars" value="flvurl=http://redirector.googlevideo.com/videoplayback?id%3Da337803051c7efcd%26itag%3D5%26source%3Dblogger%26app%3Dblogger%26cmo%3Dsensitive_content%3Dyes%26ip%3D0.0.0.0%26ipbits%3D0%26expire%3D1458568615%26sparams%3Dip,ipbits,expire,id,itag,source%26signature%3D4F06F6ABA6605B518792B994C82EF93209C112C7.43B98E288B5A7502833FD67CF89D747E2B67440D%26key%3Dck2&amp;amp;iurl=http://video.google.com/ThumbnailServer2?app%3Dblogger%26contentid%3Da337803051c7efcd%26offsetms%3D5000%26itag%3Dw160%26sigh%3Dfz6JqudyDeIuqNSkvoglxO_lqjU&amp;amp;autoplay=0&amp;amp;ps=blogger"&gt;&lt;embed src="//www.youtube.com/get_player" type="application/x-shockwave-flash" width="320" height="266" bgcolor="#FFFFFF" flashvars="flvurl=http://redirector.googlevideo.com/videoplayback?id%3Da337803051c7efcd%26itag%3D5%26source%3Dblogger%26app%3Dblogger%26cmo%3Dsensitive_content%3Dyes%26ip%3D0.0.0.0%26ipbits%3D0%26expire%3D1458568615%26sparams%3Dip,ipbits,expire,id,itag,source%26signature%3D4F06F6ABA6605B518792B994C82EF93209C112C7.43B98E288B5A7502833FD67CF89D747E2B67440D%26key%3Dck2&amp;iurl=http://video.google.com/ThumbnailServer2?app%3Dblogger%26contentid%3Da337803051c7efcd%26offsetms%3D5000%26itag%3Dw160%26sigh%3Dfz6JqudyDeIuqNSkvoglxO_lqjU&amp;autoplay=0&amp;ps=blogger" allowFullScreen="true" /&gt;&lt;/object&gt;&lt;/div&gt;&lt;br /&gt;But i prefer the look of things when we bend physics a bit, here's what I have now! (Beware it has music)&lt;br /&gt;&lt;br /&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;object width="320" height="266" class="BLOG_video_class" id="BLOG_video-cea5753e8e24b0a" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"&gt;&lt;param name="movie" value="//www.youtube.com/get_player"&gt;&lt;param name="bgcolor" value="#FFFFFF"&gt;&lt;param name="allowfullscreen" value="true"&gt;&lt;param name="flashvars" value="flvurl=http://redirector.googlevideo.com/videoplayback?id%3D0cea5753e8e24b0a%26itag%3D5%26source%3Dblogger%26app%3Dblogger%26cmo%3Dsensitive_content%3Dyes%26ip%3D0.0.0.0%26ipbits%3D0%26expire%3D1458568615%26sparams%3Dip,ipbits,expire,id,itag,source%26signature%3D3F3B23EBBCC23ECB28D191F31B35A136A78ACAE4.6717484A70CD082D95AEE4279969AE16642F0621%26key%3Dck2&amp;amp;iurl=http://video.google.com/ThumbnailServer2?app%3Dblogger%26contentid%3D0cea5753e8e24b0a%26offsetms%3D5000%26itag%3Dw160%26sigh%3D5pKD7gOBh5lVYHgWd0er5n3kGGc&amp;amp;autoplay=0&amp;amp;ps=blogger"&gt;&lt;embed src="//www.youtube.com/get_player" type="application/x-shockwave-flash" width="320" height="266" bgcolor="#FFFFFF" flashvars="flvurl=http://redirector.googlevideo.com/videoplayback?id%3D0cea5753e8e24b0a%26itag%3D5%26source%3Dblogger%26app%3Dblogger%26cmo%3Dsensitive_content%3Dyes%26ip%3D0.0.0.0%26ipbits%3D0%26expire%3D1458568615%26sparams%3Dip,ipbits,expire,id,itag,source%26signature%3D3F3B23EBBCC23ECB28D191F31B35A136A78ACAE4.6717484A70CD082D95AEE4279969AE16642F0621%26key%3Dck2&amp;iurl=http://video.google.com/ThumbnailServer2?app%3Dblogger%26contentid%3D0cea5753e8e24b0a%26offsetms%3D5000%26itag%3Dw160%26sigh%3D5pKD7gOBh5lVYHgWd0er5n3kGGc&amp;autoplay=0&amp;ps=blogger" allowFullScreen="true" /&gt;&lt;/object&gt;&lt;/div&gt;&lt;br /&gt;I'm happy with this result and hopefully in the next few days I can iron out all the issues with the collision model, and explain fully how I did it. Right now the collisions are kind of hacky and not optimised. In brief it works through the distance of any sphere to the Y axis and the direction from that sphere to the Y axis.&lt;br /&gt;&lt;br /&gt;&lt;hr /&gt;&lt;br /&gt;It was really fun getting into physics concepts again! It has been ages since i have implemented things like this. Still my code is quite expensive, it uses a lot of normalising and distance calculations which I want to optimize.&lt;br /&gt;&lt;br /&gt;See you soon!&lt;br /&gt;&lt;br /&gt;Here's a link to the program so far:&amp;nbsp;&lt;a href="http://richardbamford.io/dmp/Balls.zip" target="_blank"&gt;Sphere Simulation&lt;/a&gt; &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+		</content>
+		<link rel="replies" type="application/atom+xml" href="http://richardbamford.blogspot.com/feeds/1413525881167526891/comments/default" title="Post Comments" />
+		<link rel="replies" type="text/html" href="http://richardbamford.blogspot.com/2016/01/sketchy-physics.html#comment-form" title="0 Comments" />
+		<link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/5929733967601850887/posts/default/1413525881167526891" />
+		<link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/5929733967601850887/posts/default/1413525881167526891" />
+		<link rel="alternate" type="text/html" href="http://richardbamford.blogspot.com/2016/01/sketchy-physics.html" title="Sketchy physics simulations." />
+		<author>
+			<name>
+				Richard Bamford
+			</name>
+			<uri>
+				https://plus.google.com/116983402531371448405
+			</uri>
+			<email>
+				noreply@blogger.com
+			</email>
+			<image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="//lh6.googleusercontent.com/-Z97AgYrQsno/AAAAAAAAAAI/AAAAAAAADlY/ZTaYxjrSX8I/s512-c/photo.jpg" />
+		</author>
+		<thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://img.youtube.com/vi/MjeMOhb9enI/default.jpg" height="72" width="72" />
+		<total>
+			0
+		</total>
+		<extendedProperty name="commentSource" value="1" />
+		<extendedProperty name="commentModerationMode" value="FILTERED_POSTMOD" />
+	</entry>
+	<entry>
+		<id>
+			tag:blogger.com,1999:blog-5929733967601850887.post-8484651056685552202
+		</id>
+		<published>
+			2016-01-08T13:04:00.002-08:00
+		</published>
+		<updated>
+			2016-01-08T13:04:24.160-08:00
+		</updated>
+		<category scheme="http://www.blogger.com/atom/ns#" term="clip" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="clipping" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="cut" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="cylinder" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="fragment" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="glsl" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="half" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="in" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="opengl" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="opentk" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="plane" />
+		<category scheme="http://www.blogger.com/atom/ns#" term="vertex" />
+		<title type="text">
+			OpenGL clipping technique.
+		</title>
+		<content type="html">
+			Part of the physics simulation I am working on at the moment involves cutting a cylinder in half, so that spheres have a defined space to interact but we can also view them.&lt;br /&gt;&lt;br /&gt;First I created a cylinder in 3ds max, with normals included. I didn't create the half cylinder because I want to have multiple cylinder objects for the spheres to collide with (also I was interested in the process).&lt;br /&gt;&lt;br /&gt;So I implemented an extra expression in my GLSL fragment shader, to say:&lt;br /&gt;&lt;blockquote class="tr_bq"&gt;&amp;nbsp;If the X value (the camera looks down the X axis) of a fragment (in worldspace) is &amp;lt; 0 then discard that fragment.&lt;/blockquote&gt;&lt;br /&gt;Initially, using the `discard` in-built function I got really strange results, with some fragments being removed and some staying. It looked like static on a TV.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;This problem was solved by implementing alpha blending, and setting the alpha value of fragments I want to discard to 0.0.&lt;br /&gt;&lt;br /&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="http://3.bp.blogspot.com/-G3QD_xhi51Q/VpAhBHbFYMI/AAAAAAAAEKo/E8qryBiypFs/s1600/Falling_Spheres_%2528FPS_29.5528360379105%2529_2016-01-08_16-02-18.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="301" src="http://3.bp.blogspot.com/-G3QD_xhi51Q/VpAhBHbFYMI/AAAAAAAAEKo/E8qryBiypFs/s400/Falling_Spheres_%2528FPS_29.5528360379105%2529_2016-01-08_16-02-18.png" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;This was great! however I wanted more control over the clipping (hardcoded at the time), so I decided to define a "clipping plane" (a vector which represents the normal of the plane).&lt;br /&gt;&lt;br /&gt;Then I find the cosine of the position of any given fragment (in world space) and that clipping plane normal. If that value &amp;lt; 0 then I know that that fragment is behind the "face" of the plane, so it can be discarded. Here's the GLSL code to implement that:&lt;br /&gt;&lt;blockquote class="tr_bq"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; outColour.a = max(0.0, sign( dot( ClipPlane.xyz, vVaryingPos ) ) );&lt;/blockquote&gt;&amp;nbsp;Where vVaryingPos is the position of the vertex in world space, computed in the vertex shader like:&lt;br /&gt;&lt;blockquote class="tr_bq"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; vVaryingPos = ( modelMatrix * vec4( vVertex, 1.0 ) ).xyz;&lt;/blockquote&gt;&lt;br /&gt;The resulting image was exactly the same, awesome! Now I can do funky things like...&lt;br /&gt;&lt;br /&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;object width="320" height="266" class="BLOG_video_class" id="BLOG_video-e242fc8babbf236a" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"&gt;&lt;param name="movie" value="//www.youtube.com/get_player"&gt;&lt;param name="bgcolor" value="#FFFFFF"&gt;&lt;param name="allowfullscreen" value="true"&gt;&lt;param name="flashvars" value="flvurl=http://redirector.googlevideo.com/videoplayback?id%3De242fc8babbf236a%26itag%3D5%26source%3Dblogger%26app%3Dblogger%26cmo%3Dsensitive_content%3Dyes%26ip%3D0.0.0.0%26ipbits%3D0%26expire%3D1458568615%26sparams%3Dip,ipbits,expire,id,itag,source%26signature%3DA9178B841785DF1EC40007512BA67A257168C418.85E0197BBA7D0E7B3D00A41DB49EA41DF9FCE6F3%26key%3Dck2&amp;amp;iurl=http://video.google.com/ThumbnailServer2?app%3Dblogger%26contentid%3De242fc8babbf236a%26offsetms%3D5000%26itag%3Dw160%26sigh%3Df0CmD3rBjzHbNK3qepM1ElZNDsA&amp;amp;autoplay=0&amp;amp;ps=blogger"&gt;&lt;embed src="//www.youtube.com/get_player" type="application/x-shockwave-flash" width="320" height="266" bgcolor="#FFFFFF" flashvars="flvurl=http://redirector.googlevideo.com/videoplayback?id%3De242fc8babbf236a%26itag%3D5%26source%3Dblogger%26app%3Dblogger%26cmo%3Dsensitive_content%3Dyes%26ip%3D0.0.0.0%26ipbits%3D0%26expire%3D1458568615%26sparams%3Dip,ipbits,expire,id,itag,source%26signature%3DA9178B841785DF1EC40007512BA67A257168C418.85E0197BBA7D0E7B3D00A41DB49EA41DF9FCE6F3%26key%3Dck2&amp;iurl=http://video.google.com/ThumbnailServer2?app%3Dblogger%26contentid%3De242fc8babbf236a%26offsetms%3D5000%26itag%3Dw160%26sigh%3Df0CmD3rBjzHbNK3qepM1ElZNDsA&amp;autoplay=0&amp;ps=blogger" allowFullScreen="true" /&gt;&lt;/object&gt;&lt;/div&gt;Due to face culling and the fact the cylinder only has normals facing inwards, when the back of the cylinder faces us, it isn't rendered!&lt;a href="http://www.gamedev.net/page/resources/_/technical/graphics-programming-and-theory/3d-backface-culling-r1088" target="_blank"&gt; See here.&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+		</content>
+		<link rel="replies" type="application/atom+xml" href="http://richardbamford.blogspot.com/feeds/8484651056685552202/comments/default" title="Post Comments" />
+		<link rel="replies" type="text/html" href="http://richardbamford.blogspot.com/2016/01/opengl-clipping-technique.html#comment-form" title="0 Comments" />
+		<link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/5929733967601850887/posts/default/8484651056685552202" />
+		<link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/5929733967601850887/posts/default/8484651056685552202" />
+		<link rel="alternate" type="text/html" href="http://richardbamford.blogspot.com/2016/01/opengl-clipping-technique.html" title="OpenGL clipping technique." />
+		<author>
+			<name>
+				Richard Bamford
+			</name>
+			<uri>
+				https://plus.google.com/116983402531371448405
+			</uri>
+			<email>
+				noreply@blogger.com
+			</email>
+			<image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="//lh6.googleusercontent.com/-Z97AgYrQsno/AAAAAAAAAAI/AAAAAAAADlY/ZTaYxjrSX8I/s512-c/photo.jpg" />
+		</author>
+		<thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://3.bp.blogspot.com/-G3QD_xhi51Q/VpAhBHbFYMI/AAAAAAAAEKo/E8qryBiypFs/s72-c/Falling_Spheres_%2528FPS_29.5528360379105%2529_2016-01-08_16-02-18.png" height="72" width="72" />
+		<total>
+			0
+		</total>
+		<extendedProperty name="commentSource" value="1" />
+		<extendedProperty name="commentModerationMode" value="FILTERED_POSTMOD" />
+	</entry>
+	<entry>
+		<id>
+			tag:blogger.com,1999:blog-5929733967601850887.post-2742824337749349908
+		</id>
+		<published>
+			2016-01-07T07:03:00.004-08:00
+		</published>
+		<updated>
+			2016-01-07T07:03:57.088-08:00
+		</updated>
+		<title type="text">
+			First programming book arrived!
+		</title>
+		<content type="html">
+			&lt;table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="text-align: center;"&gt;&lt;a href="http://1.bp.blogspot.com/-KAnSHTWPwkM/Vo59yCWV-KI/AAAAAAAAEKQ/T5Cn457lfGU/s1600/oglsuperbible.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"&gt;&lt;img border="0" height="400" src="http://1.bp.blogspot.com/-KAnSHTWPwkM/Vo59yCWV-KI/AAAAAAAAEKQ/T5Cn457lfGU/s400/oglsuperbible.jpg" width="298" /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;&lt;a href="http://www.amazon.co.uk/OpenGL-Superbible-Comprehensive-Tutorial-Reference/dp/0672337479/ref=sr_1_1?ie=UTF8&amp;amp;qid=1452178682&amp;amp;sr=8-1&amp;amp;keywords=superbible" target="_blank"&gt;Amazon Link&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;br /&gt;Very pleased with the purchase! Hopefully I can now finish some 3D code I have been tearing my hair out over. It even has sections on Compute Shaders (which I am very interested in, OpenCL is too cryptic for me.).
+		</content>
+		<link rel="replies" type="application/atom+xml" href="http://richardbamford.blogspot.com/feeds/2742824337749349908/comments/default" title="Post Comments" />
+		<link rel="replies" type="text/html" href="http://richardbamford.blogspot.com/2016/01/first-programming-book-arrived.html#comment-form" title="0 Comments" />
+		<link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/5929733967601850887/posts/default/2742824337749349908" />
+		<link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/5929733967601850887/posts/default/2742824337749349908" />
+		<link rel="alternate" type="text/html" href="http://richardbamford.blogspot.com/2016/01/first-programming-book-arrived.html" title="First programming book arrived!" />
+		<author>
+			<name>
+				Richard Bamford
+			</name>
+			<uri>
+				https://plus.google.com/116983402531371448405
+			</uri>
+			<email>
+				noreply@blogger.com
+			</email>
+			<image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="//lh6.googleusercontent.com/-Z97AgYrQsno/AAAAAAAAAAI/AAAAAAAADlY/ZTaYxjrSX8I/s512-c/photo.jpg" />
+		</author>
+		<thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://1.bp.blogspot.com/-KAnSHTWPwkM/Vo59yCWV-KI/AAAAAAAAEKQ/T5Cn457lfGU/s72-c/oglsuperbible.jpg" height="72" width="72" />
+		<total>
+			0
+		</total>
+		<extendedProperty name="commentSource" value="1" />
+		<extendedProperty name="commentModerationMode" value="FILTERED_POSTMOD" />
+	</entry>
+	<entry>
+		<id>
+			tag:blogger.com,1999:blog-5929733967601850887.post-3829295357487297386
+		</id>
+		<published>
+			2016-01-05T09:00:00.000-08:00
+		</published>
+		<updated>
+			2016-01-05T09:08:07.896-08:00
+		</updated>
+		<title type="text">
+			Ten Golden Usability Rules
+		</title>
+		<content type="html">
+			&lt;i&gt;&lt;span style="font-weight: normal;"&gt;Taken from Jakob Nielsen in his book `Usability Engineering`.&lt;/span&gt;&lt;/i&gt;&lt;br /&gt;&lt;ol&gt;&lt;li&gt;&lt;span style="font-weight: normal;"&gt;&lt;/span&gt;&lt;span style="font-weight: normal;"&gt;&lt;b&gt;Use simple and natural dialog/language.&lt;/b&gt; Since every additional feature or item of information on a screen is one more thing to &lt;u&gt;learn&lt;/u&gt;,  one more thing to misunderstand and one more thing to search the user  interface should be simplified as much as possible. Less is more.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-weight: normal;"&gt;&lt;b&gt;Use language that fits the user group.&lt;/b&gt; The language should be based on user's language and not the system-oriented terms. Translation from one language to another is &lt;u&gt;more than just words&lt;/u&gt;. Time, current, phrases, metaphors, measurements all must fit the culture of the user group.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-weight: normal;"&gt;&lt;b&gt;Minimize the load on short-term memory.&lt;/b&gt; Users should &lt;u&gt;not have to remember information&lt;/u&gt; from one part of the interface to another. Instructions of usage should be visible or easily retrievable whenever appropriate.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-weight: normal;"&gt;&lt;b&gt;Make the graphical user interface coherent and consistent.&lt;/b&gt; The same action should always have the same &lt;u&gt;effect&lt;/u&gt;.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-weight: normal;"&gt;&lt;b&gt;Give the ability to use shortcuts.&lt;/b&gt; Accelerators (unseen by novices) may &lt;u&gt;increase the speed of operation&lt;/u&gt; and therefore efficiency through using things like; function keys, command keys, macros, etc.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-weight: normal;"&gt;&lt;b&gt;Give feedback to the user's actions. &lt;/b&gt;The feedback should be given within reasonable time which would make the system more pleasant. At a 0.1s delay the user feels the system is responding &lt;u&gt;immediately&lt;/u&gt;, 1s delay is around the &lt;u&gt;limit that humans flow of thought will stay interrupted&lt;/u&gt; and a 10s delay is the limit to keep user's attention focused on the dialog. As always the user should always have feedback about waiting times, which in itself increases the time people are willing to wait.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-weight: normal;"&gt;&lt;b&gt;Avoid error situations. &lt;/b&gt;&lt;/span&gt;&lt;span style="font-weight: normal;"&gt;&lt;span style="font-weight: normal;"&gt;Ask the user for &lt;u&gt;confirmation &lt;/u&gt;on actions, avoid having similar commands in the interface.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-weight: normal;"&gt;&lt;span style="font-weight: normal;"&gt;&lt;b&gt;Give clear exit marks. &lt;/b&gt;Users make mistakes, so providing an &lt;u&gt;"emergency exit"&lt;/u&gt; to &lt;u&gt;leave an unwanted&lt;/u&gt; state without having to go through extended dialogue is essential. Eg. Cancel should be offered when the operation takes a long time and backing up actions provided in navigation bars.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-weight: normal;"&gt;&lt;span style="font-weight: normal;"&gt;&lt;b&gt;Give clear and understandable error messages. &lt;/b&gt;Similar to 2, provide the user with information that is &lt;u&gt;precise and discrete&lt;/u&gt;. They should always be &lt;u&gt;polite and not intimidating&lt;/u&gt; for example "ILLEGAL, FATAL ACTION, JOB ABORTED!" is bad.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-weight: normal;"&gt;&lt;span style="font-weight: normal;"&gt;&lt;b&gt;Give clear help and understandable documentation. &lt;/b&gt;List the concrete steps that should be carried out, but the help should not be too large.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;br /&gt;&lt;br /&gt;So taking these points into account, what is your opinion on these interfaces? Comment below!&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="text-align: center;"&gt;&lt;a href="http://4.bp.blogspot.com/-1BRIIrdYkBY/Vov0uFtqEJI/AAAAAAAAEJc/s_cQ1CIpggQ/s1600/2016-01-05_16-48-46.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"&gt;&lt;img border="0" height="394" src="http://4.bp.blogspot.com/-1BRIIrdYkBY/Vov0uFtqEJI/AAAAAAAAEJc/s_cQ1CIpggQ/s640/2016-01-05_16-48-46.png" width="640" /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;1. Blogger&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="text-align: center;"&gt;&lt;a href="http://3.bp.blogspot.com/-zbUdgeQaJBM/Vov04MQxKWI/AAAAAAAAEJo/gi0OmUsDURI/s1600/2016-01-05_16-49-36.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"&gt;&lt;img border="0" height="588" src="http://3.bp.blogspot.com/-zbUdgeQaJBM/Vov04MQxKWI/AAAAAAAAEJo/gi0OmUsDURI/s640/2016-01-05_16-49-36.png" width="640" /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;2. Sublime Text 3&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="text-align: center;"&gt;&lt;a href="http://4.bp.blogspot.com/-tYKT7rukzbk/Vov0qt7UxYI/AAAAAAAAEJQ/OSp3T8TC2uQ/s1600/2016-01-05_16-48-12.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"&gt;&lt;img border="0" height="474" src="http://4.bp.blogspot.com/-tYKT7rukzbk/Vov0qt7UxYI/AAAAAAAAEJQ/OSp3T8TC2uQ/s640/2016-01-05_16-48-12.png" width="640" /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;3. Word 2013&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="text-align: center;"&gt;&lt;a href="http://3.bp.blogspot.com/-Q8pdohgMmTA/Vov0oVnYPEI/AAAAAAAAEJE/0g78S1pYLUA/s1600/2016-01-05_16-47-50.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"&gt;&lt;img border="0" height="496" src="http://3.bp.blogspot.com/-Q8pdohgMmTA/Vov0oVnYPEI/AAAAAAAAEJE/0g78S1pYLUA/s640/2016-01-05_16-47-50.jpg" width="640" /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;4. Windows 10 Store&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;br /&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="text-align: center;"&gt;&lt;img border="0" height="414" src="http://1.bp.blogspot.com/-G0RODqs-HFY/Vov06txZbsI/AAAAAAAAEJ0/wF38YCMghIw/s640/Zeuxis_2016-01-05_16-50-42.png" style="margin-left: auto; margin-right: auto;" width="640" /&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;5. Zeuxis Texture Generator &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="http://1.bp.blogspot.com/-G0RODqs-HFY/Vov06txZbsI/AAAAAAAAEJ0/wF38YCMghIw/s1600/Zeuxis_2016-01-05_16-50-42.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&amp;nbsp;&lt;/a&gt; &lt;/div&gt;&lt;br /&gt;&lt;table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="text-align: center;"&gt;&lt;a href="http://2.bp.blogspot.com/-Gzpli1JjbJY/Vov1JPysDAI/AAAAAAAAEKA/Yx1200BGpYo/s1600/2015-10-21_11-12-26.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"&gt;&lt;img border="0" height="492" src="http://2.bp.blogspot.com/-Gzpli1JjbJY/Vov1JPysDAI/AAAAAAAAEKA/Yx1200BGpYo/s640/2015-10-21_11-12-26.jpg" width="640" /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;6. Dead Remains Garry's mod gamemode&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;br /&gt;&amp;nbsp;&lt;b&gt;This post was a revision exercise for my "2D Graphics and UI Design" module at the University of Hull, all rights reserved to their respective owners.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+		</content>
+		<link rel="replies" type="application/atom+xml" href="http://richardbamford.blogspot.com/feeds/3829295357487297386/comments/default" title="Post Comments" />
+		<link rel="replies" type="text/html" href="http://richardbamford.blogspot.com/2016/01/ten-golden-usability-rules.html#comment-form" title="0 Comments" />
+		<link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/5929733967601850887/posts/default/3829295357487297386" />
+		<link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/5929733967601850887/posts/default/3829295357487297386" />
+		<link rel="alternate" type="text/html" href="http://richardbamford.blogspot.com/2016/01/ten-golden-usability-rules.html" title="Ten Golden Usability Rules" />
+		<author>
+			<name>
+				Richard Bamford
+			</name>
+			<uri>
+				https://plus.google.com/116983402531371448405
+			</uri>
+			<email>
+				noreply@blogger.com
+			</email>
+			<image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="//lh6.googleusercontent.com/-Z97AgYrQsno/AAAAAAAAAAI/AAAAAAAADlY/ZTaYxjrSX8I/s512-c/photo.jpg" />
+		</author>
+		<thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://4.bp.blogspot.com/-1BRIIrdYkBY/Vov0uFtqEJI/AAAAAAAAEJc/s_cQ1CIpggQ/s72-c/2016-01-05_16-48-46.png" height="72" width="72" />
+		<total>
+			0
+		</total>
+		<extendedProperty name="commentSource" value="1" />
+		<extendedProperty name="commentModerationMode" value="FILTERED_POSTMOD" />
+	</entry>
 </feed>
