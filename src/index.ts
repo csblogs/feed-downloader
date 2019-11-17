@@ -1,5 +1,11 @@
 import { insertNewBlogPosts } from './components/blog-posts';
-import { downloadFeedIfModified, getAllFeeds, IFeedDownload, parseFeed, updateFeedLastModified } from './components/feeds';
+import {
+  downloadFeedIfModified,
+  getAllFeeds,
+  IFeedDownload,
+  parseFeed,
+  updateFeedLastModified,
+} from './components/feeds';
 import { getClient } from './database';
 
 async function main() {
