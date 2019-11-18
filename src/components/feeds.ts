@@ -1,6 +1,7 @@
 import { query } from '../database';
 import { PoolClient } from 'pg';
 import { IBlogPost } from './blog-posts';
+import { parseStringPromise as parseXMLString } from 'xml2js';
 
 export interface IFeed {
   id: string;
@@ -72,6 +73,32 @@ export async function updateFeedLastModified(
   ]);
 }
 
-export async function parseFeed(feedXML: string): Promise<IBlogPost[]> {
+function isRSS(xml2JS: any) {
+  return Boolean(xml2JS.rss);
+}
+
+function isAtom(xml2JS: any) {
+  return Boolean(xml2JS.feed);
+}
+
+async function parseAtomPosts(xml2JS: any): Promise<IBlogPost[]> {
   return null;
+}
+
+async function parseRSSPosts(xml2JS: any): Promise<IBlogPost[]> {
+  return null;
+}
+
+export async function parseFeed(unparsedFeedXML: string): Promise<IBlogPost[]> {
+  const xml2JSResult = await parseXMLString(unparsedFeedXML);
+
+  if (isRSS(xml2JSResult)) {
+    return parseRSSPosts(xml2JSResult);
+  }
+
+  if (isAtom(xml2JSResult)) {
+    return parseAtomPosts(xml2JSResult);
+  }
+
+  throw new Error('Valid RSS/ATOM Required');
 }
