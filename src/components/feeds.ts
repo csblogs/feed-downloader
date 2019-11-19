@@ -84,6 +84,10 @@ function isAtom(xml2JS: any) {
 }
 
 export async function parseFeed(unparsedFeedXML: string): Promise<IBlogPost[]> {
+  if (!unparsedFeedXML || unparsedFeedXML.length === 0) {
+    throw new Error('Valid RSS/ATOM Required');
+  }
+
   const xml2JSResult = await parseXMLString(unparsedFeedXML);
 
   if (isRSS(xml2JSResult)) {

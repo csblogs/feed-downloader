@@ -1,3 +1,9 @@
+import { parseFeed } from './feeds';
+
 describe('feeds', () => {
-  it('should pass', () => {});
+  describe('parseFeed()', () => {
+    it('should throw if passed an null or empty string', async () => {
+      await parseFeed('');
+    });
+  });
 });

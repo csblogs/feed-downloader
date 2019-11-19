@@ -5,7 +5,10 @@
   "main": "build/index.js",
   "scripts": {
     "test": "jest .",
-    "lint": "eslint '**/*.{ts,tsx}'"
+    "lint": "eslint '**/*.{ts,tsx}'",
+    "build": "rm -rf ./build && tsc",
+    "start": "npm run build && node build/index",
+    "start-dev": "npm start | bunyan"
   },
   "repository": {
     "type": "git",
@@ -26,15 +29,17 @@
   },
   "homepage": "https://github.com/csblogs/feed-downloader#readme",
   "dependencies": {
+    "bunyan": "^1.8.12",
     "cheerio": "^1.0.0-rc.3",
-    "jest": "^24.9.0",
     "node-fetch": "^2.6.0",
     "pg": "^7.12.1",
-    "urijs": "^1.19.2"
+    "urijs": "^1.19.2",
+    "xml2js": "^0.4.22"
   },
   "devDependencies": {
     "@types/cheerio": "^0.22.14",
     "@types/jest": "^24.0.23",
+    "@types/node": "^12.12.11",
     "@types/pg": "^7.11.2",
     "@types/urijs": "^1.19.4",
     "@types/xml2js": "^0.4.5",
@@ -44,7 +49,9 @@
     "eslint-config-prettier": "^6.6.0",
     "eslint-plugin-prettier": "^3.1.1",
     "husky": "^3.0.9",
+    "jest": "^24.9.0",
     "prettier": "^1.19.1",
+    "ts-jest": "^24.1.0",
     "typescript": "^3.7.2"
   },
   "husky": {

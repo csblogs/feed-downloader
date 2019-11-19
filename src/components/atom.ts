@@ -1,6 +1,6 @@
-import URI from 'urijs';
+import * as URI from 'urijs';
 import { IBlogPost } from './blog-posts';
-import cheerio from 'cheerio';
+import * as cheerio from 'cheerio';
 
 function getTitle(post: any) {
   let title = '';
