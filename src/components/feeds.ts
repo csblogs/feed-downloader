@@ -2,6 +2,8 @@ import { query } from '../database';
 import { PoolClient } from 'pg';
 import { IBlogPost } from './blog-posts';
 import { parseStringPromise as parseXMLString } from 'xml2js';
+import { parseAtomPosts } from './atom';
+import { parseRSSPosts } from './rss';
 
 export interface IFeed {
   id: string;
@@ -79,14 +81,6 @@ function isRSS(xml2JS: any) {
 
 function isAtom(xml2JS: any) {
   return Boolean(xml2JS.feed);
-}
-
-async function parseAtomPosts(xml2JS: any): Promise<IBlogPost[]> {
-  return null;
-}
-
-async function parseRSSPosts(xml2JS: any): Promise<IBlogPost[]> {
-  return null;
 }
 
 export async function parseFeed(unparsedFeedXML: string): Promise<IBlogPost[]> {
