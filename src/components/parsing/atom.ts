@@ -11,7 +11,7 @@ function getTitle(post: any) {
     // Some contain just plain text titles, return directly
     return post.title[0];
   }
-  return title;
+  return title.trim();
 }
 
 function getLink(postLinks: any) {
