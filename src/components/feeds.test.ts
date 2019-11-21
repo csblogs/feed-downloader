@@ -4,7 +4,7 @@ import { IBlogPost } from './blog-posts';
 
 describe('feeds', () => {
   describe('parseFeed()', () => {
-    it('should throw if passed an empty string', async () => {
+    it('should throw if unparsedFeedXML is an empty string', async () => {
       try {
         await parseFeed('');
       } catch (e) {
@@ -12,7 +12,7 @@ describe('feeds', () => {
       }
     });
 
-    it('should throw if feedString is not a valid XML document', async () => {
+    it('should throw if unparsedFeedXML is not a valid XML document', async () => {
       const invalidXML = '<?xml version = "1.0"?><data><<</data>';
       try {
         await parseFeed(invalidXML);
@@ -21,7 +21,7 @@ describe('feeds', () => {
       }
     });
 
-    it("should throw if feedString is valid XML but isn't a valid ATOM/RSS feed", async () => {
+    it("should throw if unparsedFeedXML is valid XML but isn't a valid ATOM/RSS feed", async () => {
       const validXMLNotAFeed = '<?xml version = "1.0"?><notAFeed></notAFeed>';
       try {
         await parseFeed(validXMLNotAFeed);
