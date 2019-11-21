@@ -1,6 +1,6 @@
-import * as URI from 'urijs';
-import { IBlogPost } from './blog-posts';
-import * as cheerio from 'cheerio';
+import { IBlogPost } from '../blog-posts';
+import { formatDescription } from '../feeds';
+import { extractImageFromDescriptionHTML } from './images';
 
 function getTitle(post: any) {
   let title = '';
@@ -30,18 +30,6 @@ function getLink(postLinks: any) {
   return preferredLink;
 }
 
-function extractImageFromDescriptionHTML(description: string) {
-  const $ = cheerio.load(description);
-  const firstImage = $('img')
-    .first()
-    .attr('src');
-
-  if (firstImage) {
-    return new URI(firstImage);
-  }
-  return null;
-}
-
 function getImageUrl(post: any) {
   const description = getDescription(post);
   const imageFromDescription = extractImageFromDescriptionHTML(description);
@@ -64,34 +52,6 @@ function getDateUpdated(post: any) {
 
 function getDatePublished(post: any) {
   return post.published ? new Date(post.published[0]) : null;
-}
-
-function formatDescription(unformattedDescription: string) {
-  const $ = cheerio.load(unformattedDescription);
-  let textRepresentation = $.root().text();
-
-  // Remove "continue reading" etc from end of descriptions
-  if (textRepresentation.endsWith('[…]')) {
-    textRepresentation = textRepresentation.slice(0, textRepresentation.length - 3);
-  }
-
-  const continueReadingLocation = textRepresentation.indexOf('… Continue reading →');
-  if (continueReadingLocation !== -1) {
-    textRepresentation = textRepresentation.slice(0, continueReadingLocation);
-  } /* We do actually deal with control characters here */ // Fix for feeds with &nbps; (NO-BREAK SPACE) characters, where we want just normal spaces
-
-  /* eslint no-control-regex: 0 */ textRepresentation = textRepresentation.replace(
-    new RegExp('\xA0', 'g'),
-    ' '
-  );
-
-  // Some feeds include a new-line character or tab character, which we replace with a space
-  textRepresentation = textRepresentation.replace(new RegExp('\n', 'g'), ' ');
-  textRepresentation = textRepresentation.replace(new RegExp('\t', 'g'), ' ');
-
-  // The previous two replacements can result in double spacs, remove those
-  textRepresentation = textRepresentation.replace(new RegExp('\\s\\s+', 'g'), ' ');
-  return textRepresentation.trim();
 }
 
 export function parseAtomPosts(xml2JS: any): IBlogPost[] {
