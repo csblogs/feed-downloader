@@ -33,6 +33,7 @@ describe('feeds', () => {
     describe('real-life examples', () => {
       it('should correctly parse minimum.rss', async () => {
         const minimumRSS = readFileSync('./src/test-data/rss/minimum.rss').toString();
+
         const expectedItems: IBlogPost[] = [
           {
             title: "You won't believe what happened next!",
@@ -57,6 +58,7 @@ describe('feeds', () => {
 
       it('should correctly parse blogger.atom', async () => {
         const bloggerATOM = readFileSync('./src/test-data/atom/blogger.atom').toString();
+
         const expectedItems: IBlogPost[] = [
           {
             title: 'Graphics Work',
