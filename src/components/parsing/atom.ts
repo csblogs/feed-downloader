@@ -3,15 +3,13 @@ import { formatDescription } from '../feeds';
 import { extractImageURLFromDescriptionHTML } from './images';
 
 function getTitle(post: any) {
-  let title = '';
   if (post.title[0]._) {
     // Some titles include format information, and so their info resides in _
-    title = post.title[0]._;
+    return post.title[0]._.trim();
   } else {
     // Some contain just plain text titles, return directly
-    return post.title[0];
+    return post.title[0].trim();
   }
-  return title.trim();
 }
 
 function getLink(postLinks: any) {
