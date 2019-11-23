@@ -18,16 +18,13 @@ function isValidImage(image): boolean {
   return !(isWordPressAddCommentImage(image) || isGravatar(image));
 }
 
-export function extractImageFromDescriptionHTML(description: string) {
+export function extractImageURLFromDescriptionHTML(description: string): uri.URI {
   const $ = cheerio.load(description);
   const firstImage = $('img')
     .first()
     .attr('src');
 
-  if (firstImage) {
-    return new URI(firstImage);
-  }
-  return null;
+  return firstImage ? new URI(firstImage) : null;
 }
 
 export function extractRSSPostImage(post): uri.URI {
@@ -54,11 +51,11 @@ export function extractRSSPostImage(post): uri.URI {
   }
 
   if (!imageURI && post['content:encoded']) {
-    imageURI = extractImageFromDescriptionHTML(post['content:encoded'][0]);
+    imageURI = extractImageURLFromDescriptionHTML(post['content:encoded'][0]);
   }
 
   if (!imageURI && post.description) {
-    imageURI = extractImageFromDescriptionHTML(post.description[0]);
+    imageURI = extractImageURLFromDescriptionHTML(post.description[0]);
   }
 
   // Reject gravatar images and click to comment images

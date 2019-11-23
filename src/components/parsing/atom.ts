@@ -1,6 +1,6 @@
 import { IBlogPost } from '../blog-posts';
 import { formatDescription } from '../feeds';
-import { extractImageFromDescriptionHTML } from './images';
+import { extractImageURLFromDescriptionHTML } from './images';
 
 function getTitle(post: any) {
   let title = '';
@@ -32,18 +32,21 @@ function getLink(postLinks: any) {
 
 function getImageUrl(post: any) {
   const description = getDescription(post);
-  const imageFromDescription = extractImageFromDescriptionHTML(description);
-  return imageFromDescription || null;
+  const imageFromDescription = extractImageURLFromDescriptionHTML(description);
+
+  if (imageFromDescription) {
+    return imageFromDescription.toString();
+  }
+
+  return null;
 }
 
 function getDescription(post: any) {
-  let description = '';
   if (post.content) {
-    description = post.content[0]._;
+    return post.content[0]._;
   } else {
-    description = post.summary[0]._;
+    return post.summary[0]._;
   }
-  return formatDescription(description);
 }
 
 function getDateUpdated(post: any) {
@@ -59,7 +62,7 @@ export function parseAtomPosts(xml2JS: any): IBlogPost[] {
     title: getTitle(item),
     link: getLink(item.link),
     imageUrl: getImageUrl(item),
-    description: getDescription(item),
+    description: formatDescription(getDescription(item)),
     dateUpdated: getDateUpdated(item),
     datePublished: getDatePublished(item),
   }));
