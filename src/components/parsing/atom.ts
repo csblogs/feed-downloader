@@ -47,11 +47,11 @@ function getDescription(post: any) {
 }
 
 function getDateUpdated(post: any) {
-  return post.updated ? new Date(post.updated[0]) : null;
+  return post.updated ? new Date(post.updated[0].trim()) : null;
 }
 
 function getDatePublished(post: any) {
-  return post.published ? new Date(post.published[0]) : null;
+  return post.published ? new Date(post.published[0].trim()) : null;
 }
 
 export function parseAtomPosts(xml2JS: any): IBlogPost[] {
