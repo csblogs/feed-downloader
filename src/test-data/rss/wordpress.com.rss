@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:media="http://search.yahoo.com/mrss/">
+	<channel>
+		<title>
+			Danny – Computer Scientist
+		</title>
+		<link href="https://dannycomputerscientist.wordpress.com/feed/" rel="self" type="application/rss+xml" />
+		<link>
+			https://dannycomputerscientist.wordpress.com
+		</link>
+		<description>
+			Software Engineer, Technology Enthusiast, Blogger
+		</description>
+		<lastBuildDate>
+			Fri, 05 Feb 2016 18:05:18 +0000
+		</lastBuildDate>
+		<language>
+			en
+		</language>
+		<updatePeriod>
+			hourly
+		</updatePeriod>
+		<updateFrequency>
+			1
+		</updateFrequency>
+		<generator>
+			http://wordpress.com/
+		</generator>
+		<cloud domain="dannycomputerscientist.wordpress.com" port="80" path="/?rsscloud=notify" registerProcedure="" protocol="http-post" />
+		<image>
+			<url>
+				https://s2.wp.com/i/buttonw-com.png
+			</url>
+			<title>
+				Danny – Computer Scientist
+			</title>
+			<link>
+				https://dannycomputerscientist.wordpress.com
+			</link>
+		</image>
+		<link rel="search" type="application/opensearchdescription+xml" href="https://dannycomputerscientist.wordpress.com/osd.xml" title="Danny - Computer Scientist" />
+		<link rel="hub" href="https://dannycomputerscientist.wordpress.com/?pushpress=hub" />
+		<item>
+			<title>
+				Graduating from York
+			</title>
+			<link>
+				https://dannycomputerscientist.wordpress.com/2016/02/05/graduating-from-york/
+			</link>
+			<comments>
+				https://dannycomputerscientist.wordpress.com/2016/02/05/graduating-from-york/#respond
+			</comments>
+			<pubDate>
+				Fri, 05 Feb 2016 18:05:12 +0000
+			</pubDate>
+			<creator>
+				<![CDATA[Danny Brown]]>
+			</creator>
+			<category>
+				<![CDATA[University - Masters]]>
+			</category>
+			<category>
+				<![CDATA[Graduation]]>
+			</category>
+			<category>
+				<![CDATA[MSc Advanced Computer Science]]>
+			</category>
+			<category>
+				<![CDATA[University of York]]>
+			</category>
+			<guid isPermaLink="false">
+				http://dannycomputerscientist.wordpress.com/?p=3840
+			</guid>
+			<description>
+				<![CDATA[On January 23rd I graduated with an MSc in Advanced Computer Science from The University of York. It was a nice occasion to get together and be merry with the family, and of course for some photos in my cap and gown &#8212; this time they were grey and blue. My parents took my degree [&#8230;]<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=dannycomputerscientist.wordpress.com&#038;blog=27683847&#038;post=3840&#038;subd=dannycomputerscientist&#038;ref=&#038;feed=1" width="1" height="1" />]]>
+			</description>
+			<encoded>
+				<![CDATA[
+				<p>On January 23rd I graduated with an MSc in Advanced Computer Science from The University of York. It was a nice occasion to get together and be merry with the family, and of course for some photos in my cap and gown &#8212; this time they were grey and blue.</p>
+				
+				<a href='https://dannycomputerscientist.wordpress.com/2016/02/05/graduating-from-york/img_0113/'><img width="113" height="150" src="https://dannycomputerscientist.files.wordpress.com/2016/02/img_0113.jpg?w=113&#038;h=150" class="attachment-thumbnail size-thumbnail" alt="IMG_0113" data-attachment-id="3856" data-orig-file="https://dannycomputerscientist.files.wordpress.com/2016/02/img_0113.jpg" data-orig-size="480,640" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.2&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 6s&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1453555217&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;4.15&quot;,&quot;iso&quot;:&quot;160&quot;,&quot;shutter_speed&quot;:&quot;0.03030303030303&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;,&quot;keywords&quot;:&quot;Array&quot;}" data-image-title="IMG_0113" data-image-description="" data-medium-file="https://dannycomputerscientist.files.wordpress.com/2016/02/img_0113.jpg?w=225" data-large-file="https://dannycomputerscientist.files.wordpress.com/2016/02/img_0113.jpg?w=480" /></a>
+				<a href='https://dannycomputerscientist.wordpress.com/2016/02/05/graduating-from-york/img_0066/'><img width="150" height="113" src="https://dannycomputerscientist.files.wordpress.com/2016/02/img_0066.jpg?w=150&#038;h=113" class="attachment-thumbnail size-thumbnail" alt="IMG_0066" data-attachment-id="3854" data-orig-file="https://dannycomputerscientist.files.wordpress.com/2016/02/img_0066.jpg" data-orig-size="640,480" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.2&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 6s&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1453546521&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;4.15&quot;,&quot;iso&quot;:&quot;160&quot;,&quot;shutter_speed&quot;:&quot;0.03030303030303&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;,&quot;keywords&quot;:&quot;Array&quot;}" data-image-title="IMG_0066" data-image-description="" data-medium-file="https://dannycomputerscientist.files.wordpress.com/2016/02/img_0066.jpg?w=300" data-large-file="https://dannycomputerscientist.files.wordpress.com/2016/02/img_0066.jpg?w=519" /></a>
+				<a href='https://dannycomputerscientist.wordpress.com/2016/02/05/graduating-from-york/img_0077/'><img width="150" height="113" src="https://dannycomputerscientist.files.wordpress.com/2016/02/img_0077.jpg?w=150&#038;h=113" class="attachment-thumbnail size-thumbnail" alt="IMG_0077" data-attachment-id="3855" data-orig-file="https://dannycomputerscientist.files.wordpress.com/2016/02/img_0077.jpg" data-orig-size="640,480" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.2&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 6s&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1453546563&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;4.15&quot;,&quot;iso&quot;:&quot;125&quot;,&quot;shutter_speed&quot;:&quot;0.03030303030303&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;,&quot;keywords&quot;:&quot;Array&quot;}" data-image-title="IMG_0077" data-image-description="" data-medium-file="https://dannycomputerscientist.files.wordpress.com/2016/02/img_0077.jpg?w=300" data-large-file="https://dannycomputerscientist.files.wordpress.com/2016/02/img_0077.jpg?w=519" /></a>
+				<a href='https://dannycomputerscientist.wordpress.com/2016/02/05/graduating-from-york/img_0121/'><img width="113" height="150" src="https://dannycomputerscientist.files.wordpress.com/2016/02/img_0121.jpg?w=113&#038;h=150" class="attachment-thumbnail size-thumbnail" alt="IMG_0121" data-attachment-id="3858" data-orig-file="https://dannycomputerscientist.files.wordpress.com/2016/02/img_0121.jpg" data-orig-size="480,640" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.2&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 6s&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1453555268&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;4.15&quot;,&quot;iso&quot;:&quot;200&quot;,&quot;shutter_speed&quot;:&quot;0.03030303030303&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;,&quot;keywords&quot;:&quot;Array&quot;}" data-image-title="IMG_0121" data-image-description="" data-medium-file="https://dannycomputerscientist.files.wordpress.com/2016/02/img_0121.jpg?w=225" data-large-file="https://dannycomputerscientist.files.wordpress.com/2016/02/img_0121.jpg?w=480" /></a>
+				<a href='https://dannycomputerscientist.wordpress.com/2016/02/05/graduating-from-york/img_0124/'><img width="113" height="150" src="https://dannycomputerscientist.files.wordpress.com/2016/02/img_0124.jpg?w=113&#038;h=150" class="attachment-thumbnail size-thumbnail" alt="IMG_0124" data-attachment-id="3859" data-orig-file="https://dannycomputerscientist.files.wordpress.com/2016/02/img_0124.jpg" data-orig-size="480,640" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.2&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 6s&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1453557102&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;4.15&quot;,&quot;iso&quot;:&quot;80&quot;,&quot;shutter_speed&quot;:&quot;0.03030303030303&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;,&quot;keywords&quot;:&quot;Array&quot;}" data-image-title="IMG_0124" data-image-description="" data-medium-file="https://dannycomputerscientist.files.wordpress.com/2016/02/img_0124.jpg?w=225" data-large-file="https://dannycomputerscientist.files.wordpress.com/2016/02/img_0124.jpg?w=480" /></a>
+				<a href='https://dannycomputerscientist.wordpress.com/2016/02/05/graduating-from-york/img_0082/'><img width="113" height="150" src="https://dannycomputerscientist.files.wordpress.com/2016/02/img_0082.jpg?w=113&#038;h=150" class="attachment-thumbnail size-thumbnail" alt="IMG_0082" data-attachment-id="3857" data-orig-file="https://dannycomputerscientist.files.wordpress.com/2016/02/img_0082.jpg" data-orig-size="480,640" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.2&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 6s&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1453546713&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;4.15&quot;,&quot;iso&quot;:&quot;100&quot;,&quot;shutter_speed&quot;:&quot;0.03030303030303&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;,&quot;keywords&quot;:&quot;Array&quot;}" data-image-title="IMG_0082" data-image-description="" data-medium-file="https://dannycomputerscientist.files.wordpress.com/2016/02/img_0082.jpg?w=225" data-large-file="https://dannycomputerscientist.files.wordpress.com/2016/02/img_0082.jpg?w=480" /></a>
+				<a href='https://dannycomputerscientist.wordpress.com/2016/02/05/graduating-from-york/img_0107/'><img width="113" height="150" src="https://dannycomputerscientist.files.wordpress.com/2016/02/img_0107.jpg?w=113&#038;h=150" class="attachment-thumbnail size-thumbnail" alt="IMG_0107" data-attachment-id="3860" data-orig-file="https://dannycomputerscientist.files.wordpress.com/2016/02/img_0107.jpg" data-orig-size="480,640" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.2&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 6s&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1453550081&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;4.15&quot;,&quot;iso&quot;:&quot;200&quot;,&quot;shutter_speed&quot;:&quot;0.03030303030303&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;,&quot;keywords&quot;:&quot;Array&quot;}" data-image-title="IMG_0107" data-image-description="" data-medium-file="https://dannycomputerscientist.files.wordpress.com/2016/02/img_0107.jpg?w=225" data-large-file="https://dannycomputerscientist.files.wordpress.com/2016/02/img_0107.jpg?w=480" /></a>
+				
+				<p>My parents took my degree home with them and hung it up next to my undergraduate degree and departmental award. I think they look nice together.</p>
+				<p><img class="alignnone size-full wp-image-3850" src="https://dannycomputerscientist.files.wordpress.com/2016/02/12656110_1522924184675043_1926747582_o.jpg?w=519" alt="12656110_1522924184675043_1926747582_o"   /></p>
+				<p>For some more nice pictures you can check out my <a href="https://pnbrown13blog.wordpress.com/2016/01/30/dannys-masters-graduation/">dads blog post about it.</a></p>
+				<p>Danny</p><br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/dannycomputerscientist.wordpress.com/3840/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/dannycomputerscientist.wordpress.com/3840/" /></a> <img alt="" border="0" src="https://pixel.wp.com/b.gif?host=dannycomputerscientist.wordpress.com&#038;blog=27683847&#038;post=3840&#038;subd=dannycomputerscientist&#038;ref=&#038;feed=1" width="1" height="1" />
+				]]>
+			</encoded>
+			<commentRss>
+				https://dannycomputerscientist.wordpress.com/2016/02/05/graduating-from-york/feed/
+			</commentRss>
+			<comments>
+				0
+			</comments>
+			<thumbnail url="https://dannycomputerscientist.files.wordpress.com/2016/02/img_0091.jpg?w=150" />
+			<content url="https://dannycomputerscientist.files.wordpress.com/2016/02/img_0091.jpg?w=150" medium="image">
+				<title type="html">
+					IMG_0091
+				</title>
+			</content>
+			<content url="https://0.gravatar.com/avatar/f4a65378f2b463cac0b246756019206c?s=96&amp;d=identicon&amp;r=G" medium="image">
+				<title type="html">
+					dannycomputerscientist
+				</title>
+			</content>
+			<content url="https://dannycomputerscientist.files.wordpress.com/2016/02/img_0121.jpg?w=113" medium="image">
+				<title type="html">
+					IMG_0121
+				</title>
+			</content>
+			<content url="https://dannycomputerscientist.files.wordpress.com/2016/02/img_0082.jpg?w=113" medium="image">
+				<title type="html">
+					IMG_0082
+				</title>
+			</content>
+			<content url="https://dannycomputerscientist.files.wordpress.com/2016/02/img_0077.jpg?w=150" medium="image">
+				<title type="html">
+					IMG_0077
+				</title>
+			</content>
+			<content url="https://dannycomputerscientist.files.wordpress.com/2016/02/img_0107.jpg?w=113" medium="image">
+				<title type="html">
+					IMG_0107
+				</title>
+			</content>
+			<content url="https://dannycomputerscientist.files.wordpress.com/2016/02/img_0124.jpg?w=113" medium="image">
+				<title type="html">
+					IMG_0124
+				</title>
+			</content>
+			<content url="https://dannycomputerscientist.files.wordpress.com/2016/02/img_0066.jpg?w=150" medium="image">
+				<title type="html">
+					IMG_0066
+				</title>
+			</content>
+			<content url="https://dannycomputerscientist.files.wordpress.com/2016/02/img_0113.jpg?w=113" medium="image">
+				<title type="html">
+					IMG_0113
+				</title>
+			</content>
+			<content url="https://dannycomputerscientist.files.wordpress.com/2016/02/12656110_1522924184675043_1926747582_o.jpg" medium="image">
+				<title type="html">
+					12656110_1522924184675043_1926747582_o
+				</title>
+			</content>
+		</item>
+		<item>
+			<title>
+				HackTrain 2.0
+			</title>
+			<link>
+				https://dannycomputerscientist.wordpress.com/2016/01/10/hacktrain-2-0/
+			</link>
+			<comments>
+				https://dannycomputerscientist.wordpress.com/2016/01/10/hacktrain-2-0/#respond
+			</comments>
+			<pubDate>
+				Sun, 10 Jan 2016 22:01:22 +0000
+			</pubDate>
+			<creator>
+				<![CDATA[Danny Brown]]>
+			</creator>
+			<category>
+				<![CDATA[Hackathons]]>
+			</category>
+			<category>
+				<![CDATA[Eventful]]>
+			</category>
+			<category>
+				<![CDATA[HackTrain]]>
+			</category>
+			<category>
+				<![CDATA[HackTrain 2.0]]>
+			</category>
+			<category>
+				<![CDATA[SilverRail]]>
+			</category>
+			<category>
+				<![CDATA[TheTrainLine]]>
+			</category>
+			<category>
+				<![CDATA[Trainline]]>
+			</category>
+			<guid isPermaLink="false">
+				http://dannycomputerscientist.wordpress.com/?p=3603
+			</guid>
+			<description>
+				<![CDATA[It seems like a lifetime ago, but the first HackTrain event was actually only 9 months ago &#8212; It probably feels so long ago to me as so much has change in the interim, including me getting a job as a result of the first event. When an opportunity came up to represent Trainline at [&#8230;]<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=dannycomputerscientist.wordpress.com&#038;blog=27683847&#038;post=3603&#038;subd=dannycomputerscientist&#038;ref=&#038;feed=1" width="1" height="1" />]]>
+			</description>
+			<encoded>
+				<![CDATA[
+				<p>It seems like a lifetime ago, but the first HackTrain event was actually only 9 months ago &#8212; It probably feels so long ago to me as so much has change in the interim, including me <a href="https://dannycomputerscientist.wordpress.com/2015/07/03/all-aboard-the-employment-train/">getting a job as a result of the first event</a>.</p>
+				<p>When an opportunity came up to represent Trainline at the second HackTrain I jumped at it as I thought it would be nice to go full circle in a  sense, going back with a job in the industry, and simply because I loved the friendly competitive atmosphere of the hackathon.</p>
+				<p>HackTrain 2.0 was a much larger event than the original, with 3 trains of Hackers rather than 1. I was assigned to the Big Data Train, in which participants would focus on using the APIs made available by the rail industry,</p>
+				<p>I originally thought I would be mentoring teams and helping them get set up with any RailTech APIs I knew about, however I actually ended up participating in a team consisting of myself, two Computer Science students and an engineer from french national rail operator SNCF. We worked together to build a web application called TrainGuard.</p>
+				<div data-shortcode="caption" id="attachment_3810" style="width: 529px" class="wp-caption aligncenter"><a href="https://dannycomputerscientist.files.wordpress.com/2015/12/screen-shot-2015-11-22-at-10-12-43.png" rel="attachment wp-att-3810"><img class="size-full wp-image-3810" src="https://dannycomputerscientist.files.wordpress.com/2015/12/screen-shot-2015-11-22-at-10-12-43.png?w=519&#038;h=313" alt="Desktop view of TrainGuard" width="519" height="313" /></a><p class="wp-caption-text">Desktop view of TrainGuard</p></div>
+				<p>TrainGuards tagline is Calmer, Drier journeys. This is because the aim of the application, which is written in Node.js, is to allow customers to make more informed choices about their journeys. When using travel booking services that are currently available you can see what time you&#8217;ll depart from your origin and what time you&#8217;re expected to get to your destination, but nothing is said about what will happen in between.</p>
+				<p>When we were conducting market research on our South West Trains service to Bournemouth a lot of people told us they disliked being on trains which were full of football fans, or loud people coming out from a gig. The small sample we took rated those experiences as being as bad or worse than being on a delayed train, and that to avoid such circumstances they would be willing to reschedule their booking. Weather factored into peoples travel decisions less, but was still important.</p>
+				<div data-shortcode="caption" id="attachment_3811" style="width: 529px" class="wp-caption aligncenter"><a href="https://dannycomputerscientist.files.wordpress.com/2015/12/screen-shot-2015-11-22-at-10-12-32.png" rel="attachment wp-att-3811"><img class="size-full wp-image-3811" src="https://dannycomputerscientist.files.wordpress.com/2015/12/screen-shot-2015-11-22-at-10-12-32.png?w=519&#038;h=788" alt="Mobile View of TrainGuard" width="519" height="788" /></a><p class="wp-caption-text">Mobile View of TrainGuard</p></div>
+				<p>On match days, or other particularly busy periods of rail travel the Train Operating Companies (TOCs) would much rather that their load of passengers was more evenly distributed throughout the days services. This is because each minute a train is delayed on the British Rail Network the train operating company gets fined, in some cases hundreds or thousands of pounds per minute &#8212; depending on where the tardiness occurs and how many other train services are affected by it.</p>
+				<p>The idea therefore occurred to me that we could aid both the traveller and the TOCs by allowing passengers who wish to avoid such events a chance to reschedule their journey and change their tickets. Initially we started out with the idea of making this an API that ticket distributors, such as Trainline, could tap into &#8212; however, we realised that at a hackathon client facing applications are more likely to do well.</p>
+				<p>As a team we implemented a subsystem that could connect to the <a href="http://silverrailtech.com">SilverRail</a> travel planning API, which had been specially opened up to the public for HackTrain 2.0. This subsystem would accept a journey plan in the form of an origin station code, a destination station code and a departure time and return a list of stations comprising the complete route. Using this information we then checked for events within a given distance of each station en route on <a href="http://eventful.com">Eventful</a>, which is itself an aggregation of many other event websites &#8212; using specific filters we could find only the events that we felt could cause disruption to the end user.</p>
+				<p>In a perfect world this information would be shown to the user at or before the time of booking, or if circumstances changed their could be alerted via a notification on their phone &#8212; however, for our prototype they would have to visit a webpage hosted by us. The webpage was written using semantic HTML5 and styled using CSS3, it was designed to be responsive and as you can see above it works well on both desktop and mobile, mobile being especially important of course as the act of travelling means you&#8217;re most likely to be on a mobile rather than a desktop when you check this page.</p>
+				<p>When designing the page I wanted to make it beautiful to look at, but also really easy to grok what the page was trying to tell you &#8212; therefore I went with a design that included Bootstrap Jumbotrons with parallax scrolling high quality image backgrounds.</p>
+				<p>As with all Hackathons the most nerve-racking, but equally exciting, part of the weekend was the pitching at the end. We felt we had a good product that was mutually beneficial for both the industry and its customers but we had to convince 2 panels of judges of that. As I mentioned before, the event this time round took place on 3 different trains, so in order to get to the final we had to have one of the top 3 pitches out of the 10 teams on our train.</p>
+				<p>Excitingly we did make it to the final, in which we pitched to judges from the rail industry. There were judges from SilverRail, Trainline, Great Western Trains and The Ministry of Transport. Unfortunately we didn&#8217;t come in the top 3 teams at then end, but we had a lot of fun over the weekend and were proud that we got to the final and were given an opportunity to tell the industry how we felt they could deliver Smarter Journeys &#8212; which is something Trainline is currently focused on.</p>
+				<p>Thanks to everyone at HackPartners who made the event possible, and all of the sponsors of the event for making it so fun and giving 120 of the best hackers a chance to develop much needed improvements for the Rail industry.</p>
+				<p>Danny</p><br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/dannycomputerscientist.wordpress.com/3603/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/dannycomputerscientist.wordpress.com/3603/" /></a> <img alt="" border="0" src="https://pixel.wp.com/b.gif?host=dannycomputerscientist.wordpress.com&#038;blog=27683847&#038;post=3603&#038;subd=dannycomputerscientist&#038;ref=&#038;feed=1" width="1" height="1" />
+				]]>
+			</encoded>
+			<commentRss>
+				https://dannycomputerscientist.wordpress.com/2016/01/10/hacktrain-2-0/feed/
+			</commentRss>
+			<comments>
+				0
+			</comments>
+			<thumbnail url="https://dannycomputerscientist.files.wordpress.com/2015/12/12304083_786742814805282_703787864428458423_o.jpg?w=150" />
+			<content url="https://dannycomputerscientist.files.wordpress.com/2015/12/12304083_786742814805282_703787864428458423_o.jpg?w=150" medium="image">
+				<title type="html">
+					12304083_786742814805282_703787864428458423_o
+				</title>
+			</content>
+			<content url="https://0.gravatar.com/avatar/f4a65378f2b463cac0b246756019206c?s=96&amp;d=identicon&amp;r=G" medium="image">
+				<title type="html">
+					dannycomputerscientist
+				</title>
+			</content>
+			<content url="https://dannycomputerscientist.files.wordpress.com/2015/12/screen-shot-2015-11-22-at-10-12-43.png" medium="image">
+				<title type="html">
+					Desktop view of TrainGuard
+				</title>
+			</content>
+			<content url="https://dannycomputerscientist.files.wordpress.com/2015/12/screen-shot-2015-11-22-at-10-12-32.png" medium="image">
+				<title type="html">
+					Mobile View of TrainGuard
+				</title>
+			</content>
+		</item>
+		<item>
+			<title>
+				Centre for Computing History
+			</title>
+			<link>
+				https://dannycomputerscientist.wordpress.com/2016/01/10/centre-for-computing-history/
+			</link>
+			<comments>
+				https://dannycomputerscientist.wordpress.com/2016/01/10/centre-for-computing-history/#respond
+			</comments>
+			<pubDate>
+				Sun, 10 Jan 2016 17:39:38 +0000
+			</pubDate>
+			<creator>
+				<![CDATA[Danny Brown]]>
+			</creator>
+			<category>
+				<![CDATA[Life]]>
+			</category>
+			<category>
+				<![CDATA[Centre for Computing History]]>
+			</category>
+			<category>
+				<![CDATA[Charlotte Godley]]>
+			</category>
+			<category>
+				<![CDATA[UK Computer Museum]]>
+			</category>
+			<guid isPermaLink="false">
+				http://dannycomputerscientist.wordpress.com/?p=3801
+			</guid>
+			<description>
+				<![CDATA[Since September, Charlotte and I have lived about a minutes walk from the UK Computer Museum (which also seems to go by the name Centre for Computing History), but we&#8217;d never actually gone inside. Today after my flying lesson we went to have a quick look. Whilst it made me feel old to see things I [&#8230;]<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=dannycomputerscientist.wordpress.com&#038;blog=27683847&#038;post=3801&#038;subd=dannycomputerscientist&#038;ref=&#038;feed=1" width="1" height="1" />]]>
+			</description>
+			<encoded>
+				<![CDATA[
+				<p>Since September, Charlotte and I have lived about a minutes walk from the UK Computer Museum (which also seems to go by the name Centre for Computing History), but we&#8217;d never actually gone inside.</p>
+				<p>Today after my flying lesson we went to have a quick look. Whilst it made me feel old to see things I remember from childhood in a museum, such as a PlayStation; a Dreamcast and an Acorn PC, I really enjoyed the hour or so we spent there.</p>
+				<p>There were a few exhibits, including: the history of ARM, military computers and the history of Sinclair. The best thing about the museum was that you were encouraged to touch, and play with, any machine that was turned on. I hadn&#8217;t played on a BBC Micro before, but had heard a lot about them from lecturers and other techies from the era they were made. It was fun to figure out the classic GOTO 10 infinite loop, which you can see in the image above I put to good use informing the public of Charlotte&#8217;s lameness.</p>
+				<p>One of the nice things the Museum has is a classroom to get children interested in Computing. Its the kind of thing I know I would have enjoyed as a kid.</p>
+				<div data-shortcode="caption" id="attachment_3803" style="width: 529px" class="wp-caption aligncenter"><a href="https://dannycomputerscientist.files.wordpress.com/2016/01/future-of-computing.jpg" rel="attachment wp-att-3803"><img class="size-full wp-image-3803" src="https://dannycomputerscientist.files.wordpress.com/2016/01/future-of-computing.jpg?w=519&#038;h=692" alt="A display at the Centre for Computing History" width="519" height="692" /></a><p class="wp-caption-text">A display at the Centre for Computing History</p></div>
+				<p>I recommend anyone who reads this blog to go to the museum if you&#8217;re in the Cambridge area, you&#8217;d probably enjoy it.</p>
+				<p>Danny</p><br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/dannycomputerscientist.wordpress.com/3801/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/dannycomputerscientist.wordpress.com/3801/" /></a> <img alt="" border="0" src="https://pixel.wp.com/b.gif?host=dannycomputerscientist.wordpress.com&#038;blog=27683847&#038;post=3801&#038;subd=dannycomputerscientist&#038;ref=&#038;feed=1" width="1" height="1" />
+				]]>
+			</encoded>
+			<commentRss>
+				https://dannycomputerscientist.wordpress.com/2016/01/10/centre-for-computing-history/feed/
+			</commentRss>
+			<comments>
+				0
+			</comments>
+			<thumbnail url="https://dannycomputerscientist.files.wordpress.com/2016/01/bbc-micro.jpg?w=113" />
+			<content url="https://dannycomputerscientist.files.wordpress.com/2016/01/bbc-micro.jpg?w=113" medium="image">
+				<title type="html">
+					A BBC Micro at the Centre for Computing History
+				</title>
+			</content>
+			<content url="https://0.gravatar.com/avatar/f4a65378f2b463cac0b246756019206c?s=96&amp;d=identicon&amp;r=G" medium="image">
+				<title type="html">
+					dannycomputerscientist
+				</title>
+			</content>
+			<content url="https://dannycomputerscientist.files.wordpress.com/2016/01/future-of-computing.jpg" medium="image">
+				<title type="html">
+					A display at the Centre for Computing History
+				</title>
+			</content>
+		</item>
+		<item>
+			<title>
+				Tracking Moving Trains (with the minimum possible effort)
+			</title>
+			<link>
+				https://dannycomputerscientist.wordpress.com/2015/12/22/tracking-moving-trains-with-minimum-possible-effort/
+			</link>
+			<comments>
+				https://dannycomputerscientist.wordpress.com/2015/12/22/tracking-moving-trains-with-minimum-possible-effort/#respond
+			</comments>
+			<pubDate>
+				Tue, 22 Dec 2015 01:52:55 +0000
+			</pubDate>
+			<creator>
+				<![CDATA[Danny Brown]]>
+			</creator>
+			<category>
+				<![CDATA[Mobile Application Development]]>
+			</category>
+			<category>
+				<![CDATA[Block Signalling]]>
+			</category>
+			<category>
+				<![CDATA[Cambridge]]>
+			</category>
+			<category>
+				<![CDATA[GPS]]>
+			</category>
+			<category>
+				<![CDATA[HackTrain]]>
+			</category>
+			<category>
+				<![CDATA[HTML5]]>
+			</category>
+			<category>
+				<![CDATA[iPhone]]>
+			</category>
+			<category>
+				<![CDATA[Location]]>
+			</category>
+			<category>
+				<![CDATA[Nomad Digital]]>
+			</category>
+			<category>
+				<![CDATA[Trains]]>
+			</category>
+			<guid isPermaLink="false">
+				http://dannycomputerscientist.wordpress.com/?p=3659
+			</guid>
+			<description>
+				<![CDATA[Trains are, in many respects, wonderful machines. They&#8217;re simultaneously both the most romantic form of travel and the most grueling way to get to work every morning. One thing trains are not however, is up-to-date with modern technology. Whilst you can follow the course, in real time, of a plane soaring at 36,000 feet above [&#8230;]<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=dannycomputerscientist.wordpress.com&#038;blog=27683847&#038;post=3659&#038;subd=dannycomputerscientist&#038;ref=&#038;feed=1" width="1" height="1" />]]>
+			</description>
+			<encoded>
+				<![CDATA[
+				<p>Trains are, in many respects, wonderful machines. They&#8217;re simultaneously both the most romantic form of travel and the most grueling way to get to work every morning. One thing trains are not however, is up-to-date with modern technology.</p>
+				<p>Whilst you can follow the course, in real time, of a plane soaring at 36,000 feet above the ground all the way from San Francisco to London you may be surprised that Train Operating Companies (TOCs) lack the ability to pinpoint the locations of their trains between stations. In other words, they may know that your train is between Cambridge and Foxton but they wont know exactly where.</p>
+				<p>Not knowing exactly where Trains are doesn&#8217;t cause any satefy issues &#8212;&nbsp;<a href="https://en.wikipedia.org/wiki/Signalling_block_system">Block Signalling</a> has been used to safely manage the passage of trains by identifying which &#8220;block&#8221; of track they were in, without an exact location, since the 1850s &nbsp;&#8212; however, it does mean that the decisions that control rooms make are being made on educated guesses of a trains exact position at any given time.</p>
+				<p>Control rooms are the brain room of the modern railway and make decisions when things&nbsp;go wrong. If you&#8217;ve ever been told a train cannot run due to a &#8220;lack of train crew&#8221; its unlikely the driver was off sick and instead much more likely that a delay on a train they were driving earlier&nbsp;has cascaded down to your service and they simply never arrived at your station to drive the train. Control rooms try to avoid this &#8212; and many other issues.</p>
+				<p>Our earlier examples of Cambridge and Foxton aren&#8217;t exactly a million miles apart, and on a normal service you would expect a train to travel&nbsp;between them in around 5 minutes &#8212; but as the railway gets more and more congested making real-time decisions based on a time resolution of minutes will&nbsp;result in more and more decisions resulting in delays and cancelations.</p>
+				<p>After having learnt about this situation, whilst onboard <a href="http://hacktrain.com">HackTrain 2.0</a>, I decided to have a go at resolving it in my own time.</p>
+				<p>One constraint of working with technology for use on trains is that, for all intents and purposes, you cannot add hardware to trains. The Rail Industry in the UK is, thankfully, obsessed with safety and that means that anything added to a train has to go through rigorous Health &amp; Safety checks. This means it can take months, or years, for anything to be installed trackside or in a vehicle.</p>
+				<p>Whilst staff who work for South West Trains (who explained the situation to HackTrain competitors) are all issued with BlackBerry devices, some companies have started issueing their Guards and Conductors with relatively modern Android devices, some of which even act as ticket printing machine for on-the-train ticket purchases.</p>
+				<p>Armed with this knowledge I decided to try and validate my idea that a train could be tracked using just the smartphone device a member of train crew is already carrying. As I didn&#8217;t know if the idea would work in reality I set about making a working prototype with the minimum possible effort.</p>
+				<p>My acceptance criteria&nbsp;was pretty simple: Be able to view in real time the position of a train from Cambridge to Kings Cross. This wasn&#8217;t exactly the most measurable criteria (what does &#8220;real time&#8221; mean, for example?) but it gave me something to work towards.</p>
+				<p>In just a few hours over two evenings I developed&nbsp;a solution with a server written in Node.js that hosted two pages: `map.html` which, using the Google Maps JavaScript API, showed the current position and historic route of all trains being tracked and `report.html` which delivered a tiny JavaScript application to a browser which allowed it to report its location &#8212; attained through a HTML5 geolocation watch &#8212; via WebSockets, to the server.</p>
+				<p><div data-shortcode="caption" id="attachment_3781" style="width: 179px" class="wp-caption aligncenter"><img class="wp-image-3781 size-medium" src="https://dannycomputerscientist.files.wordpress.com/2015/12/img_0620.png?w=169&#038;h=300" alt="The Prototype JavaScript client on an iPhone" width="169" height="300"><p class="wp-caption-text">The Prototype JavaScript client on an iPhone</p></div>The client and the server were, in the nicest way possible, scrappy. In order to identify a Train the guard (in these feasability tests that was me) would have to manually enter a <a href="https://en.wikipedia.org/wiki/Train_reporting_number">Headcode</a>&nbsp;into a JavaScript prompt and then leave the browser window open for the entire trip &#8212; I didn&#8217;t bother developing a background task.&nbsp;Each trains location data was stored in one big multidimensional array on the serverside that had no persistence code. But that was all fine, these applications were never intended to be production ready, just prove an idea was workable.</p>
+				<p>I walked down a few streets with my prototype client open in the Safari Browser on my iPhone and it appeared to report its location to the server as intended. So,&nbsp;on one of my final commutes into work before the holiday season I tested the system on a moving train on a route that includes tunnels, large areas of poor phone signal and central London; and all the different challenges&nbsp;these environments bring.</p>
+				<p><div data-shortcode="caption" id="attachment_3763" style="width: 2058px" class="wp-caption alignnone"><img class="wp-image-3763 size-full" src="https://dannycomputerscientist.files.wordpress.com/2015/12/12377958_1507144549586340_4299821453224118620_o.jpg?w=519" alt="The route of my commute from Cambridge to London Kings Cross as tracked by my system"  ><p class="wp-caption-text">The route of my commute from Cambridge to London Kings Cross as tracked by my system</p></div>I was pleasently suprised with the results, shown above , despite a few anomalies.</p>
+				<p>Due to the fact I was using the `watchLocation()` function the train didn&#8217;t report its location in even time periods, as it would if you were polling the location, but rather only when the trains position changed significantly. Despite this fact, the period between the train attemting to send its location whilst on the move was never more than around 10 seconds.</p>
+				<p>I say attempted because, as expected, there were some issues with mobile coverage. I had expected to have issues in tunnels, but actually only the final tunnel before Kings Cross (which goes under the Grand Union Canal) caused issues. Lack of signal otherwised occured&nbsp;in a few blackspots in rural Cambridgeshire. This issue could be mitigated by employing a system such as that provided by <a href="http://nomad-digital.com">Nomad Digital</a>&nbsp;which provides an internet connection to a train using multiple sim cards connected to multiple network providers.</p>
+				<p>Another issue you can see in the above screenshot&nbsp;is that my train appears to have left the tracks a few times. I can assure you that this didn&#8217;t actually happen, but appears to have done so due to a combination of some inaccurate GPS readings and some failed data transfer caused by the aforementioned network connectivity problems. These errors could be mitigated using a host of techniques: comparing GPS position to known track locations, buffering changes in location that seem too great and only accepting them as true if subsequent location changes appear to be in the same area.</p>
+				<p>This was a pretty interesting project to work on. It gave me an oppertunity to develop a simple solution to a real life problem in a short period of time and learn about the awesome Socket.io library. I was happy to see it work so well, and to be wrong about tunnels. I look forward to making some of the improvements I&#8217;ve mentioned in this post and making the UI prettier and data storage a little bit more resilient.</p>
+				<p>Danny</p><br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/dannycomputerscientist.wordpress.com/3659/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/dannycomputerscientist.wordpress.com/3659/" /></a> <img alt="" border="0" src="https://pixel.wp.com/b.gif?host=dannycomputerscientist.wordpress.com&#038;blog=27683847&#038;post=3659&#038;subd=dannycomputerscientist&#038;ref=&#038;feed=1" width="1" height="1" />
+				]]>
+			</encoded>
+			<commentRss>
+				https://dannycomputerscientist.wordpress.com/2015/12/22/tracking-moving-trains-with-minimum-possible-effort/feed/
+			</commentRss>
+			<comments>
+				0
+			</comments>
+			<thumbnail url="https://dannycomputerscientist.files.wordpress.com/2015/12/12106848_1494412047526257_4658382875925199724_n.jpg?w=150" />
+			<content url="https://dannycomputerscientist.files.wordpress.com/2015/12/12106848_1494412047526257_4658382875925199724_n.jpg?w=150" medium="image">
+				<title type="html">
+					12106848_1494412047526257_4658382875925199724_n
+				</title>
+			</content>
+			<content url="https://0.gravatar.com/avatar/f4a65378f2b463cac0b246756019206c?s=96&amp;d=identicon&amp;r=G" medium="image">
+				<title type="html">
+					dannycomputerscientist
+				</title>
+			</content>
+			<content url="https://dannycomputerscientist.files.wordpress.com/2015/12/img_0620.png?w=169" medium="image">
+				<title type="html">
+					The Prototype JavaScript client on an iPhone
+				</title>
+			</content>
+			<content url="https://dannycomputerscientist.files.wordpress.com/2015/12/12377958_1507144549586340_4299821453224118620_o.jpg" medium="image">
+				<title type="html">
+					The route of my commute from Cambridge to London Kings Cross as tracked by my system
+				</title>
+			</content>
+		</item>
+		<item>
+			<title>
+				Captain Danny
+			</title>
+			<link>
+				https://dannycomputerscientist.wordpress.com/2015/12/09/captain-danny/
+			</link>
+			<comments>
+				https://dannycomputerscientist.wordpress.com/2015/12/09/captain-danny/#respond
+			</comments>
+			<pubDate>
+				Wed, 09 Dec 2015 21:12:16 +0000
+			</pubDate>
+			<creator>
+				<![CDATA[Danny Brown]]>
+			</creator>
+			<category>
+				<![CDATA[Flying]]>
+			</category>
+			<category>
+				<![CDATA[Cambridge Airport]]>
+			</category>
+			<category>
+				<![CDATA[Private Pilots License]]>
+			</category>
+			<guid isPermaLink="false">
+				http://dannycomputerscientist.wordpress.com/?p=3606
+			</guid>
+			<description>
+				<![CDATA[One of the nice things about working, opposed to studying, is that I now don&#8217;t feel guilty about not spending all my time working on coursework. Time for a hobby! Living 15 minutes walk from Cambridge Airport I quite often see people learning to fly, and thought it looked like fun &#8212; so decided to start [&#8230;]<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=dannycomputerscientist.wordpress.com&#038;blog=27683847&#038;post=3606&#038;subd=dannycomputerscientist&#038;ref=&#038;feed=1" width="1" height="1" />]]>
+			</description>
+			<encoded>
+				<![CDATA[
+				<p>One of the nice things about working, opposed to studying, is that I now don&#8217;t feel guilty about not spending <em>all</em> my time working on coursework. Time for a hobby!</p>
+				<p>Living 15 minutes walk from Cambridge Airport I quite often see people learning to fly, and thought it looked like fun &#8212; so decided to start myself on a course to gain a PPL (Private Pilots License). It should take around 50 hours of flying time, and 8 exams on topics ranging from Radio Communication to Meteorology, to gain my license.</p>
+				<p>Here are some photos from my first flight out:</p>
+				
+				<a href='https://dannycomputerscientist.wordpress.com/2015/12/09/captain-danny/imag0678/'><img width="150" height="85" src="https://dannycomputerscientist.files.wordpress.com/2015/12/imag0678.jpg?w=150&#038;h=85" class="attachment-thumbnail size-thumbnail" alt="IMAG0678" data-attachment-id="3631" data-orig-file="https://dannycomputerscientist.files.wordpress.com/2015/12/imag0678.jpg" data-orig-size="3264,1840" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;HTC One X&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1448467247&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;3.63&quot;,&quot;iso&quot;:&quot;500&quot;,&quot;shutter_speed&quot;:&quot;0.05&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;keywords&quot;:&quot;Array&quot;}" data-image-title="IMAG0678" data-image-description="" data-medium-file="https://dannycomputerscientist.files.wordpress.com/2015/12/imag0678.jpg?w=300" data-large-file="https://dannycomputerscientist.files.wordpress.com/2015/12/imag0678.jpg?w=519" /></a>
+				<a href='https://dannycomputerscientist.wordpress.com/2015/12/09/captain-danny/imag0675/'><img width="150" height="85" src="https://dannycomputerscientist.files.wordpress.com/2015/12/imag0675.jpg?w=150&#038;h=85" class="attachment-thumbnail size-thumbnail" alt="IMAG0675" data-attachment-id="3630" data-orig-file="https://dannycomputerscientist.files.wordpress.com/2015/12/imag0675.jpg" data-orig-size="3264,1840" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;HTC One X&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1448467201&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;3.63&quot;,&quot;iso&quot;:&quot;200&quot;,&quot;shutter_speed&quot;:&quot;0.0499&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;keywords&quot;:&quot;Array&quot;}" data-image-title="IMAG0675" data-image-description="" data-medium-file="https://dannycomputerscientist.files.wordpress.com/2015/12/imag0675.jpg?w=300" data-large-file="https://dannycomputerscientist.files.wordpress.com/2015/12/imag0675.jpg?w=519" /></a>
+				<a href='https://dannycomputerscientist.wordpress.com/2015/12/09/captain-danny/imag0677/'><img width="150" height="84" src="https://dannycomputerscientist.files.wordpress.com/2015/12/imag0677.jpg?w=150&#038;h=84" class="attachment-thumbnail size-thumbnail" alt="IMAG0677" data-attachment-id="3629" data-orig-file="https://dannycomputerscientist.files.wordpress.com/2015/12/imag0677.jpg" data-orig-size="1280,720" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;HTC One X&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1448467227&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;2.18&quot;,&quot;iso&quot;:&quot;250&quot;,&quot;shutter_speed&quot;:&quot;0.07&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;keywords&quot;:&quot;Array&quot;}" data-image-title="IMAG0677" data-image-description="" data-medium-file="https://dannycomputerscientist.files.wordpress.com/2015/12/imag0677.jpg?w=300" data-large-file="https://dannycomputerscientist.files.wordpress.com/2015/12/imag0677.jpg?w=519" /></a>
+				<a href='https://dannycomputerscientist.wordpress.com/2015/12/09/captain-danny/imag0676/'><img width="150" height="84" src="https://dannycomputerscientist.files.wordpress.com/2015/12/imag06761.jpg?w=150&#038;h=84" class="attachment-thumbnail size-thumbnail" alt="IMAG0676" data-attachment-id="3628" data-orig-file="https://dannycomputerscientist.files.wordpress.com/2015/12/imag06761.jpg" data-orig-size="1280,720" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;HTC One X&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1448467217&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;2.18&quot;,&quot;iso&quot;:&quot;200&quot;,&quot;shutter_speed&quot;:&quot;0.07&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;keywords&quot;:&quot;Array&quot;}" data-image-title="IMAG0676" data-image-description="" data-medium-file="https://dannycomputerscientist.files.wordpress.com/2015/12/imag06761.jpg?w=300" data-large-file="https://dannycomputerscientist.files.wordpress.com/2015/12/imag06761.jpg?w=519" /></a>
+				<a href='https://dannycomputerscientist.wordpress.com/2015/12/09/captain-danny/imag0674/'><img width="150" height="85" src="https://dannycomputerscientist.files.wordpress.com/2015/12/imag06741.jpg?w=150&#038;h=85" class="attachment-thumbnail size-thumbnail" alt="IMAG0674" data-attachment-id="3627" data-orig-file="https://dannycomputerscientist.files.wordpress.com/2015/12/imag06741.jpg" data-orig-size="3264,1840" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;HTC One X&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1448467195&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;3.63&quot;,&quot;iso&quot;:&quot;100&quot;,&quot;shutter_speed&quot;:&quot;0.0048&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;keywords&quot;:&quot;Array&quot;}" data-image-title="IMAG0674" data-image-description="" data-medium-file="https://dannycomputerscientist.files.wordpress.com/2015/12/imag06741.jpg?w=300" data-large-file="https://dannycomputerscientist.files.wordpress.com/2015/12/imag06741.jpg?w=519" /></a>
+				<a href='https://dannycomputerscientist.wordpress.com/2015/12/09/captain-danny/imag0673/'><img width="150" height="85" src="https://dannycomputerscientist.files.wordpress.com/2015/12/imag06731.jpg?w=150&#038;h=85" class="attachment-thumbnail size-thumbnail" alt="IMAG0673" data-attachment-id="3626" data-orig-file="https://dannycomputerscientist.files.wordpress.com/2015/12/imag06731.jpg" data-orig-size="3264,1840" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;HTC One X&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1448467191&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;3.63&quot;,&quot;iso&quot;:&quot;100&quot;,&quot;shutter_speed&quot;:&quot;0.0038&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;keywords&quot;:&quot;Array&quot;}" data-image-title="IMAG0673" data-image-description="" data-medium-file="https://dannycomputerscientist.files.wordpress.com/2015/12/imag06731.jpg?w=300" data-large-file="https://dannycomputerscientist.files.wordpress.com/2015/12/imag06731.jpg?w=519" /></a>
+				<a href='https://dannycomputerscientist.wordpress.com/2015/12/09/captain-danny/imag0672/'><img width="150" height="85" src="https://dannycomputerscientist.files.wordpress.com/2015/12/imag06721.jpg?w=150&#038;h=85" class="attachment-thumbnail size-thumbnail" alt="IMAG0672" data-attachment-id="3625" data-orig-file="https://dannycomputerscientist.files.wordpress.com/2015/12/imag06721.jpg" data-orig-size="3264,1840" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;HTC One X&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1448467186&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;3.63&quot;,&quot;iso&quot;:&quot;100&quot;,&quot;shutter_speed&quot;:&quot;0.04&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;keywords&quot;:&quot;Array&quot;}" data-image-title="IMAG0672" data-image-description="" data-medium-file="https://dannycomputerscientist.files.wordpress.com/2015/12/imag06721.jpg?w=300" data-large-file="https://dannycomputerscientist.files.wordpress.com/2015/12/imag06721.jpg?w=519" /></a>
+				<a href='https://dannycomputerscientist.wordpress.com/2015/12/09/captain-danny/imag0671/'><img width="150" height="85" src="https://dannycomputerscientist.files.wordpress.com/2015/12/imag0671.jpg?w=150&#038;h=85" class="attachment-thumbnail size-thumbnail" alt="IMAG0671" data-attachment-id="3624" data-orig-file="https://dannycomputerscientist.files.wordpress.com/2015/12/imag0671.jpg" data-orig-size="3264,1840" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;HTC One X&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1448467182&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;3.63&quot;,&quot;iso&quot;:&quot;100&quot;,&quot;shutter_speed&quot;:&quot;0.03&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;keywords&quot;:&quot;Array&quot;}" data-image-title="IMAG0671" data-image-description="" data-medium-file="https://dannycomputerscientist.files.wordpress.com/2015/12/imag0671.jpg?w=300" data-large-file="https://dannycomputerscientist.files.wordpress.com/2015/12/imag0671.jpg?w=519" /></a>
+				<a href='https://dannycomputerscientist.wordpress.com/2015/12/09/captain-danny/img_0560/'><img width="150" height="113" src="https://dannycomputerscientist.files.wordpress.com/2015/12/img_05601.jpg?w=150&#038;h=113" class="attachment-thumbnail size-thumbnail" alt="IMG_0560" data-attachment-id="3622" data-orig-file="https://dannycomputerscientist.files.wordpress.com/2015/12/img_05601.jpg" data-orig-size="4032,3024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.2&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 6s Plus&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1448469290&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;4.15&quot;,&quot;iso&quot;:&quot;400&quot;,&quot;shutter_speed&quot;:&quot;0.25&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;,&quot;keywords&quot;:&quot;Array&quot;}" data-image-title="IMG_0560" data-image-description="" data-medium-file="https://dannycomputerscientist.files.wordpress.com/2015/12/img_05601.jpg?w=300" data-large-file="https://dannycomputerscientist.files.wordpress.com/2015/12/img_05601.jpg?w=519" /></a>
+				<a href='https://dannycomputerscientist.wordpress.com/2015/12/09/captain-danny/img_0558/'><img width="150" height="113" src="https://dannycomputerscientist.files.wordpress.com/2015/12/img_0558.jpg?w=150&#038;h=113" class="attachment-thumbnail size-thumbnail" alt="IMG_0558" data-attachment-id="3620" data-orig-file="https://dannycomputerscientist.files.wordpress.com/2015/12/img_0558.jpg" data-orig-size="4032,3024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.2&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 6s Plus&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1448469276&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;4.15&quot;,&quot;iso&quot;:&quot;320&quot;,&quot;shutter_speed&quot;:&quot;0.25&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;,&quot;keywords&quot;:&quot;Array&quot;}" data-image-title="IMG_0558" data-image-description="" data-medium-file="https://dannycomputerscientist.files.wordpress.com/2015/12/img_0558.jpg?w=300" data-large-file="https://dannycomputerscientist.files.wordpress.com/2015/12/img_0558.jpg?w=519" /></a>
+				<a href='https://dannycomputerscientist.wordpress.com/2015/12/09/captain-danny/img_0559/'><img width="150" height="113" src="https://dannycomputerscientist.files.wordpress.com/2015/12/img_05591.jpg?w=150&#038;h=113" class="attachment-thumbnail size-thumbnail" alt="IMG_0559" data-attachment-id="3619" data-orig-file="https://dannycomputerscientist.files.wordpress.com/2015/12/img_05591.jpg" data-orig-size="4032,3024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.2&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 6s Plus&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1448469281&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;4.15&quot;,&quot;iso&quot;:&quot;320&quot;,&quot;shutter_speed&quot;:&quot;0.25&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;,&quot;keywords&quot;:&quot;Array&quot;}" data-image-title="IMG_0559" data-image-description="" data-medium-file="https://dannycomputerscientist.files.wordpress.com/2015/12/img_05591.jpg?w=300" data-large-file="https://dannycomputerscientist.files.wordpress.com/2015/12/img_05591.jpg?w=519" /></a>
+				<a href='https://dannycomputerscientist.wordpress.com/2015/12/09/captain-danny/img_0555-2/'><img width="113" height="150" src="https://dannycomputerscientist.files.wordpress.com/2015/12/img_05551.jpg?w=113&#038;h=150" class="attachment-thumbnail size-thumbnail" alt="IMG_0555" data-attachment-id="3617" data-orig-file="https://dannycomputerscientist.files.wordpress.com/2015/12/img_05551.jpg" data-orig-size="3024,4032" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.2&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 6s Plus&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1448464502&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;4.15&quot;,&quot;iso&quot;:&quot;25&quot;,&quot;shutter_speed&quot;:&quot;0.0023696682464455&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;,&quot;keywords&quot;:&quot;Array&quot;}" data-image-title="IMG_0555" data-image-description="" data-medium-file="https://dannycomputerscientist.files.wordpress.com/2015/12/img_05551.jpg?w=225" data-large-file="https://dannycomputerscientist.files.wordpress.com/2015/12/img_05551.jpg?w=519" /></a>
+				
+				<p>My tutor, Vanessa, said I seemed to have a natural talent for it, and even allowed me to make the final approach to landing &#8212; only taking control from me when 10ft from the ground &#8212; perhaps all those video game hours have finally paid off.</p>
+				<p>I have another lesson on Sunday and cannot wait!</p>
+				<p>Danny</p><br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/dannycomputerscientist.wordpress.com/3606/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/dannycomputerscientist.wordpress.com/3606/" /></a> <img alt="" border="0" src="https://pixel.wp.com/b.gif?host=dannycomputerscientist.wordpress.com&#038;blog=27683847&#038;post=3606&#038;subd=dannycomputerscientist&#038;ref=&#038;feed=1" width="1" height="1" />
+				]]>
+			</encoded>
+			<commentRss>
+				https://dannycomputerscientist.wordpress.com/2015/12/09/captain-danny/feed/
+			</commentRss>
+			<comments>
+				0
+			</comments>
+			<thumbnail url="https://dannycomputerscientist.files.wordpress.com/2015/12/img_05611.jpg?w=150" />
+			<content url="https://dannycomputerscientist.files.wordpress.com/2015/12/img_05611.jpg?w=150" medium="image">
+				<title type="html">
+					IMG_0561
+				</title>
+			</content>
+			<content url="https://0.gravatar.com/avatar/f4a65378f2b463cac0b246756019206c?s=96&amp;d=identicon&amp;r=G" medium="image">
+				<title type="html">
+					dannycomputerscientist
+				</title>
+			</content>
+			<content url="https://dannycomputerscientist.files.wordpress.com/2015/12/imag0678.jpg?w=150" medium="image">
+				<title type="html">
+					IMAG0678
+				</title>
+			</content>
+			<content url="https://dannycomputerscientist.files.wordpress.com/2015/12/imag0675.jpg?w=150" medium="image">
+				<title type="html">
+					IMAG0675
+				</title>
+			</content>
+			<content url="https://dannycomputerscientist.files.wordpress.com/2015/12/imag0677.jpg?w=150" medium="image">
+				<title type="html">
+					IMAG0677
+				</title>
+			</content>
+			<content url="https://dannycomputerscientist.files.wordpress.com/2015/12/imag06761.jpg?w=150" medium="image">
+				<title type="html">
+					IMAG0676
+				</title>
+			</content>
+			<content url="https://dannycomputerscientist.files.wordpress.com/2015/12/imag06741.jpg?w=150" medium="image">
+				<title type="html">
+					IMAG0674
+				</title>
+			</content>
+			<content url="https://dannycomputerscientist.files.wordpress.com/2015/12/imag06731.jpg?w=150" medium="image">
+				<title type="html">
+					IMAG0673
+				</title>
+			</content>
+			<content url="https://dannycomputerscientist.files.wordpress.com/2015/12/imag06721.jpg?w=150" medium="image">
+				<title type="html">
+					IMAG0672
+				</title>
+			</content>
+			<content url="https://dannycomputerscientist.files.wordpress.com/2015/12/imag0671.jpg?w=150" medium="image">
+				<title type="html">
+					IMAG0671
+				</title>
+			</content>
+			<content url="https://dannycomputerscientist.files.wordpress.com/2015/12/img_05601.jpg?w=150" medium="image">
+				<title type="html">
+					IMG_0560
+				</title>
+			</content>
+			<content url="https://dannycomputerscientist.files.wordpress.com/2015/12/img_0558.jpg?w=150" medium="image">
+				<title type="html">
+					IMG_0558
+				</title>
+			</content>
+			<content url="https://dannycomputerscientist.files.wordpress.com/2015/12/img_05591.jpg?w=150" medium="image">
+				<title type="html">
+					IMG_0559
+				</title>
+			</content>
+			<content url="https://dannycomputerscientist.files.wordpress.com/2015/12/img_05551.jpg?w=113" medium="image">
+				<title type="html">
+					IMG_0555
+				</title>
+			</content>
+		</item>
+		<item>
+			<title>
+				Trainline at Silicon Milkroundabout
+			</title>
+			<link>
+				https://dannycomputerscientist.wordpress.com/2015/12/04/trainline-at-silicon-milkroundabout/
+			</link>
+			<comments>
+				https://dannycomputerscientist.wordpress.com/2015/12/04/trainline-at-silicon-milkroundabout/#respond
+			</comments>
+			<pubDate>
+				Fri, 04 Dec 2015 23:12:03 +0000
+			</pubDate>
+			<creator>
+				<![CDATA[Danny Brown]]>
+			</creator>
+			<category>
+				<![CDATA[thetrainline]]>
+			</category>
+			<category>
+				<![CDATA[Merch]]>
+			</category>
+			<category>
+				<![CDATA[Recruitment]]>
+			</category>
+			<category>
+				<![CDATA[Silicon Milkroundabout]]>
+			</category>
+			<guid isPermaLink="false">
+				http://dannycomputerscientist.wordpress.com/?p=3597
+			</guid>
+			<description>
+				<![CDATA[A few weeks ago I was lucky enought to be part of the team that tried, and hopefully succeeded, to entice more developers to come and work with us at Trainline at the Silicon Milkroundabout tech recruitment event. I really enjoy talking to people about technology and it was especially nice to talk to people who [&#8230;]<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=dannycomputerscientist.wordpress.com&#038;blog=27683847&#038;post=3597&#038;subd=dannycomputerscientist&#038;ref=&#038;feed=1" width="1" height="1" />]]>
+			</description>
+			<encoded>
+				<![CDATA[
+				<p>A few weeks ago I was lucky enought to be part of the team that tried, and hopefully succeeded, to entice more developers to come and work with us at Trainline at the <em>Silicon Milkroundabout</em> tech recruitment event.</p>
+				<p>I really enjoy talking to people about technology and it was especially nice to talk to people who were genuinly interested in what we do at Trainline. Some, who were also recent graduates were especially interested in how I got my job and what I do in my day-to-day work &#8212; I reccomended that a lot of these people try events like HackTrain.</p>
+				<p>Like all cool tech companies we had merch to give out to people. My particular favourite was a Trainline ticket holder, which replaces my standard National Rail one and looks like it will be much easier to find due to its nice bright colours!</p>
+				<div data-shortcode="caption" id="attachment_3600" style="width: 529px" class="wp-caption aligncenter"><a href="https://dannycomputerscientist.files.wordpress.com/2015/12/img_0523.jpg" rel="attachment wp-att-3600"><img class="size-full wp-image-3600" src="https://dannycomputerscientist.files.wordpress.com/2015/12/img_0523.jpg?w=519&#038;h=692" alt="Trainline Ticket Holder" width="519" height="692" /></a><p class="wp-caption-text">Trainline Ticket Holder</p></div>
+				<p>As well as nabbing some of the march, I also managed to get my hands on a Trainline Staff Polo, as beautifully modelled below:</p>
+				<div data-shortcode="caption" id="attachment_3601" style="width: 529px" class="wp-caption aligncenter"><a href="https://dannycomputerscientist.files.wordpress.com/2015/12/12241490_1500142350286560_5215665042379666587_n.jpg" rel="attachment wp-att-3601"><img class="size-full wp-image-3601" src="https://dannycomputerscientist.files.wordpress.com/2015/12/12241490_1500142350286560_5215665042379666587_n.jpg?w=519&#038;h=519" alt="Trainline Polo Shirt" width="519" height="519" /></a><p class="wp-caption-text">Trainline Polo Shirt</p></div>
+				<p>Danny</p><br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/dannycomputerscientist.wordpress.com/3597/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/dannycomputerscientist.wordpress.com/3597/" /></a> <img alt="" border="0" src="https://pixel.wp.com/b.gif?host=dannycomputerscientist.wordpress.com&#038;blog=27683847&#038;post=3597&#038;subd=dannycomputerscientist&#038;ref=&#038;feed=1" width="1" height="1" />
+				]]>
+			</encoded>
+			<commentRss>
+				https://dannycomputerscientist.wordpress.com/2015/12/04/trainline-at-silicon-milkroundabout/feed/
+			</commentRss>
+			<comments>
+				0
+			</comments>
+			<thumbnail url="https://dannycomputerscientist.files.wordpress.com/2015/12/img_0521.jpg?w=150" />
+			<content url="https://dannycomputerscientist.files.wordpress.com/2015/12/img_0521.jpg?w=150" medium="image">
+				<title type="html">
+					Some of the Trainline team at Silicon Milkroundabout
+				</title>
+			</content>
+			<content url="https://0.gravatar.com/avatar/f4a65378f2b463cac0b246756019206c?s=96&amp;d=identicon&amp;r=G" medium="image">
+				<title type="html">
+					dannycomputerscientist
+				</title>
+			</content>
+			<content url="https://dannycomputerscientist.files.wordpress.com/2015/12/img_0523.jpg" medium="image">
+				<title type="html">
+					Trainline Ticket Holder
+				</title>
+			</content>
+			<content url="https://dannycomputerscientist.files.wordpress.com/2015/12/12241490_1500142350286560_5215665042379666587_n.jpg" medium="image">
+				<title type="html">
+					Trainline Polo Shirt
+				</title>
+			</content>
+		</item>
+		<item>
+			<title>
+				On-boarding at Trainline
+			</title>
+			<link>
+				https://dannycomputerscientist.wordpress.com/2015/10/29/on-boarding-at-trainline/
+			</link>
+			<comments>
+				https://dannycomputerscientist.wordpress.com/2015/10/29/on-boarding-at-trainline/#respond
+			</comments>
+			<pubDate>
+				Thu, 29 Oct 2015 17:57:27 +0000
+			</pubDate>
+			<creator>
+				<![CDATA[Danny Brown]]>
+			</creator>
+			<category>
+				<![CDATA[thetrainline]]>
+			</category>
+			<category>
+				<![CDATA[Best Fare Finder]]>
+			</category>
+			<category>
+				<![CDATA[BFF]]>
+			</category>
+			<category>
+				<![CDATA[ES6]]>
+			</category>
+			<category>
+				<![CDATA[JSON]]>
+			</category>
+			<category>
+				<![CDATA[Node.js]]>
+			</category>
+			<category>
+				<![CDATA[REST]]>
+			</category>
+			<category>
+				<![CDATA[RESTful API]]>
+			</category>
+			<category>
+				<![CDATA[Roundals]]>
+			</category>
+			<category>
+				<![CDATA[Trainline]]>
+			</category>
+			<guid isPermaLink="false">
+				http://dannycomputerscientist.wordpress.com/?p=3592
+			</guid>
+			<description>
+				<![CDATA[I&#8217;m now entering the sixth week of my time at Trainline. It&#8217;s been quite the experience, due to it being my first full-time job and it being a time of significant changes at Trainline in terms of technology, branding and even an expansion into the European rail market. It&#8217;s been great to be in a [&#8230;]<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=dannycomputerscientist.wordpress.com&#038;blog=27683847&#038;post=3592&#038;subd=dannycomputerscientist&#038;ref=&#038;feed=1" width="1" height="1" />]]>
+			</description>
+			<encoded>
+				<![CDATA[
+				<p>I&#8217;m now entering the sixth week of my time at Trainline. It&#8217;s been quite the experience, due to it being my first full-time job and it being a time of significant changes at Trainline in terms of technology, branding and even an expansion into the European rail market.</p>
+				<p>It&#8217;s been great to be in a team of people who know so much about Software Engineering and the systems in use at Trainline, and whom are so willing to pass that knowledge on. I&#8217;ve also been blessed with some really cool projects to work on at the start of my trainline career. The first thing I was tasked with doing was replacing the standalone Best Fare Finder application, with deep links to an improved Best Fare Finder experience which was already built in to the main ticket purchasing flow.</p>
+				<blockquote><p>The Best Fare Finder allows you to find the cheapest tickets avaliable between two stations if you&#8217;re willing to be flexible on dates and times of travel</p></blockquote>
+				<div data-shortcode="caption" id="attachment_3595" style="width: 529px" class="wp-caption aligncenter"><a href="https://dannycomputerscientist.files.wordpress.com/2015/10/trainline-standalone-bff.png"><img class="size-full wp-image-3595" src="https://dannycomputerscientist.files.wordpress.com/2015/10/trainline-standalone-bff.png?w=519&#038;h=278" alt="Trainline Standalone BFF" width="519" height="278" /></a><p class="wp-caption-text">Trainline Standalone BFF</p></div>
+				<p>The Standalone BFF, pictured above, wasn&#8217;t responsive; didn&#8217;t look like the the newly rebranded trainline homepage and purchase funnel and required additional maintenence. Removing it and using the best fare functionality baked into the main purchase flow improved the experience for users and reduced the costs, both financial and of technical debt, to the company. The inline best fare finder which replaces it can be seen below:</p>
+				<div data-shortcode="caption" id="attachment_3594" style="width: 529px" class="wp-caption aligncenter"><a href="https://dannycomputerscientist.files.wordpress.com/2015/10/trainline-inline-bff.png"><img class="size-full wp-image-3594" src="https://dannycomputerscientist.files.wordpress.com/2015/10/trainline-inline-bff.png?w=519&#038;h=272" alt="Trainline Inline BFF" width="519" height="272" /></a><p class="wp-caption-text">Trainline Inline BFF</p></div>
+				<p>The pictures of popular locations you can see in the screenshot of the homepage, or Roundals as I&#8217;ve started calling them (inspired by the name of the famous Tube logo which is a similar shape), had to be updated as part of this work. This was quite exciting as it meant that within a week of my first job I had pushed a change, albeit relatively minor, to the home page of a website with millions of visitors a month. The deep linking I developed for this inline BFF is now also used in Trainline emails to customers.</p>
+				<p>As part of doing this work I discovered that some parts of the Best Fare Finder backend were a bit difficult to work with and that access to useful information could be greatly simplified leading to a reduction in the number of places in which static data was manually updated by humans. I proposed that a RESTful API was developed with some easy to understand endpoints that delivered a JSON response.</p>
+				<p>My development manager and product manager were supportive of the idea and therefore I started working on a set of requirements and use-cases for the product, which I simply called BFF API (Best Fare Finder Application Programming Interface). The resulting system is written in Node.js 4 &#8212; making great use of all the new features of ES6 such as block scoping, destructuring and arrow functions &#8212; Hapi.js and an assortment of the libraries avaiable from npm.</p>
+				<p>It is unlikely that this system will be made user facing itself, but it may contribute to some of the things a user can see from the backend.</p>
+				<p>I&#8217;ve learned rather a lot in the last few weeks: including the business and technological processes involved in developing enterprise quality software, how to navigate through and modify/maintain legacy systems and some more about the Node.js ecosystem. Expect a blog post in the new few weeks about how I&#8217;ve changed the way I develop Node.js code in order to aid correctness and the ability to tests things.</p>
+				<p>Whilst some parts of the transition from academia to Real Life™ have been difficult to get used to (what is waking up at 7am and commuting?!) overall I&#8217;m enjoying the new experience and feel like I&#8217;m learning as much or more than I was at university and being paid to do so &#8212; the best of both worlds!</p>
+				<p>I will keep the blog up-to-date with my progress at Trainline.</p>
+				<p>Danny</p><br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/dannycomputerscientist.wordpress.com/3592/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/dannycomputerscientist.wordpress.com/3592/" /></a> <img alt="" border="0" src="https://pixel.wp.com/b.gif?host=dannycomputerscientist.wordpress.com&#038;blog=27683847&#038;post=3592&#038;subd=dannycomputerscientist&#038;ref=&#038;feed=1" width="1" height="1" />
+				]]>
+			</encoded>
+			<commentRss>
+				https://dannycomputerscientist.wordpress.com/2015/10/29/on-boarding-at-trainline/feed/
+			</commentRss>
+			<comments>
+				0
+			</comments>
+			<thumbnail url="https://dannycomputerscientist.files.wordpress.com/2015/10/trainline-homepage.png?w=150" />
+			<content url="https://dannycomputerscientist.files.wordpress.com/2015/10/trainline-homepage.png?w=150" medium="image">
+				<title type="html">
+					trainline-homepage
+				</title>
+			</content>
+			<content url="https://0.gravatar.com/avatar/f4a65378f2b463cac0b246756019206c?s=96&amp;d=identicon&amp;r=G" medium="image">
+				<title type="html">
+					dannycomputerscientist
+				</title>
+			</content>
+			<content url="https://dannycomputerscientist.files.wordpress.com/2015/10/trainline-standalone-bff.png" medium="image">
+				<title type="html">
+					Trainline Standalone BFF
+				</title>
+			</content>
+			<content url="https://dannycomputerscientist.files.wordpress.com/2015/10/trainline-inline-bff.png" medium="image">
+				<title type="html">
+					Trainline Inline BFF
+				</title>
+			</content>
+		</item>
+		<item>
+			<title>
+				MSc Finished
+			</title>
+			<link>
+				https://dannycomputerscientist.wordpress.com/2015/09/13/msc-finished/
+			</link>
+			<comments>
+				https://dannycomputerscientist.wordpress.com/2015/09/13/msc-finished/#respond
+			</comments>
+			<pubDate>
+				Sun, 13 Sep 2015 01:13:58 +0000
+			</pubDate>
+			<creator>
+				<![CDATA[Danny Brown]]>
+			</creator>
+			<category>
+				<![CDATA[University - Masters]]>
+			</category>
+			<guid isPermaLink="false">
+				http://dannycomputerscientist.wordpress.com/?p=3584
+			</guid>
+			<description>
+				<![CDATA[&#160; Last week I submitted my thesis, workshop report and conference presentation for my MSc in Advanced Computer Science. Two days after my submission I was also required to present my research and answer a few questions fielded from a lecturer in Yorks Department of Computer Science who had not previously seen my work. The [&#8230;]<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=dannycomputerscientist.wordpress.com&#038;blog=27683847&#038;post=3584&#038;subd=dannycomputerscientist&#038;ref=&#038;feed=1" width="1" height="1" />]]>
+			</description>
+			<encoded>
+				<![CDATA[
+				<div style="width: 519px; " class="wp-video"><!--[if lt IE 9]><script>document.createElement('video');</script><![endif]-->
+				<video class="wp-video-shortcode" id="video-3584-1" width="519" height="292" preload="metadata" controls="controls"><source type="video/mp4" src="http://dannybrown.net/resources/videos/msc-presentation.mp4?_=1" /><a href="http://dannybrown.net/resources/videos/msc-presentation.mp4">http://dannybrown.net/resources/videos/msc-presentation.mp4</a></video></div>
+				<p>&nbsp;</p>
+				<p>Last week I submitted my thesis, workshop report and conference presentation for my MSc in Advanced Computer Science. Two days after my submission I was also required to present my research and answer a few questions fielded from a lecturer in Yorks Department of Computer Science who had not previously seen my work. The video shown above is the one which will be used to mark my presentation and question answering skills.</p>
+				<p>Having completed the three deliverables and the presentation my research semester, and thus my masters, is complete.</p>
+				<p>I expect to find out my final result in 4 to 6 weeks, however currently I am more focused on my impending start at Trainline &#8212; which I hope to write about soon.</p>
+				<p>Danny</p><br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/dannycomputerscientist.wordpress.com/3584/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/dannycomputerscientist.wordpress.com/3584/" /></a> <img alt="" border="0" src="https://pixel.wp.com/b.gif?host=dannycomputerscientist.wordpress.com&#038;blog=27683847&#038;post=3584&#038;subd=dannycomputerscientist&#038;ref=&#038;feed=1" width="1" height="1" />
+				]]>
+			</encoded>
+			<commentRss>
+				https://dannycomputerscientist.wordpress.com/2015/09/13/msc-finished/feed/
+			</commentRss>
+			<comments>
+				0
+			</comments>
+			<enclosure url="http://dannybrown.net/resources/videos/msc-presentation.mp4" length="84067204" type="video/mp4" />
+			<content url="https://0.gravatar.com/avatar/f4a65378f2b463cac0b246756019206c?s=96&amp;d=identicon&amp;r=G" medium="image">
+				<title type="html">
+					dannycomputerscientist
+				</title>
+			</content>
+		</item>
+		<item>
+			<title>
+				Expect the unexpected
+			</title>
+			<link>
+				https://dannycomputerscientist.wordpress.com/2015/08/02/expect-the-unexpected/
+			</link>
+			<comments>
+				https://dannycomputerscientist.wordpress.com/2015/08/02/expect-the-unexpected/#respond
+			</comments>
+			<pubDate>
+				Sun, 02 Aug 2015 20:19:55 +0000
+			</pubDate>
+			<creator>
+				<![CDATA[Danny Brown]]>
+			</creator>
+			<category>
+				<![CDATA[Computer Science]]>
+			</category>
+			<category>
+				<![CDATA[Canvas]]>
+			</category>
+			<category>
+				<![CDATA[Dr. David Parker]]>
+			</category>
+			<category>
+				<![CDATA[HTML5]]>
+			</category>
+			<category>
+				<![CDATA[JavaScript]]>
+			</category>
+			<category>
+				<![CDATA[Orrery]]>
+			</category>
+			<category>
+				<![CDATA[Solar System Simulation]]>
+			</category>
+			<guid isPermaLink="false">
+				http://dannycomputerscientist.wordpress.com/?p=3580
+			</guid>
+			<description>
+				<![CDATA[When you design software you usually have a few use cases in mind, in the case of EpsilonGit the use case I keep coming back to is a project lead who wants an overview of how his team is working and how they are using their version control software. Back in second year when I [&#8230;]<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=dannycomputerscientist.wordpress.com&#038;blog=27683847&#038;post=3580&#038;subd=dannycomputerscientist&#038;ref=&#038;feed=1" width="1" height="1" />]]>
+			</description>
+			<encoded>
+				<![CDATA[
+				<p>When you design software you usually have a few use cases in mind, in the case of EpsilonGit the use case I keep coming back to is a project lead who wants an overview of how his team is working and how they are using their version control software.</p>
+				<p>Back in second year when I developed <a href="https://dannycomputerscientist.wordpress.com/2012/11/11/2d-graphics-coursework-a-javascript-orrery/">The JavaScript Orrery</a> my target audience was <a href="http://www.goparker.com">David Parker</a> and the only use of the software was to impress him for degree credit.</p>
+				<p>A short while later I made a few small adaptations to package the orrery as a Windows Store (now called Universal Windows) Application. I thought a few people might enjoy watching the planets go around the screen, but didn&#8217;t really expect too many people to download it. To be completely honest, I mainly packaged it as an app to get points for the <a href="https://dannycomputerscientist.wordpress.com/2013/02/19/microsoft-app-builder-rewards/">App Builder Rewards competition</a>.</p>
+				<p>I haven&#8217;t touched the orrery, packaged as Solar System Simulation on Windows, for years. However, I wrote a little while back about someone who used it to teach <a href="https://dannycomputerscientist.wordpress.com/2013/03/09/a-heartwarming-review/">their daughter about space</a>, an unexpected use but a nice one.</p>
+				<p>Today I got an email from a student in Brazil who wondered if the software had a function to see planet locations at specific dates, as he liked the simple 2D graphics and wanted to use them to make a tattoo of the layout of the solar system on his birthday. Strange, but cool.</p>
+				<p>Unfortunately the Solar System Simulation (which is a gratuitous name &#8212; its in no way even close to a &#8216;simulation&#8217;) doesn&#8217;t support this function &#8212; but its a cool idea, and one I wouldn&#8217;t have thought of.</p>
+				<p>It might be fun to add it in one day, and see how popular some of the ideas I have would be compared to those that a user has had and wanted to be implemented enough to go to the effort to email me about it. I <em>suspect</em> the user submitted ideas might be more popular, because no one knows how well a customer users your product as well as a customer. But I might be wrong, it could be an interesting bit of research.</p>
+				<p>So, expect the unexpected uses of your software and services &#8212; both in positive ways, such as odd-but-exciting use cases, and negative, such as malformed input &#8212; but also be excited by the prospect.</p>
+				<p>Danny</p>
+				<p>P.S <a href="https://www.microsoft.com/en-US/store/Apps/Solar-System-Simulation/9WZDNCRDPBJH">&#8216;Solar System Simulation&#8217; is still available</a> and works on Windows 8, 8.1 and 10.</p><br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/dannycomputerscientist.wordpress.com/3580/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/dannycomputerscientist.wordpress.com/3580/" /></a> <img alt="" border="0" src="https://pixel.wp.com/b.gif?host=dannycomputerscientist.wordpress.com&#038;blog=27683847&#038;post=3580&#038;subd=dannycomputerscientist&#038;ref=&#038;feed=1" width="1" height="1" />
+				]]>
+			</encoded>
+			<commentRss>
+				https://dannycomputerscientist.wordpress.com/2015/08/02/expect-the-unexpected/feed/
+			</commentRss>
+			<comments>
+				0
+			</comments>
+			<thumbnail url="https://dannycomputerscientist.files.wordpress.com/2015/08/screen-shot-2015-08-02-at-21-16-29.png?w=150" />
+			<content url="https://dannycomputerscientist.files.wordpress.com/2015/08/screen-shot-2015-08-02-at-21-16-29.png?w=150" medium="image">
+				<title type="html">
+					Solar System Simulation Windows 10
+				</title>
+			</content>
+			<content url="https://0.gravatar.com/avatar/f4a65378f2b463cac0b246756019206c?s=96&amp;d=identicon&amp;r=G" medium="image">
+				<title type="html">
+					dannycomputerscientist
+				</title>
+			</content>
+		</item>
+		<item>
+			<title>
+				Thesis writing begins
+			</title>
+			<link>
+				https://dannycomputerscientist.wordpress.com/2015/07/27/thesis-writing-begins/
+			</link>
+			<comments>
+				https://dannycomputerscientist.wordpress.com/2015/07/27/thesis-writing-begins/#respond
+			</comments>
+			<pubDate>
+				Mon, 27 Jul 2015 21:13:14 +0000
+			</pubDate>
+			<creator>
+				<![CDATA[Danny Brown]]>
+			</creator>
+			<category>
+				<![CDATA[University - Masters]]>
+			</category>
+			<category>
+				<![CDATA[Advanced Querying and Analysis of Git Repositories]]>
+			</category>
+			<category>
+				<![CDATA[Dimitris Kolovos]]>
+			</category>
+			<category>
+				<![CDATA[Masters Thesis]]>
+			</category>
+			<guid isPermaLink="false">
+				http://dannycomputerscientist.wordpress.com/?p=3574
+			</guid>
+			<description>
+				<![CDATA[Today I started work on my masters thesis covering my research for and development of EpsilonGit. There&#8217;s no template provided for the layout of such reports, so today I&#8217;ve been sketching out a rough outline of what I hope to include in the report. e.g. Chapter names, section headings and comments for things to talk [&#8230;]<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=dannycomputerscientist.wordpress.com&#038;blog=27683847&#038;post=3574&#038;subd=dannycomputerscientist&#038;ref=&#038;feed=1" width="1" height="1" />]]>
+			</description>
+			<encoded>
+				<![CDATA[
+				<p>Today I started work on my masters thesis covering my research for and development of <a href="https://dannycomputerscientist.wordpress.com/2015/05/01/research-semester-begins/">EpsilonGit</a>.</p>
+				<p>There&#8217;s no template provided for the layout of such reports, so today I&#8217;ve been sketching out a rough outline of what I hope to include in the report. e.g. Chapter names, section headings and comments for things to talk about in each section. One of the other things I did was make a pretty title page, because who doesn&#8217;t like doing that?</p>
+				<p>I&#8217;d like to be in a position by the end of the week whereby I can roll into the lab, open <a href="https://www.texpadapp.com">TexPad</a> and start writing within a structure I&#8217;m already happy with and have had &#8216;signed off&#8217; by my supervisor.</p>
+				<p>Eventually my thesis will sit at around 30,000 words and will be accompanied by a 6 page workshop to briefly describe what my project does and a Beamer presentation which could be used at conferences.</p>
+				<p>Danny</p><br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/dannycomputerscientist.wordpress.com/3574/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/dannycomputerscientist.wordpress.com/3574/" /></a> <img alt="" border="0" src="https://pixel.wp.com/b.gif?host=dannycomputerscientist.wordpress.com&#038;blog=27683847&#038;post=3574&#038;subd=dannycomputerscientist&#038;ref=&#038;feed=1" width="1" height="1" />
+				]]>
+			</encoded>
+			<commentRss>
+				https://dannycomputerscientist.wordpress.com/2015/07/27/thesis-writing-begins/feed/
+			</commentRss>
+			<comments>
+				0
+			</comments>
+			<thumbnail url="https://dannycomputerscientist.files.wordpress.com/2015/07/screen-shot-2015-07-27-at-22-02-20.png?w=123" />
+			<content url="https://dannycomputerscientist.files.wordpress.com/2015/07/screen-shot-2015-07-27-at-22-02-20.png?w=123" medium="image">
+				<title type="html">
+					Thesis Title Page
+				</title>
+			</content>
+			<content url="https://0.gravatar.com/avatar/f4a65378f2b463cac0b246756019206c?s=96&amp;d=identicon&amp;r=G" medium="image">
+				<title type="html">
+					dannycomputerscientist
+				</title>
+			</content>
+		</item>
+	</channel>
+</rss>

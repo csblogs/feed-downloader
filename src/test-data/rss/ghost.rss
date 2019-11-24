@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+	<channel>
+		<title>
+			<![CDATA[Charlotte Godley]]>
+		</title>
+		<description>
+			<![CDATA[Thoughts, stories and ideas.]]>
+		</description>
+		<link>
+			http://charlottegodley.co.uk/
+		</link>
+		<generator>
+			Ghost 0.6
+		</generator>
+		<lastBuildDate>
+			Sun, 27 Dec 2015 23:43:38 GMT
+		</lastBuildDate>
+		<link href="http://charlottegodley.co.uk/rss/" rel="self" type="application/rss+xml" />
+		<ttl>
+			60
+		</ttl>
+		<item>
+			<title>
+				<![CDATA[Opensourcing my Final Year Project - a lesson in python versions]]>
+			</title>
+			<description>
+				<![CDATA[
+				<p><strong>TLDR: here's the binaries/installers for my final year project. I'd appreciate people having a click through:</strong></p>
+				
+				<ul>
+				<li><a href="https://github.com/Godley/Music-Library/releases/download/v1.0-alpha/MuseLib.dmg">Mac</a></li>
+				<li><a href="http://charlottegodley.co.uk/opensourcing-my-final-year-project-2/">Windows</a></li>
+				</ul>
+				
+				<p>Over the past few months I've been trying to create installers for Windows, Mac and Ubuntu for my final year project, <a href="http://github.com/godley/music-library">Music Library</a>. Despite some issues with Windows DLLs, I've succeeded</p>
+				]]>
+			</description>
+			<link>
+				http://charlottegodley.co.uk/opensourcing-my-final-year-project-2/
+			</link>
+			<guid isPermaLink="false">
+				36a1707e-d303-4266-9600-68f4ae5f9588
+			</guid>
+			<creator>
+				<![CDATA[Charlotte]]>
+			</creator>
+			<pubDate>
+				Wed, 23 Dec 2015 22:37:29 GMT
+			</pubDate>
+			<encoded>
+				<![CDATA[
+				<p><strong>TLDR: here's the binaries/installers for my final year project. I'd appreciate people having a click through:</strong></p>
+				
+				<ul>
+				<li><a href="https://github.com/Godley/Music-Library/releases/download/v1.0-alpha/MuseLib.dmg">Mac</a></li>
+				<li><a href="http://charlottegodley.co.uk/opensourcing-my-final-year-project-2/">Windows</a></li>
+				</ul>
+				
+				<p>Over the past few months I've been trying to create installers for Windows, Mac and Ubuntu for my final year project, <a href="http://github.com/godley/music-library">Music Library</a>. Despite some issues with Windows DLLs, I've succeeded in producing a windows installer. I'll find somewhere to put it so I can link to it later.</p>
+				
+				<p>Despite the OS X edition being the original, I'm actually having trouble getting my laptop back to the exact state it was in when cx_freeze built and froze my python into an app file. The main reason is for some reason I updated my python to 3.5 one day, and then my build seg faulted, then I rewound to 3.4.3 then...I just don't really know what happened. I started to mess with my python config and yeah. It gets confusing when you have installers for python and home-brew installations.</p>
+				
+				<p>What's the lesson here? I'm not actually that sure. In general my belief is we should stick to latest and greatest no matter what the language is, but in python's case something almost always breaks and it's hard to predict in exactly what way.</p>
+				
+				<p>Ultimately I will probably just flush out the config on this laptop and start over. It's a good thing to do anyway so I know how to write developer install instructions properly.</p>
+				
+				<p>For now I've gone ahead and open sourced the repo. A couple of the tests still break on linux as shown by my travis CI, but I think this is something to do with the musescore API so I'm not entirely sure it's <em>actually</em> broken.</p>
+				
+				<p>Happy sheet music organisering?</p>
+				]]>
+			</encoded>
+		</item>
+		<item>
+			<title>
+				<![CDATA[Do I use an Arduino or a Raspberry Pi?]]>
+			</title>
+			<description>
+				<![CDATA[<p>I commonly get asked the above question by friends who want to get into hardware prototyping for the first time and have a project idea. I thought I'd share my input and show the questions I normally ask in the form of a flow chart. Some notes based on feedback:</p>]]>
+			</description>
+			<link>
+				http://charlottegodley.co.uk/do-i-use-an-arduino-or-a-raspberry-pi/
+			</link>
+			<guid isPermaLink="false">
+				f0fd1b91-2413-4523-8f60-b738b32f2748
+			</guid>
+			<creator>
+				<![CDATA[Charlotte]]>
+			</creator>
+			<pubDate>
+				Fri, 18 Dec 2015 23:04:26 GMT
+			</pubDate>
+			<encoded>
+				<![CDATA[
+				<p>I commonly get asked the above question by friends who want to get into hardware prototyping for the first time and have a project idea. I thought I'd share my input and show the questions I normally ask in the form of a flow chart. Some notes based on feedback:</p>
+				
+				<ol>
+				<li>Multithreading <em>can</em> be done on an arduino, but akin to the internet question, it will take more effort and time than on a Raspberry Pi.  </li>
+				<li>Some paths could lead to you using both - for example, you might need a complex algorithm to parse some data which then displays it repeatedly on an LED matrix (see Amy Mather's Game of Life project). I left this out because I decided it would complicate the simplicity of the flow chart.  </li>
+				<li>Analogue IO could probably also go on there which would lead to arduino. Meh.  </li>
+				<li>Some paths could point to either I guess. Again, meh.</li>
+				</ol>
+				
+				<p>Please feel free to spread this flowchart around if it's useful to you, but if you can credit this to me then please do :) <br>
+				<img src="http://charlottegodley.co.uk/content/images/2015/12/flow-pi-1.png" alt=""></p>
+				]]>
+			</encoded>
+		</item>
+		<item>
+			<title>
+				<![CDATA[Building and testing for multiple platforms]]>
+			</title>
+			<description>
+				<![CDATA[<p>When I graduated from Hull, I set myself a target that I would open source my project by Christmas. At the time I was ready to release the first chunk as a python package and did so <a href="http://github.com/godley/museparse">here</a>. I should note to anyone else who's at university and thinking of</p>]]>
+			</description>
+			<link>
+				http://charlottegodley.co.uk/building-and-testing-for-multiple-platforms/
+			</link>
+			<guid isPermaLink="false">
+				b6561d7b-4694-4465-bac5-4f81ee8c3384
+			</guid>
+			<creator>
+				<![CDATA[Charlotte]]>
+			</creator>
+			<pubDate>
+				Fri, 06 Nov 2015 23:02:51 GMT
+			</pubDate>
+			<content url="http://charlottegodley.co.uk/content/images/2015/11/logos-continuous-integration-tools.png" medium="image" />
+			<encoded>
+				<![CDATA[
+				<img src="http://charlottegodley.co.uk/content/images/2015/11/logos-continuous-integration-tools.png" alt="Building and testing for multiple platforms"><p>When I graduated from Hull, I set myself a target that I would open source my project by Christmas. At the time I was ready to release the first chunk as a python package and did so <a href="http://github.com/godley/museparse">here</a>. I should note to anyone else who's at university and thinking of open sourcing their projects that in general, <strong>you should ask your university first</strong> because technically, they own the project. </p>
+				
+				<p>Since then I've not really touched it until recently because I had various other things on the go, and to be honest I spent so long <a href="http://charlottegodley.co.uk/arguing-with-poppler-and-qt-on-windows/">arguing with windows and poppler</a> that I needed a break to think about it.</p>
+				
+				<p>About a week ago I started the process of making sure everything was ready by <a href="http://travis-ci.org">setting up travis</a>. For anyone who's not initiated into continuous integration, the idea is that every push to your repo gets built against your unit tests to confirm nothing's broken. "But I can just do that on my local machine!" I hear you cry. </p>
+				
+				<p>Storytime! A couple of years ago my friends and I took part in the infamous <a href="https://www.youtube.com/watch?v=1GkvKC8Ls9E">Three Thing Game</a>. Like a lot of the uninitiated second year newbs, none of us had got into the habit of using source code control, and we decided to just write our separate bits, pass them around on memory sticks and do a big merge in the end.</p>
+				
+				<p>This did not go well, and whilst the idea was brilliant and we'd seen parts of our code working together, ultimately our separate sections fought with each other.</p>
+				
+				<p>To me this is something that continuous integration would have been brilliant for fixing, because it would systematically not only prove whose code was the cause, but it would also give a more precise estimate as to which sections of code caused the problems. A few other reasons to think about:</p>
+				
+				<ol>
+				<li>Do you really want to sit watching unit tests build for however long? Having a build machines allows you to go off and work on something else, knowing you'll get told when something's broken.  </li>
+				<li>What about if you're building for multiple operating systems? Before using CI, to test ready for my final year project demo I had to launch 2 VMs and clone or else copy the same repo into each one and run my tests 3 times. I have around about 2.5k tests, it really wasn't fun.  </li>
+				<li>How do you know that when you deploy to a machine that doesn't have your developer set up it's all going to work just the same?</li>
+				</ol>
+				
+				<p>In this particular project, the thing that using continuous integration has improved the most has been the last one. Having ran my tests a lot on OS X, I was pretty confident they would all pass without a hitch on travis which by default runs ubuntu linux (I had also previously ran tests on ubuntu which passed). </p>
+				
+				<p>To my surprise, about 5 tests failed because I had used far too many absolute paths to folders that obviously wouldn't exist on another machine, and a couple failed because requirements.txt (the list of python packages used in the project) was incorrect.</p>
+				
+				<p>I fixed all of these and then tried it out on windows again. Multiple tests failed because windows isn't unix compatible, so handles files and opening and closing them differently. <br>
+				From that experience, and particularly as I had been keen with this project to provide all the same features on every major platform, I knew I wasn't happy with just travis, so I went in search of a windows based continuous integration platform, and found <a href="http://appveyor.com">appveyor</a> which feels very similar.</p>
+				
+				<p>I found both appveyor and travis very easy to use, because you merely give them a yml file which defines your environment. Here's .travis.yml:  </p>
+				
+				<pre><code>language: python
+				python:
+				- '3.3'
+				- '3.4'
+				- '3.5'
+				- 3.5-dev
+				- nightly
+				install: pip3 install -r requirements.txt
+				script: python3 -m "nose" --logging-level=WARNING
+				
+				os:
+				- linux
+				# - osx
+				
+				notifications:
+				email:
+				on_success: change
+				on_failure: change
+				</code></pre>
+				
+				<p>aanaard appveyor.yml:  </p>
+				
+				<pre><code># Taken from: https://packaging.python.org/en/latest/appveyor.html
+				# and from: https://bitbucket.org/pygame/pygame/pull-request/45/create-python-wheel-builds-using-appveyor/diff
+				
+				environment:
+				matrix:
+				- PYTHON: "C:\\Python33"
+				PYTHON_VERSION: "3.3.5"
+				PYTHON_ARCH: "32"
+				DISTRIBUTIONS: "bdist_wheel"
+				
+				- PYTHON: "C:\\Python34"
+				PYTHON_VERSION: "3.4.1"
+				PYTHON_ARCH: "32"
+				DISTRIBUTIONS: "bdist_wheel"
+				
+				- PYTHON: "C:\\Python33-x64"
+				PYTHON_VERSION: "3.3.5"
+				PYTHON_ARCH: "64"
+				WINDOWS_SDK_VERSION: "v7.1"
+				DISTRIBUTIONS: "bdist_wheel"
+				
+				- PYTHON: "C:\\Python34-x64"
+				PYTHON_VERSION: "3.4.1"
+				PYTHON_ARCH: "64"
+				WINDOWS_SDK_VERSION: "v7.1"
+				DISTRIBUTIONS: "bdist_wheel"
+				
+				init:
+				
+				- "ECHO %PYTHON% %PYTHON_VERSION% %PYTHON_ARCH%"
+				
+				install:
+				- "set PATH=%PATH%;%PYTHON%;%PYTHON%\\Scripts"
+				- "pip install nose"
+				- "pip install -r requirements.txt"
+				- "set HOME=%APPVEYOR_BUILD_FOLDER%"
+				
+				build: off
+				
+				test_script:
+				- "nosetests --logging-level=WARNING"
+				</code></pre>
+				
+				<p>This makes it very easy to define every element, including downloading non-python packages in <a href="http://github.com/godley/museparse">museparse</a>'s case. </p>
+				
+				<p>A perhaps greater thing for open source projects though is that the whole service is free if your project is public on github, and Travis is included in the Github education package so students get it free for private projects too!</p>
+				
+				<p>I strongly encourage developers, especially students to start using continuous integration. With great services out there for all platforms that require minimal setup, there's really no excuse and it's not just something that large teams should be using.</p>
+				]]>
+			</encoded>
+		</item>
+		<item>
+			<title>
+				<![CDATA[Making a shopping list when you're a lazy programmer]]>
+			</title>
+			<description>
+				<![CDATA[
+				<p>I'm a big fan of cooking. For me, it's super relaxing to just spend some time prepping, cooking, splitting the cooking wine between your pan and your glass (heheh), listening to some music and finally, eating what you've created. <br>
+				<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">I&#39;m mainly with <a href="https://twitter.com/charwarz">@charwarz</a> for her cooking ability. <a href="https://t.co/V0FUOIJm8T">pic.</a></p></blockquote></p>
+				]]>
+			</description>
+			<link>
+				http://charlottegodley.co.uk/making-a-shopping-list-when-youre-a-lazy-programmer/
+			</link>
+			<guid isPermaLink="false">
+				563878a0-9e85-4d91-b071-b23975c825e6
+			</guid>
+			<creator>
+				<![CDATA[Charlotte]]>
+			</creator>
+			<pubDate>
+				Sun, 25 Oct 2015 11:51:16 GMT
+			</pubDate>
+			<encoded>
+				<![CDATA[
+				<p>I'm a big fan of cooking. For me, it's super relaxing to just spend some time prepping, cooking, splitting the cooking wine between your pan and your glass (heheh), listening to some music and finally, eating what you've created. <br>
+				<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">I&#39;m mainly with <a href="https://twitter.com/charwarz">@charwarz</a> for her cooking ability. <a href="https://t.co/V0FUOIJm8T">pic.twitter.com/V0FUOIJm8T</a></p>&mdash; Daniel Brown (@DanTonyBrown) <a href="https://twitter.com/DanTonyBrown/status/658012687671119872">October 24, 2015</a></blockquote> <script async src="http://charlottegodley.co.uk//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+				
+				<p>As a programmer, though, there's a lot about preparing to cook that's tedious and which I was sure could be automated. It takes time to figure out what you want to make, then work out how much that's going to cost based on what's in your cupboard, and get out and buy the stuff, especially if you're doing something with meat that you will need to go to the butcher to get. I seriously don't get why our retail economy is based on the 9-5 pattern, when our office jobs are also based on this pattern - when the hell am I supposed to get the time to get midweek meat if the butcher closes before I've even got out of the science park?! I want to support local economies and in the Mill Road area this is particularly easy, but c'mon now. You're not making this easy for me.</p>
+				
+				<p>Anyway. I use BBC Good food quite a lot because usually when I google an ingredient I want to use, that'll be the first thing that pops up. So I thought I'd try to make my own site or app which would allow me to automate how I browse BBC Good food, so that the app would know what I have in my kitchen, and give me the list of recipes that best match what I have, then produce a shopping list for my way out of work (ALDI is conveniently located near work). <br>
+				I'd seen a working couple on reddit had made something similar, but with text files storing recipes and current stock instead of any kind of database. <br>
+				I'd really rather skip a lot of user entry and for that instance the couple had certain recipes they knew well and liked doing, which isn't the same in my case. I've never actually written a screen scraper before, so I thought I'd give it a try.</p>
+				
+				<p>I started with <a href="http://djangoproject.com">Django</a> as my framework because I've used it sparingly at work and I can see what the hype is about. I like being able to model my databases from in python without having to dive into SQL, and changes late on are really easy. I'll be explaining how everything works here, but it's assumed you already know a bit about setting up django and setting up scrapy.</p>
+				
+				<p>My models are relatively simple. The atom, if you like, is a stock item. All this needs is a name, a quantity and a weight - this gives you options as to what you're using. E.g if it's lemons, you'd say how many as opposed to weight, but if it's flour etc. You get the point.  </p>
+				
+				<pre><code>class Stock(models.Model):
+				title = models.CharField(max_length=200)
+				quantity = models.IntegerField(default=0)
+				weight = models.IntegerField(default=0)
+				recipes = models.ManyToManyField(Recipe)
+				</code></pre>
+				
+				<p>This has a many to many relation with recipe, which has a title and instructions. This is likely to change when I've fixed other problems, because in addition to linking many to many to stock, we need to know <em>how much</em> of that stock the recipe should use, and how it'll be prepared, so it's likely I'll add another model to cover that.  </p>
+				
+				<pre><code>class Recipe(models.Model):
+				title = models.CharField(max_length=200)
+				description = models.CharField(max_length=200)
+				</code></pre>
+				
+				<p>Finally we have Menu, which is how I'm going to plan each week. This will have a many to many link to recipe.  </p>
+				
+				<pre><code>class Menu(models.Model):
+				recipes = models.ManyToManyField(Recipe)
+				pub_date = models.DateTimeField('date published')
+				</code></pre>
+				
+				<p>Next up I looked at screen scraping. There's really 2 favoured frameworks - <a href="http://www.crummy.com/software/BeautifulSoup/">Beautiful Soup</a> and <a href="http://scrapy.org">Scrapy</a>. Scrapy feels very similar to Django and there's a wealth of tutorials on integrating it, probably because the creators were heavily inspired by it, so I went with Scrapy.</p>
+				
+				<p>My first foure into scraping BBC Good Food was getting the ingredients. I figured this would be the easiest way to get a list of stock or expected stock for my cupboard without physically entering it myself, so that it's all in the db and I just have to update how much of each thing I have. <br>
+				<img src="http://charlottegodley.co.uk/content/images/2015/10/Screen-Shot-2015-10-25-at-11-22-30.png" alt="">
+				Then when it comes to scraping each recipe's page, all I'd need to do was query the db for the collected ingredients and link them together. I also wasn't sure on exactly how things work together, so I wanted to do a simple scrape before delving into relational databases.</p>
+				
+				<p>First off, I ran the scrapy command for generating a scraper. <code>scrapy genspider goodfood bbcgoodfood.com</code>. <br>
+				This spits out:  </p>
+				
+				<pre><code># -*- coding: utf-8 -*-
+				import scrapy
+				
+				
+				class GoodFoodSpider(scrapy.Spider):
+				name = "goodfood"
+				allowed_domains = ["bbcgoodfood.com"]
+				start_urls = (
+				'http://www.bbcgoodfood.com/',
+				)
+				
+				def parse(self, response):
+				pass
+				</code></pre>
+				
+				<p>I needed to change the following:</p>
+				
+				<ul>
+				<li><p>put in a rule so the spider knows which pages to trawl into</p></li>
+				<li><p>set up a callback for when that happens.</p></li>
+				<li><p>Change the URL to be the ingredients page</p></li>
+				<li><p>write the parse callback</p></li>
+				</ul>
+				
+				<p>And here we are:  </p>
+				
+				<pre><code># -*- coding: utf-8 -*-
+				from scrapy.contrib.spiders import CrawlSpider, Rule
+				from scrapy.contrib.linkextractors.sgml import SgmlLinkExtractor
+				from scrapy.selector import HtmlXPathSelector
+				from items import StockItem, RecipeItem
+				import sys
+				print sys.path
+				from meals.models import Stock
+				from scrapy.http import Request
+				import django
+				
+				
+				
+				
+				class GoodfoodSpider(CrawlSpider):
+				name = "goodfood"
+				allowed_domains = ["bbcgoodfood.com"]
+				start_urls = (
+				'http://www.bbcgoodfood.com/recipes/category/ingredients',
+				)
+				
+				rules = (
+				Rule(SgmlLinkExtractor(allow=(), restrict_xpaths=('//li[@class="views-row-odd views-row-first"]','//li[@class="views-row-even"]','//li[@class="views-row-odd"]', '//li[@class="views-row-odd views-row-last"]',)), callback="parse_items", follow= True),
+				)
+				def parse_items(self, response):
+				hxs = HtmlXPathSelector(response)
+				titles = hxs.xpath('//span[@class="field-content"]/text()')
+				items = []
+				for title in titles:
+				item = StockItem()
+				item["title"] = title.extract()
+				items.append(item)
+				return(items)
+				</code></pre>
+				
+				<p>Basically what I did here was find the classes used by each link. This is where "restrict<em>paths" comes from. Every time scrap finds a link inside li, it will follow it and use the parse</em>items method to parse it. <br>
+				Alongside the scraper, we need to store everything in Django. This is where we setup an item inside items.py:  </p>
+				
+				<pre><code>import scrapy
+				from meals.models import Stock, Recipe
+				from scrapy_djangoitem import DjangoItem
+				
+				
+				class StockItem(DjangoItem):
+				# define the fields for your item here like:
+				# name = scrapy.Field()
+				django_model=Stock
+				</code></pre>
+				
+				<p>And a pipeline in pipelines.py so that scrap will know what to do with the item:  </p>
+				
+				<pre><code>class GoodFoodStockPipeline(object):
+				
+				def process_item(self, item, spider):
+				item.save()
+				return item
+				</code></pre>
+				
+				<p>The django project also needs to be in our python path, so that we can import from it. Do this in settings.py:  </p>
+				
+				<pre><code>sys.path.append('/Users/charlottegodley/PycharmProjects/MealPlanner/DjangoMeals')
+				os.environ['DJANGO_SETTINGS_MODULE'] = 'DjangoMeals.settings'
+				</code></pre>
+				
+				<p>Also add your pipeline somewhere in settings with:  </p>
+				
+				<pre><code>ITEM_PIPELINES = {
+				'pipelines.GoodFoodStockPipeline': 300
+				}
+				</code></pre>
+				
+				<p>And run it from command line: <code>scrapy crawl goodfood</code>. <br>
+				This blog's getting pretty long, so I'll be splitting this into several blogs which I'll publish every few days. In the meantime, the repo is <a href="https://github.com/Godley/MealPlanner.git">here</a>. Happy hacking!</p>
+				]]>
+			</encoded>
+		</item>
+		<item>
+			<title>
+				<![CDATA[Platformio review]]>
+			</title>
+			<description>
+				<![CDATA[
+				<p>I've embarked on a new project recently, as part of a crew of other faces you'd probably recognise. <br>
+				Personally my job at mo is to write wrapper libraries for the hardware. I've done some before, but small ones, whereas this one I had several to write so it meant I</p>
+				]]>
+			</description>
+			<link>
+				http://charlottegodley.co.uk/writing-libraries-for-arduino/
+			</link>
+			<guid isPermaLink="false">
+				137ed7c8-15a3-4f85-a156-587807b45e10
+			</guid>
+			<creator>
+				<![CDATA[Charlotte]]>
+			</creator>
+			<pubDate>
+				Fri, 25 Sep 2015 22:56:50 GMT
+			</pubDate>
+			<content url="http://charlottegodley.co.uk/content/images/2015/09/Arduino_Logo-svg_.png" medium="image" />
+			<encoded>
+				<![CDATA[
+				<img src="http://charlottegodley.co.uk/content/images/2015/09/Arduino_Logo-svg_.png" alt="Platformio review"><p>I've embarked on a new project recently, as part of a crew of other faces you'd probably recognise. <br>
+				Personally my job at mo is to write wrapper libraries for the hardware. I've done some before, but small ones, whereas this one I had several to write so it meant I wanted to find a good tool for the job. <br>
+				When I started, I was literally writing the code in atom, opening up arduino, writing a sketch, installing then importing the library, running it, finding a bug and running the whole process again. I quickly got sick of it. <br>
+				I went on a hunt via twitter for better tools.</p>
+				
+				<p><blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/charwarz">@charwarz</a> platformio is your friend. dump the yukky ide and work from the command line and have a lib manager for free</p>&mdash; Russell Davis (@ukscone) <a href="https://twitter.com/ukscone/status/643521348216713218">September 14, 2015</a></blockquote> <script async src="http://charlottegodley.co.uk//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+				
+				<p><blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/charwarz">@charwarz</a> <a href="https://twitter.com/arduino">@arduino</a> <a href="http://t.co/fjnlPB3eM5">http://t.co/fjnlPB3eM5</a> is your friend</p>&mdash; Louis Taylor (@kragniz) <a href="https://twitter.com/kragniz/status/643523024914935808">September 14, 2015</a></blockquote> <script async src="http://charlottegodley.co.uk//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+				
+				<p><blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/charwarz">@charwarz</a> make? <a href="https://t.co/JX2JAOGz1G">https://t.co/JX2JAOGz1G</a></p>&mdash; D Jones (@drjtwit) <a href="https://twitter.com/drjtwit/status/643685428055420928">September 15, 2015</a></blockquote> <script async src="http://charlottegodley.co.uk//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+				
+				<p>I then googled it, and found the alternate to the obove suggestions, all of which are based heavily in the commandline/terminal, was using an eclipse plugin. <br>
+				Considering the other day I had a discussion with a co worker, and we agreed saying "it's better than eclipse" really isn't a bench mark for how good an IDE is, I'm not the biggest of fans of eclipse. I worked in it heavily for a year whilst in industry in python 2.7, but most experiences with it have been poor. Still, I gave it a shot. <br>
+				I couldn't even get to working with it because the settings I gave it were apparently wrong. Googled the errors, several issues, stack overflow posts and I still couldn't figure out the problem.</p>
+				
+				<p>Next I went to platformio, because ukscone raves about it. Me likey. <br>
+				Essentially it provides a sort of structure and framework for your projects, whereby you have a folder for any libs which is where it looks first when you do imports, and a folder for your source. Works with a lot of diff boards including many that aren't arduino, you can make it automatically run and upload your code, has a library manager which is usable both through the internet and the command line (altho...I'm still not sure how well it works - I've installed a few libraries and they don't seem to be found when I do an import of any of them). Pretty much everything I want when checking a library is valid code, but if I were on larger projects I'd still quite like to have a full IDE which isn't just a text editor with an upload button.</p>
+				
+				<p>Still, when I eventually have time where I'm not building stuff but still want something to do, I would like to make my own IDE probably with platformio integrated into it to make it do the arduino-y bit. For now, Atom and Platformio are my tools of choice.</p>
+				]]>
+			</encoded>
+		</item>
+		<item>
+			<title>
+				<![CDATA[How did YOU end up in technology?]]>
+			</title>
+			<description>
+				<![CDATA[
+				<p>I started a new thing at a family party last weekend. I asked all my family what they do for a living, why they do it and how they got there, or else what they used to do before retirement. <br>
+				Why? <br>
+				I like hearing about people's decisions, and whilst that</p>
+				]]>
+			</description>
+			<link>
+				http://charlottegodley.co.uk/how-did-you-end-up-in-technology/
+			</link>
+			<guid isPermaLink="false">
+				c0647868-f7ab-42af-9879-205e340a2b69
+			</guid>
+			<creator>
+				<![CDATA[Charlotte]]>
+			</creator>
+			<pubDate>
+				Thu, 17 Sep 2015 22:41:41 GMT
+			</pubDate>
+			<content url="http://charlottegodley.co.uk/content/images/2015/09/fork-in-the-road.jpg" medium="image" />
+			<encoded>
+				<![CDATA[
+				<img src="http://charlottegodley.co.uk/content/images/2015/09/fork-in-the-road.jpg" alt="How did YOU end up in technology?"><p>I started a new thing at a family party last weekend. I asked all my family what they do for a living, why they do it and how they got there, or else what they used to do before retirement. <br>
+				Why? <br>
+				I like hearing about people's decisions, and whilst that kind of thing didn't bother me 5 or 6 years ago, I'm at that point in my life where it's useful to know what pathways and decisions people have made. Having made the mistake at A level of not taking Maths when I was going to be a CompSci and finding out from my dad as I started sixth form that it was "impossible to do good CompSci without maths*" meant I realise now how important it is to get all the information you can about life, the universe and everything, and that's something you can only really gain by asking people questions like this.</p>
+				
+				<p>More recently I did it while networking, and I've noticed a lot more lately that looking at my own pathway and comparing it to other people's is...interesting. No two ways into your job will ever be the same, and there's so many decisions that have lead me personally down this track that it's impossible to predict what's next, but if I learn a bit more about what other people did, maybe when the next change comes I'll be more informed of what direction to go in to get where I want to be. Which I still don't know just yet.</p>
+				
+				<p>My own pathway? wanted to be a music teacher, then a musician, was doing HTML in the background for kids games, got annoyed at music teacher, went with CompSci instead. I wouldn't change any of it.</p>
+				
+				<p>*This isn't actually 100% true, but it will narrow your choices at University if you don't take it.</p>
+				]]>
+			</encoded>
+		</item>
+		<item>
+			<title>
+				<![CDATA[Girls can code.]]>
+			</title>
+			<description>
+				<![CDATA[<p>This week BBC Three started a new series with the above title. I got sent the advert for it the other week and thought "OH DEAR GOD LORD PLEASE NO DON'T DO THIS", because when you open a program about tech with a girl saying "I think tech is rubbish"</p>]]>
+			</description>
+			<link>
+				http://charlottegodley.co.uk/girls-can-code/
+			</link>
+			<guid isPermaLink="false">
+				9f502563-ea46-479b-a9ab-4a4f6c048594
+			</guid>
+			<creator>
+				<![CDATA[Charlotte]]>
+			</creator>
+			<pubDate>
+				Mon, 14 Sep 2015 21:55:24 GMT
+			</pubDate>
+			<content url="http://charlottegodley.co.uk/content/images/2015/09/maxresdefault.jpg" medium="image" />
+			<encoded>
+				<![CDATA[
+				<img src="http://charlottegodley.co.uk/content/images/2015/09/maxresdefault.jpg" alt="Girls can code."><p>This week BBC Three started a new series with the above title. I got sent the advert for it the other week and thought "OH DEAR GOD LORD PLEASE NO DON'T DO THIS", because when you open a program about tech with a girl saying "I think tech is rubbish", the rest of it really doesn't seem to have that much going for it.</p>
+				
+				<p>Unlike a few of my friends on Twitter and Facebook, my overall feeling didn't stray too far from my initial reaction.</p>
+				
+				<p>The program essentially follows the paths of five young women who are roughly the same age as me or a bit younger who aren't a fan of tech. The type of girly girls who take selfies, dress themselves in a more feminine way than I do and in general think consuming technology is their place.</p>
+				
+				<p>The idea is to show them the best of tech - from what children are being taught about making jam sandwiches as robots to producing games.</p>
+				
+				<p>Fine, fab, brilliant, just what we need to do: take the best, show them who built it and that they could do the same thing.</p>
+				
+				<p>The first issue I take with the program is so many of the roles presented are not technical. The girls are shown programs run on step by step instructions and will only do what you tell them by children, but don't write code. </p>
+				
+				<p>I attended an event a couple of years ago for a major tech company which was a diversity intro day. All I was presented with were the women from HR, marketing, business etc and we produced an app design in teams but no actual code. To me this once again was a big sign in my face saying "this is what you're meant to do, not the complex stuff you enjoy". It pissed me off so much that whilst I respect the company for the technology they produce, they will probably always have a black mark in my book until I see something spectacular that swings it for me.</p>
+				
+				<p>Back to the program. If tech roles being barely represented wasn't bad enough, any time the women are doing anything technical it's a man helping them to do it, or even worse, a man doing it for them. As someone who works in the usual office space where I'm one of two women in the room, I appreciate honesty that this is what tech looks like, but at the same time I know that if you present better role models that the target audience can see themselves as, it's probably a better way to get them thinking "that could be me".</p>
+				
+				<p>On the flip side, there's a lot of female role models, including Dr. Sue Black who is living proof that if she can do it with what she's had to deal with, so can anyone else. Again though, of those who are presented as female role models, maybe two out of them are technical. Still not seeing the title being fairly represented, here.</p>
+				
+				<p>The next issue I take with the program is that I'm not a girly girl. Nor am I a total nerd. I'm somewhere in between. I rarely wear makeup, doesn't mean I don't like wearing it for a special occasion and looking in the mirror going "god I'm gorgeous". I want to look presentable on a day to day occasion, but in general I like and am happy with who I am, how I dress and what my face looks like without having to be uncomfortably dressed. Not everyone's that lucky, my parents just managed to avoid teaching me to care. That's probably my super power. <br>
+				The program's subjects suffer from a lack of diversity for me - one of them loves gaming, I appreciate that, there's another one that's an art student, but mostly, they're all girly girls. I don't see myself before I joined the tech industry represented in the program, and it's not like I've been interested in technology since birth. If we're to get more girls interested, we need to cater for all the amazing and different interests young women have.</p>
+				
+				<p>I also think there's far more mind-blowing technology to be shown, but to some extent this goes back to my point on diverse subjects. If you are going to influence how people think about technology when they have no desire to enter that industry or understand how it works, then you have to use what they're interested in.</p>
+				
+				<p>Overall...I will give it a second chance next week, but right now I'm annoyed and frustrated at a lot of the show's content. I'm very much praying it will get better.</p>
+				
+				<p>If you're interested, <a href="http://www.bbc.co.uk/iplayer/episode/b06ccksx/girls-can-code-episode-1">here's the iPlayer link</a></p>
+				]]>
+			</encoded>
+		</item>
+		<item>
+			<title>
+				<![CDATA[I've not posted in a month]]>
+			</title>
+			<description>
+				<![CDATA[
+				<p>This is me stopping myself from never writing again by promising I will write as soon as I have something interesting to say.</p>
+				
+				<p>The reason I haven't written anything for a whole August is that nothing of note really happened. I spent 2 weeks working at Fire Tech Camp, but</p>
+				]]>
+			</description>
+			<link>
+				http://charlottegodley.co.uk/ive-not-posted-in-a-month/
+			</link>
+			<guid isPermaLink="false">
+				711eb4f1-28d6-44df-ae4b-5ff5f8dac11d
+			</guid>
+			<creator>
+				<![CDATA[Charlotte]]>
+			</creator>
+			<pubDate>
+				Fri, 04 Sep 2015 23:31:15 GMT
+			</pubDate>
+			<content url="http://charlottegodley.co.uk/content/images/2015/09/photo-1415201364774-f6f0bb35f28f.jpeg" medium="image" />
+			<encoded>
+				<![CDATA[
+				<img src="http://charlottegodley.co.uk/content/images/2015/09/photo-1415201364774-f6f0bb35f28f.jpeg" alt="I've not posted in a month"><p>This is me stopping myself from never writing again by promising I will write as soon as I have something interesting to say.</p>
+				
+				<p>The reason I haven't written anything for a whole August is that nothing of note really happened. I spent 2 weeks working at Fire Tech Camp, but I already wrote about that. I <em>didn't</em> go to South Korea because of MERS and was incredibly lucky I hadn't booked my flights, as Global Hackathon Seoul has severely dented its reputation by running out of money and not being able to help people get their flights refunded.</p>
+				
+				<p>The most notable thing I guess of this month was that I sorted housing for Cambridge and played my first "gig" with my sisters at my uncle's wedding. Did it for free, went down a storm. <a href="http://music.charlottegodley.co.uk">We're now planning to do more of them as a part time job</a>, the website of which (if you click that link) is temporarily up as a sub domain but will probably get a full domain whenever I decide what domain to buy.</p>
+				
+				<p>Since that occasion which was last week I've pretty much been chillin', modifying my projects page and tweeting about how I've not written anything. I'm now in the waiting period where I just...do nothing until the journey to Cambridge on Sunday. Exciting times.</p>
+				]]>
+			</encoded>
+		</item>
+		<item>
+			<title>
+				<![CDATA[Doing my best at documentation]]>
+			</title>
+			<description>
+				<![CDATA[
+				<p>I'm a firm believer that documentation is probably more important than your code. <br>
+				Why? Well, mainly this stems from my industrial year combined with blogging for Element14. In my industrial year, I had to spend a long time looking at the docs before I understood any of the stuff I</p>
+				]]>
+			</description>
+			<link>
+				http://charlottegodley.co.uk/doing-my-best-at-documentation/
+			</link>
+			<guid isPermaLink="false">
+				dd214f9a-ecda-4211-a69d-b7aea0d6350e
+			</guid>
+			<creator>
+				<![CDATA[Charlotte]]>
+			</creator>
+			<pubDate>
+				Mon, 27 Jul 2015 23:23:54 GMT
+			</pubDate>
+			<encoded>
+				<![CDATA[
+				<p>I'm a firm believer that documentation is probably more important than your code. <br>
+				Why? Well, mainly this stems from my industrial year combined with blogging for Element14. In my industrial year, I had to spend a long time looking at the docs before I understood any of the stuff I was working with, and much of the code was either written by developers who had left or the current developers had long forgotten how bits of it worked, which is completely natural when you have a huge project to work on. Often I kind of reverted to using the dir() method in python quite a lot and just guessing my way round stuff.</p>
+				
+				<p>At E14 I was pretty much flying solo - any help I received took days to come back from people who were working with other things, and again, may or may not remember how to use the devices. It's also a different work environment - the code at Airbus was mostly in-house, if not contracted for their purposes. E14 were just the distributors for most of the kit I was working with, so it's natural people would be less fluent.</p>
+				
+				<p>So why are docs more important? Because if I'm mostly relying on those to figure out how your code works and you don't explain what a method does, I'm probably not going to use that method. So you just wasted a long time on it if your intended user is an OS developer.</p>
+				
+				<p>Anyhow. I promised myself on my FYP open source plan that I wouldn't just dump my program out there for the world to see with the note "lol I built this for me only have fun figuring out how it works", and today I've been working on automatic documentation.</p>
+				
+				<p>In python, automatic documenters use introspection to examine the docstrings of each class and method. A docstring in python terms is the first string inside that method or class, where you can indicate what the method does. I started on this by running through each class and most of the methods within that class which weren't obviously titled (Hey, guess what addStaff does!). For each one I tried to give a brief explanation of the purpose and for classes, an indication of the variables within it.</p>
+				
+				<p>I started off looking at pydoc, the module provided by the foundation with python. This worked pretty well, but if I was going to publish the docs anywhere...well...here's a screenshot: <br>
+				<img src="http://charlottegodley.co.uk/content/images/2015/07/Screen-Shot-2015-07-27-at-22-37-33.png" alt="">
+				Colourful, yes, but ick. Not really all that readable or pretty, to be honest. </p>
+				
+				<p>So I went for a browse, and OSS and python being the fabulous community that they are, there's a lot of other tools that do this. If I remember correctly, epydoc was the one we used to use at work. A lot of other people have used it too, but unfortunately python3 support isn't great, so yeah. Maybe not.</p>
+				
+				<p>The one I've gone for is <a href="http://github.com/BurntSushi/pdoc">pdoc</a>, which looks like this: <br>
+				<img src="http://charlottegodley.co.uk/content/images/2015/07/Screen-Shot-2015-07-27-at-22-36-51.png" alt=""></p>
+				
+				<p>Nice, right? It supports some markdown notation, and has an additional feature in which it can figure out docstrings for different variables, which pydoc doesn't do. <br>
+				For example:  </p>
+				
+				<pre><code>majors = {-
+				7: "Cflat", -
+				6: "Gflat", -
+				5: "Dflat", -
+				4: "Aflat", -
+				3: "Eflat", -
+				2: "Bflat", -
+				1: "F", 0: "C", 1: "G", 2: "D", 3: "A", 4: "E", 5: "B", 6: "Fsharp", 7: "Csharp"}
+				'''dictionary of all key signature names in the major mode, indexed by their number of fifths'''
+				minors = {-7: "Aflat", -6: "Eflat", -5: "Bflat", -4: "F", -3: "C", -2: "G", -1: "D",
+				0: "A", 1: "E", 2: "B", 3: "Fsharp", 4: "Csharp", 5: "Gsharp", 6: "Dsharp", 7: "Asharp"}
+				'''dictionary of all key signature names in the minor mode, indexed by their number of fifths'''
+				</code></pre>
+				
+				<p>pydoc then figures out what those two strings mean, and does this:</p>
+				
+				<p><img src="http://charlottegodley.co.uk/content/images/2015/07/Screen-Shot-2015-07-28-at-00-22-25.png" alt=""></p>
+				
+				<p>Pretty!</p>
+				
+				<p>Annoyingly the navigation isn't all that great - if I headed into a class, I couldn't get back without using the back button. Despite this, the template looks so beautiful that I uploaded it to my own hosting.</p>
+				
+				<p>You can now view the docs <a href="http://docs.charlottegodley.co.uk/MuseParse">here</a> at my new fancy subdomain, and view overviews of any upcoming projects on the new <a href="http://charlottegodley.co.uk/projects">projects page</a>.</p>
+				]]>
+			</encoded>
+		</item>
+		<item>
+			<title>
+				<![CDATA[Cross-platform python: the ubuntu edition]]>
+			</title>
+			<description>
+				<![CDATA[<p>I'm still plodding on with my final year project given I don't have a lot else to do right now. I'm now up to moving to ubuntu, which I started on because of my latest OSS release which I needed to check anyhow, so I decided to test the rest</p>]]>
+			</description>
+			<link>
+				http://charlottegodley.co.uk/cross-platform-python-the-ubuntu-edition/
+			</link>
+			<guid isPermaLink="false">
+				5a65a4c3-6311-49a4-878a-a58b88890f01
+			</guid>
+			<creator>
+				<![CDATA[Charlotte]]>
+			</creator>
+			<pubDate>
+				Tue, 21 Jul 2015 00:43:25 GMT
+			</pubDate>
+			<content url="http://charlottegodley.co.uk/content/images/2015/09/Screen-Shot-2015-07-21-at-01-40-49.png" medium="image" />
+			<encoded>
+				<![CDATA[
+				<img src="http://charlottegodley.co.uk/content/images/2015/09/Screen-Shot-2015-07-21-at-01-40-49.png" alt="Cross-platform python: the ubuntu edition"><p>I'm still plodding on with my final year project given I don't have a lot else to do right now. I'm now up to moving to ubuntu, which I started on because of my latest OSS release which I needed to check anyhow, so I decided to test the rest of my FYP on ubuntu while I was at it. <br>
+				To begin with, it was going swimmingly. Got the packages I needed from apt-get:  </p>
+				
+				<pre><code>sudo apt-get install python3-qt4
+				sudo apt-get install python3-pip
+				</code></pre>
+				
+				<p>along with some other programs, fetched my code and my module from git and pip respectively. <br>
+				Ran the program and the library, all functioned as expected... <br>
+				Until, as usual, poppler fell out with me.</p>
+				
+				<p>In order to note this for later use, you need the following packages to get poppler to function on ubuntu: <br>
+				python3-qt4, python-qt4-dev, python3-sip, python3-sip-dev, libpoppler-qt4-4, libpoppler-qt4-dev <br>
+				Then run <code>pip3 install python-poppler-qt4</code> and it <em>should</em> work just fine. <br>
+				And finally it functions in full on 2 platforms: <br>
+				<img src="http://charlottegodley.co.uk/content/images/2015/07/Screen-Shot-2015-07-21-at-01-40-49.png" alt="Cross-platform python: the ubuntu edition"></p>
+				]]>
+			</encoded>
+		</item>
+		<item>
+			<title>
+				<![CDATA[My first "proper" OSS release]]>
+			</title>
+			<description>
+				<![CDATA[
+				<p><img src="http://charlottegodley.co.uk/content/images/2015/07/Screen-Shot-2015-07-20-at-17-38-54.png" alt=""></p>
+				
+				<p>During the past year I've been working on my Final Year Project as you're probably sick of hearing about. I promised myself and my lecturers that I would open source it for several reasons:</p>
+				
+				<ol>
+				<li><p>I made it because music software is expensive and I wanted something that I could pick</p></li></ol>
+				]]>
+			</description>
+			<link>
+				http://charlottegodley.co.uk/my-first-proper-oss-release/
+			</link>
+			<guid isPermaLink="false">
+				bb9160cc-fab7-4aa4-8a9f-46e54713683a
+			</guid>
+			<creator>
+				<![CDATA[Charlotte]]>
+			</creator>
+			<pubDate>
+				Mon, 20 Jul 2015 16:56:25 GMT
+			</pubDate>
+			<encoded>
+				<![CDATA[
+				<p><img src="http://charlottegodley.co.uk/content/images/2015/07/Screen-Shot-2015-07-20-at-17-38-54.png" alt=""></p>
+				
+				<p>During the past year I've been working on my Final Year Project as you're probably sick of hearing about. I promised myself and my lecturers that I would open source it for several reasons:</p>
+				
+				<ol>
+				<li><p>I made it because music software is expensive and I wanted something that I could pick out what I wanted. Seems dumb to release it for money or just as shareware or whatever when I'm sure there's plenty of other people who are equally frustrated at music software being crap or expensive.</p></li>
+				<li><p>There's a lot of stuff in there that's useful but hasn't been released before, or not documented in a way that you can actually use it for your own projects.</p></li>
+				<li><p>I'd really hate for all that code to go to waste.</p></li>
+				</ol>
+				
+				<p>On Wednesday I graduated, so I guess that means all of that code is definitely one hundred percent never going to get assessed again. Today I cleaned out the last horrible global variables from my parser, moved the folders into a better more manageable structure and released the drawing portion of my project into the wild on <a href="http://github.com/Godley/MuseParse">Github</a>. I call this my first "proper" release because most things I've worked on which are not for the purposes of university are already open source on my personal Github account, but none of them were really documented or intended for other people to work on.</p>
+				
+				<p>I still have a bunch of issues to move over from their original location in my still-private FYP repo, but all the code and tests are now on there. <br>
+				After that was done and I'd tested by building, installing and finally changing my original FYP to use only that package rather than the project's local copy, with bated breath, I followed this <a href="https://jamie.curle.io/posts/my-first-experience-adding-package-pypi/">tutorial</a> and released it onto the Python Package Index. Now all you need to do to get that package is use <code>pip3 install MuseParse</code> and you're away. <br>
+				Note I have yet to test if it works with Python 2.7. I really doubt there's much to change if it doesn't work in 2.7.</p>
+				
+				<p>There's still some documentation work to do if anyone wants to use the classes for anything other than how the test scripts tell you to use them, which I hope to write over the next few days. For now, enjoy!</p>
+				]]>
+			</encoded>
+		</item>
+		<item>
+			<title>
+				<![CDATA[Graduation and what]]>
+			</title>
+			<description>
+				<![CDATA[
+				<p>From Tuesday to Wednesday I was in Hull, graduating. Really awesome couple of days, got photos with a lot of people in funny hats and all of it was free as I was lucky enough to win the NSS prize of robe hire and official photography nobody thinks exists. <br>
+				My</p>
+				]]>
+			</description>
+			<link>
+				http://charlottegodley.co.uk/graduation-and-what/
+			</link>
+			<guid isPermaLink="false">
+				ad6b92bf-0777-49e5-9106-81f6de5e061f
+			</guid>
+			<creator>
+				<![CDATA[Charlotte]]>
+			</creator>
+			<pubDate>
+				Sat, 18 Jul 2015 00:17:56 GMT
+			</pubDate>
+			<content url="http://charlottegodley.co.uk/content/images/2015/09/IMG_0793.JPG" medium="image" />
+			<encoded>
+				<![CDATA[
+				<img src="http://charlottegodley.co.uk/content/images/2015/09/IMG_0793.JPG" alt="Graduation and what"><p>From Tuesday to Wednesday I was in Hull, graduating. Really awesome couple of days, got photos with a lot of people in funny hats and all of it was free as I was lucky enough to win the NSS prize of robe hire and official photography nobody thinks exists. <br>
+				My favourite photos: <br>
+				<img src="http://charlottegodley.co.uk/content/images/2015/07/IMG_0809.JPG" alt="Graduation and what">
+				<em>Passerby: You'll have people coming here for the wrong reasons</em>
+				<img src="http://charlottegodley.co.uk/content/images/2015/07/IMG_0827.JPG" alt="Graduation and what">
+				The following day was my big sister's graduation in Newcastle, so we continued the fun by heading up there and finally coming back to reality this afternoon. <br>
+				<img src="http://charlottegodley.co.uk/content/images/2015/07/IMG_0936.JPG" alt="Graduation and what">
+				Fabulous week. Congratulations all!</p>
+				]]>
+			</encoded>
+		</item>
+		<item>
+			<title>
+				<![CDATA[Results!]]>
+			</title>
+			<description>
+				<![CDATA[<p>While I was away in South America I got my results. Honestly, I was fairly sure I'd got a first. Whilst I was with my tour group someone asked what I was expecting to get and I said "at least a first", so he laughed and told his friend what</p>]]>
+			</description>
+			<link>
+				http://charlottegodley.co.uk/css-bug-in-cx_freezepyqt4/
+			</link>
+			<guid isPermaLink="false">
+				e0d42c8c-0e47-4448-93bc-48f8d4526cf4
+			</guid>
+			<creator>
+				<![CDATA[Charlotte]]>
+			</creator>
+			<pubDate>
+				Thu, 09 Jul 2015 14:53:27 GMT
+			</pubDate>
+			<encoded>
+				<![CDATA[
+				<p>While I was away in South America I got my results. Honestly, I was fairly sure I'd got a first. Whilst I was with my tour group someone asked what I was expecting to get and I said "at least a first", so he laughed and told his friend what I'd said. Honestly, I was hoping to hit a specific percent hence I said that.</p>
+				
+				<p>Anyhow, very pleased to say I got my first. I'm a bit disappointed that I pretty much dive-bombed both the exams in that term. I'm not sure how that happened, but the last term of uni was always going to be a stressful time and I guess I just didn't know the material or answer questions in the right way. </p>
+				
+				<p>A difference this year has been I've found it difficult to integrate back into third year, with a lot of my friends having moved on or gone into fourth year, and that's tough. A big part of the first two years was being able to talk through issues with people working on the same stuff, so I attribute part of my lower grades to feeling isolated and that's kinda sucky.</p>
+				
+				<p>What I'm trying to force myself to not do is dwell on it. Even if I didn't get the mark I wanted, I got a first and most people would be happy with that. Heck, A-Level studying Charlotte is looking at me right now thinking "what the hell, dude, quit moaning" because at that point I was happy with getting a high grade and sod the excess. Funny how much you notice you've changed.</p>
+				
+				<p>On top of that first, I got a pretty good grade on my final year project which is the part I was (and still am) most passionate about. In total I got 93%, which breaks down to 68% in my first report (worth 3%), 75% in my second (worth 7%), and a whopping 95% in my final report (worth the remaining 90%). I'm incredibly pleased and proud of what I accomplished there and I can't wait to open source what I have once a few bugs are fixed and sections are tidied and improved. My target is to have it ready for public viewing by the end of the year, and as I don't have an awful lot to do over the summer I'll probably spend a fair amount of time on it during this period.</p>
+				
+				<p>A big thank you to the people who reviewed my report - that is, obviously my supervisor Helen who's been brilliant throughout the year, David Jones, David Whale, Zach Zebrowski, my own mum and dad, probably a couple of others I've forgotten. I really think that's what gave me a boost in terms of grades, and spending the last 24 hours putting in all of your changes was well worth the effort, so thank you so much for taking the time to read and give honest feedback.</p>
+				]]>
+			</encoded>
+		</item>
+		<item>
+			<title>
+				<![CDATA[The InCredible Hull-k]]>
+			</title>
+			<description>
+				<![CDATA[
+				<p>Today I completed my last demonstration for an academic purpose (hopefully!). Last week I did my last exam, and in a couple of months I will officially be Charlotte Godley BSc Hons. </p>
+				
+				<p>As my time at Hull has been fraught with puns - Costa Del Hull, Highway to Hull, TONIGHT,</p>
+				]]>
+			</description>
+			<link>
+				http://charlottegodley.co.uk/the-incredible-hull-k/
+			</link>
+			<guid isPermaLink="false">
+				a7323673-4848-4210-9768-2ff78381964d
+			</guid>
+			<creator>
+				<![CDATA[Charlotte]]>
+			</creator>
+			<pubDate>
+				Mon, 01 Jun 2015 15:33:01 GMT
+			</pubDate>
+			<encoded>
+				<![CDATA[
+				<p>Today I completed my last demonstration for an academic purpose (hopefully!). Last week I did my last exam, and in a couple of months I will officially be Charlotte Godley BSc Hons. </p>
+				
+				<p>As my time at Hull has been fraught with puns - Costa Del Hull, Highway to Hull, TONIGHT, WE DINE, IN HULL etc etc., it seemed only fitting to come up with an extremely bad pun to title my final blog post on my time here.</p>
+				
+				<p>There's been upsides, there's been downsides, there's been moments where I've wondered "what the hell am I doing" and wanted to leave, but overall, I don't think I'd change any of it, and that agonising decision over which university to go to ended pretty well for me. I will miss people asking me "where's Hulli?" when I go to international conferences (or in fact, even when I go to events in London), I will miss the chip spice and I will miss the lecturers and the students here, but it's time to move on and I'm super excited.</p>
+				
+				<p>What's next? Tomorrow I'm heading North for a road trip around Scotland with my sister who is soon to be MEng Chemical Engineering, then in 16 days I'm heading out to South America to visit Argentina, Uruguay and Brazil. I've been to Paraguay before but didn't get to Iguazu Falls which borders Brazil, Paraguay and Argentina, so I needed another visit to make sure I'd done that and pick up some Terere (Paraguayan Tea which you can drink warm or cold. It's an acquired taste, but after 10 days in 30-40 degree heat I loved it).</p>
+				
+				<p>Yeah that's still not all. When I get back I have a week or so to rest and then I graduate, and then the next day my sister graduates, so the night of graduation I'll probably be in the back of a car heading up to Newcastle. A couple of weeks after that I have a place at Global Hackathon Seoul which is almost all expenses paid, so I'll be spending about a week or so in Seoul at the hackathon and then probably a week or so travelling South Korea and Japan. When I get back I'm working with Fire Tech Camp as a camp instructor in Manchester and then Leeds, then I'm off to Ireland for a week for my uncle's wedding, and FINALLY <em>DUN DUN DUN</em>...</p>
+				
+				<p>I'm moving to Cambridge. I start my new job a week into September at Cambridge Consultants, which I'm super excited about because it's one of the jobs I've read where I've gone "This is me. This is what I want" and I never expected to have figured that out by this point. I've dropped hints about this job for several months because I was lucky enough to have my job sorted from the end of 2014 which was a definite weight off my mind heading into second term of final year.</p>
+				
+				<p>Christ. I'm exhausted reading that. Finally, all that's left to leave you with is this:</p>
+				
+				<iframe width="420" height="315" src="https://www.youtube.com/embed/bolCulCh60E" frameborder="0" allowfullscreen></iframe>
+				
+				<p>P.S. Yesterday I turned a year older.</p>
+				]]>
+			</encoded>
+		</item>
+		<item>
+			<title>
+				<![CDATA[Working with Poppler/PyQT to present PDFs]]>
+			</title>
+			<description>
+				<![CDATA[
+				<p><center><img src="http://charlottegodley.co.uk/content/images/2015/05/Screen-Shot-2015-05-24-at-18-57-25.png" alt="" title=""></center> <br>
+				Today I have another tutorial because I've been fiddling again. This time I was working on changing my application so that it will show each pair of pages horizontally, and then subsequent pairs vertically as if it were a book. Important for musicians because it requires less page turning. </p>
+				
+				<p>What</p>
+				]]>
+			</description>
+			<link>
+				http://charlottegodley.co.uk/working-with-popplerpyqt-to-present-pdfs/
+			</link>
+			<guid isPermaLink="false">
+				deaa09c9-3302-46bc-b453-8b0f91616216
+			</guid>
+			<creator>
+				<![CDATA[Charlotte]]>
+			</creator>
+			<pubDate>
+				Sun, 24 May 2015 17:54:10 GMT
+			</pubDate>
+			<encoded>
+				<![CDATA[
+				<p><center><img src="http://charlottegodley.co.uk/content/images/2015/05/Screen-Shot-2015-05-24-at-18-57-25.png" alt="" title=""></center> <br>
+				Today I have another tutorial because I've been fiddling again. This time I was working on changing my application so that it will show each pair of pages horizontally, and then subsequent pairs vertically as if it were a book. Important for musicians because it requires less page turning. </p>
+				
+				<p>What this requires is producing 2 layouts - the main one which holds sub layouts and is vertical, and each sub layout which is horizontal. The libraries I'm using here are PyQt4, Poppler for PDF rendering on Python 3.4. Both of these can be fetched from PyPi.</p>
+				
+				<h2 id="thecodealgorithm">The code/algorithm</h2>
+				
+				<h3 id="tldr">TLDR</h3>
+				
+				<p>The full code is here in case you're feeling lazy:  </p>
+				
+				<script src="https://gist.github.com/Godley/a95675c11d9e37166a9c.js"></script>
+				
+				<h3 id="verticallayout">Vertical layout</h3>
+				
+				<p>The implementation of this form of layout is relatively simple. First, we need to produce the vertical layout  </p>
+				
+				<script src="https://gist.github.com/Godley/d0d6a06e8238806c844e.js"></script>
+				
+				<p>This has loaded no pages, but the point here is to show how poppler and piquet work together. What we basically do is create a layout and a scene, put the pages into the scene, the scene into the layout and then set the graphics widget's layout to be that layout.</p>
+				
+				<h3 id="horizontallayoutandpageloading">Horizontal layout and page loading</h3>
+				
+				<p>Next up we need to pop in the code that handles the pages. This needs to go before the line <code>graphicsWidget = QtGui.QGraphicsWidget()</code></p>
+				
+				<script src="https://gist.github.com/Godley/149d7ca1456c863bfa83.js"></script>
+				
+				<p>Essentially what we do here is loop through the pages but increment every 2 pages instead of every page. <br>
+				Note I've used a list for every variable. This is because of memory management. When an item gets added to a scene or a layout, the object <em>itself</em> gets added, not a copy or the data that it holds, because C++. In normal circumstances to avoid messing up the layout by creating a new object and overwriting the old one, we'd use <code>copy.deepcopy</code> which copies the data of that object into a new object - the objects held in the layouts here are "shallow copied", meaning their memory space is exactly the same as the one we created. <br>
+				In PyQt, Poppler and other libraries which python is <em>wrapping</em>, not managing itself, we can't use deep copy because python isn't able to manage the object itself - that's handled by C++. </p>
+				]]>
+			</encoded>
+		</item>
+	</channel>
+</rss>

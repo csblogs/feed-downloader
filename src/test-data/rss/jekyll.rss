@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>
+			Rob Crocombe
+		</title>
+		<description>
+			A software engineer in Silicon Valley
+		</description>
+		<link>
+			http://robcrocombe.com/
+		</link>
+		<link href="http://robcrocombe.com/feed.xml" rel="self" type="application/rss+xml" />
+		<pubDate>
+			Sat, 13 Feb 2016 13:55:06 -0800
+		</pubDate>
+		<lastBuildDate>
+			Sat, 13 Feb 2016 13:55:06 -0800
+		</lastBuildDate>
+		<generator>
+			Jekyll v3.0.2
+		</generator>
+		<item>
+			<title>
+				Readability: Slack vs HipChat
+			</title>
+			<description>
+				&lt;p&gt;&lt;a href="https://robcrocombe.files.wordpress.com/2016/02/hipchat-vs-slack2.png"&gt;&lt;img src="https://robcrocombe.files.wordpress.com/2016/02/hipchat-vs-slack2.png" alt="??" /&gt;&lt;/a&gt;&lt;/p&gt;
+				
+				&lt;p&gt;By now I’ve used my fair share of both &lt;a href="https://slack.com/"&gt;Slack&lt;/a&gt; and &lt;a href="https://www.hipchat.com/"&gt;HipChat&lt;/a&gt; (team-focused messaging services), and I couldn’t figure out why I did’t like Slack’s user interface.  I think I’ve finally figured it out. I was recently looking into the best layout for positioning labels in forms - vertical, above the input, or horizontal, inline and to the left of the input. I found this &lt;a href="http://ux.stackexchange.com/questions/8480/input-form-label-alignment-top-or-left"&gt;UX Exchange answer&lt;/a&gt; and subsequently &lt;a href="http://www.lukew.com/ff/entry.asp?1502"&gt;this article&lt;/a&gt;.&lt;/p&gt;
+				
+				&lt;p&gt;&lt;a href="https://robcrocombe.files.wordpress.com/2016/02/formcomparision.png"&gt;&lt;img src="https://robcrocombe.files.wordpress.com/2016/02/formcomparision.png" alt="Form Comparison" /&gt;&lt;/a&gt;&lt;/p&gt;
+				
+				&lt;p&gt;You can see how each layout has their own advantages. Then I looked at how Slack and HipChat lay out the conversation thread in their clients.&lt;/p&gt;
+				
+				&lt;p&gt;&lt;a href="https://robcrocombe.files.wordpress.com/2016/02/hipchat-vs-slack-layout.jpg"&gt;&lt;img src="https://robcrocombe.files.wordpress.com/2016/02/hipchat-vs-slack-layout.jpg" alt="App Comparison" /&gt;&lt;/a&gt;&lt;/p&gt;
+				
+				&lt;p&gt;Slack goes for the author’s name above the message, whereas HipChat puts the name in a separate column to the left of the message. Ahah! I find it harder to follow conversations in Slack because they are visually broken up by the author above every message, making it much harder to scan vertically down the list. In contrast, HipChat’s conversation thread is easy for the eye to follow from one message to the next.&lt;/p&gt;
+				
+				&lt;p&gt;Slack also has a ‘compact’ layout that ditches the avatars and puts the author’s name inline with the message, but that’s no better since the message text still starts at arbitrary places along the line.&lt;/p&gt;
+				
+				&lt;p&gt;I’ve found two Stylish themes that use the column layout, (&lt;a href="https://userstyles.org/styles/104279/slack-irc-layout"&gt;Slack IRC&lt;/a&gt; and &lt;a href="https://userstyles.org/styles/110213/readable-slack"&gt;Readable Slack&lt;/a&gt;) so it appears others agree with me too. Just a shame it can’t be used with the desktop app.&lt;/p&gt;
+				
+				&lt;p&gt;I’m hoping Slack will eventually add the ‘column’ layout to their settings, but until then HipChat wins in the UX department for me.&lt;/p&gt;
+			</description>
+			<pubDate>
+				Sat, 13 Feb 2016 13:53:23 -0800
+			</pubDate>
+			<link>
+				http://robcrocombe.com/2016/02/13/readability-slack-vs-hipchat/
+			</link>
+			<guid isPermaLink="true">
+				http://robcrocombe.com/2016/02/13/readability-slack-vs-hipchat/
+			</guid>
+			<category>
+				UX
+			</category>
+			<category>
+				web
+			</category>
+		</item>
+		<item>
+			<title>
+				A walk through blog technologies
+			</title>
+			<description>
+				&lt;p&gt;As with any programming project, I came across challenges and new technologies while writing the new blog website. This post describes my more interesting findings. Hopefully it might be helpful to anyone thinking of building a static blog too.&lt;/p&gt;
+				
+				&lt;h3 id="build-process"&gt;Build Process&lt;/h3&gt;
+				
+				&lt;p&gt;I really wanted to try &lt;a href="http://gruntjs.com/"&gt;Grunt&lt;/a&gt; or &lt;a href="http://gulpjs.com/"&gt;Gulp&lt;/a&gt; in the project, as I thought that having an automated build process would help speed things up, and it would be important to minify code for production. I had never used either tool, but I decided to go with Gulp, as I liked the use of pipe() and streaming. As well as the use of the standard array of minifiers, I’m using &lt;a href="https://github.com/shinnn/gulp-gh-pages"&gt;gulp-gh-pages&lt;/a&gt; to deploy the site to GitHub Pages.&lt;/p&gt;
+				
+				&lt;h3 id="searching-blog-posts"&gt;Searching blog posts&lt;/h3&gt;
+				
+				&lt;p&gt;Because Jekyll websites are static, there can be no back-end search ability. The only option is to index all blog posts and search them in the browser using JavaScript. To do this, I found &lt;a href="http://lunrjs.com/"&gt;lunr.js&lt;/a&gt; a full-text search engine.&lt;/p&gt;
+				
+				&lt;p&gt;The idea is that you have a JSON file containing the information you wish to search (like post titles) and any metadata you need (like post URLs). Then initialize lunr.js with the JSON and attributes you want indexed. Then it’s as simple as running &lt;code&gt;index.search('foo')&lt;/code&gt;, which returns a list of matched blog posts. I index the post title, tags, and date in human-readable format (so you can search for something like ‘tuesday’ to find all posts written on a Tuesday).&lt;/p&gt;
+				
+				&lt;p&gt;Jekyll can generate the JSON file to be statically served, but we can take this a step further. Lunr.js also allows you to export the compiled index and load it back in. This means the index can be compiled once at build time and served to clients to load into lunr.js, thus speeding up the search initialisation. To have the index compiled at build time, I modified the &lt;a href="https://github.com/djfdev/gulp-lunr"&gt;gulp-lunr&lt;/a&gt; plugin to suite the fields I’ll be searching.&lt;/p&gt;
+				
+				&lt;p&gt;You can also search the blog directly from the URL. Any parameters will be passed as a search query, e.g. &lt;a href="http://robcrocombe.com/search?pascalDE"&gt;/search?pascalDE&lt;/a&gt;.&lt;/p&gt;
+				
+				&lt;h3 id="tagging-with-hash-maps"&gt;Tagging with hash maps&lt;/h3&gt;
+				
+				&lt;p&gt;Originally I was going to use lunr.js to find all posts with a certain tag and display them on a page. I realised this would be unnecessary because tags are always fixed strings - they need to match exactly to map a blog post to a tag.&lt;/p&gt;
+				
+				&lt;p&gt;A &lt;code&gt;/tagged&lt;/code&gt; page could simply be done by having a JSON file with two hash maps. One hash would use tags as keys with the value being a list of blog post slugs (the title formatted for a URL). The second would have the blog post slugs as keys and their metadata object (link, date etc.) as values. The post data is kept separate to avoid repetition.&lt;/p&gt;
+				
+				&lt;p&gt;This makes finding tagged posts really quick. The page will look up the tag from the URL parameters, then look up each of the blog posts and display them on-screen, for example: &lt;a href="http://robcrocombe.com/tagged?gaming"&gt;/tagged?gaming&lt;/a&gt;.&lt;/p&gt;
+				
+				&lt;p&gt;I thought that having an index of every blog post would carry a large file size, but currently it is around 94Kb, so it has as much a download footprint as a small image.&lt;/p&gt;
+				
+				&lt;h3 id="syntax-highlighting-code"&gt;Syntax highlighting code&lt;/h3&gt;
+				
+				&lt;p&gt;I use the popular &lt;a href="https://highlightjs.org/"&gt;highlight.js&lt;/a&gt; library to syntax highlight code client-side. Here’s an example:&lt;/p&gt;
+				
+				&lt;pre&gt;&lt;code class="language-csharp"&gt;// Hello1.cs
+				public class Hello1
+				{
+				public static void Main()
+				{
+				System.Console.WriteLine("Hello, World!");
+				}
+				}
+				&lt;/code&gt;&lt;/pre&gt;
+				
+				&lt;h3 id="image-galleries"&gt;Image galleries&lt;/h3&gt;
+				
+				&lt;p&gt;One of the most challenging tasks was to replicate the WordPress image galleries. I quite like the layout WordPress gives for the Mosaic feature of their galleries. Unfortunately I couldn’t find anything as good as that online, and attempts of making my own were not optimal either.&lt;/p&gt;
+				
+				&lt;p&gt;I came across two libraries in my search. &lt;a href="http://stylehatch.github.io/photoset-grid/"&gt;Photoset-grid&lt;/a&gt; allows you to specify rows of images and it will automatically lay them out for you client-side. For example you give it the sequence ‘121’ and with 4 images and it will put the 1st on one row all to itself, the next two side-by-side on the next row, and the last image full size on a row like the first.&lt;/p&gt;
+				
+				&lt;p&gt;I really liked the neat zooming images on &lt;a href="https://medium.com/the-story/introducing-image-grids-c592e5bc16d8#.92ic3je5e"&gt;Medium&lt;/a&gt;, and I wanted something like it here. I decided to go with &lt;a href="http://photoswipe.com/"&gt;photoswipe&lt;/a&gt;, a lightbox library. A cool feature is how well it handles touch input, letting you swipe between images, pinch to zoom, and drag to pan.&lt;/p&gt;
+				
+				&lt;p&gt;To combine these libraries together, I created my own Liquid tag (Liquid being the templating language used by Jekyll) that would output the HTML in the format both libraries needed. &lt;a href="http://robcrocombe.com/2015/12/13/a-day-at-playstation-experience-2015/"&gt;Here is an example&lt;/a&gt; of galleries being used in a post, and here is an example of the Liquid block:&lt;/p&gt;
+				
+				&lt;pre&gt;&lt;code&gt;{% photoset 12%}
+				-   url: 2015/12/20151205_222237769_ios.jpg
+				width: 1340
+				height: 1005
+				-   url: 2015/12/20151205_225627754_ios.jpg
+				width: 1340
+				height: 1005
+				-   url: 2015/12/20151205_205912898_ios.jpg
+				width: 1340
+				height: 1005
+				{% endphotoset %}
+				&lt;/code&gt;&lt;/pre&gt;
+				
+				&lt;h3 id="importing-wordpress-posts"&gt;Importing WordPress posts&lt;/h3&gt;
+				
+				&lt;p&gt;Jekyll has it’s own importer from WordPress, but it outputs to HTML. I wanted to use Markdown to be consistent with future posts and make it easier to make changes (and fix formatting issues from the import). The Jekyll docs listed &lt;a href="https://github.com/thomasf/exitwp"&gt;exitwp&lt;/a&gt; which would do this. I also had to implement &lt;code&gt;linebreaks_wp.py&lt;/code&gt; from &lt;a href="https://github.com/thomasf/exitwp/pull/41"&gt;this pull request&lt;/a&gt; to handle WordPress’s weird newlines. Obviously I wanted to automate as much as possible, so I also wrote some Ruby scripts to convert galleries, captions, and code blocks.&lt;/p&gt;
+				
+				&lt;h3 id="drafting-and-publishing-posts"&gt;Drafting and publishing posts&lt;/h3&gt;
+				
+				&lt;p&gt;I also wrote my first Node CLI app to perform tasks like create and publish drafts. You can find the source code on &lt;a href="https://github.com/robcrocombe/jekyll-post"&gt;GitHub&lt;/a&gt; if you want to use it yourself. Creating a draft is as easy as:&lt;/p&gt;
+				
+				&lt;pre&gt;&lt;code&gt;$ post draft "Hello World!"
+				&lt;/code&gt;&lt;/pre&gt;
+				
+				&lt;p&gt;Which will create a file in Jekyll’s &lt;code&gt;_draft&lt;/code&gt; folder called &lt;code&gt;hello-world.md&lt;/code&gt; with basic front matter. Publishing the post will move it to &lt;code&gt;_posts&lt;/code&gt; and add the current date and time to the front matter.&lt;/p&gt;
+			</description>
+			<pubDate>
+				Sun, 07 Feb 2016 22:33:49 -0800
+			</pubDate>
+			<link>
+				http://robcrocombe.com/2016/02/07/a-walk-through-blog-technologies/
+			</link>
+			<guid isPermaLink="true">
+				http://robcrocombe.com/2016/02/07/a-walk-through-blog-technologies/
+			</guid>
+			<category>
+				project
+			</category>
+			<category>
+				programming
+			</category>
+			<category>
+				jekyll
+			</category>
+			<category>
+				blog
+			</category>
+			<category>
+				web
+			</category>
+		</item>
+		<item>
+			<title>
+				Introducing my new blog
+			</title>
+			<description>
+				&lt;p&gt;Welcome! Today I make the switch from Wordpress.com to Jekyll. I wrote a blog post before about building a new &lt;a href="http://robcrocombe.com/2015/10/24/a-new-portfolio"&gt;portfolio site&lt;/a&gt; with Jekyll on GitHub Pages, and I enjoyed development so much I thought why not build my whole site with this?&lt;/p&gt;
+				
+				&lt;p&gt;The advantages were clear:&lt;/p&gt;
+				
+				&lt;ul&gt;
+				&lt;li&gt;I would have full creative control over the site now that it was up to me to design and implement it. I no longer had to use Wordpress themes and layouts.&lt;/li&gt;
+				&lt;li&gt;It would be free to run on GitHub pages, and I wouldn’t have to pay Wordpress’s custom URL charge.&lt;/li&gt;
+				&lt;li&gt;I can have both my blog and portfolio on a single site so they can be consistently themed.&lt;/li&gt;
+				&lt;/ul&gt;
+				
+				&lt;p&gt;The main drawbacks are the work that has to be done to migrate the site (now done!), and the loss of some extra features like email subscriptions and UX comforts, and admin access from the web (Jekyll is all local development but in theory I could build my own web admin panel).&lt;/p&gt;
+				
+				&lt;p&gt;Work started on November 20th last year, and it’s finally complete. I’ve tried to build all the usual blog features in, like &lt;a href="http://robcrocombe.com/search"&gt;search&lt;/a&gt; and &lt;a href="http://robcrocombe.com/feed.xml"&gt;RSS&lt;/a&gt;. I’ll try and write another blog post soon about the technologies I used. For now, thanks for reading and take a look around.&lt;/p&gt;
+			</description>
+			<pubDate>
+				Sun, 07 Feb 2016 09:04:47 -0800
+			</pubDate>
+			<link>
+				http://robcrocombe.com/2016/02/07/introducing-my-new-blog/
+			</link>
+			<guid isPermaLink="true">
+				http://robcrocombe.com/2016/02/07/introducing-my-new-blog/
+			</guid>
+			<category>
+				welcome
+			</category>
+			<category>
+				introduction
+			</category>
+			<category>
+				project
+			</category>
+			<category>
+				programming
+			</category>
+			<category>
+				jekyll
+			</category>
+			<category>
+				blog
+			</category>
+			<category>
+				web
+			</category>
+		</item>
+		<item>
+			<title>
+				A day at Playstation Experience 2015
+			</title>
+			<description>
+				&lt;p&gt;&lt;a href="https://robcrocombe.files.wordpress.com/2015/12/20151205_213413961_ios.jpg"&gt;&lt;img src="https://robcrocombe.files.wordpress.com/2015/12/20151205_213413961_ios.jpg?w=682" alt="20151205_213413961_iOS" /&gt;&lt;/a&gt;&lt;/p&gt;
+				
+				&lt;p&gt;I had the opportunity to attend the Playstation Experience last Saturday in San Francisco’s own Moscone Centre. This was the second expo I’ve been to, the first being Eurogamer Expo 2011 in London.&lt;/p&gt;
+				
+				&lt;p&gt;&lt;a href="https://robcrocombe.files.wordpress.com/2015/12/20151205_214127091_ios.jpg"&gt;&lt;img src="https://robcrocombe.files.wordpress.com/2015/12/20151205_214127091_ios.jpg?w=682" alt="20151205_214127091_iOS" /&gt;&lt;/a&gt;&lt;/p&gt;
+				
+				&lt;p&gt;The main reason I wanted to go was to play Ratchet &amp;amp; Clank on PS4, as the series is one of my favourites. Getting used to the new controls took a while. The triggers perform strafe/fire and the hoverpack has been moved to the Y button, for example. The first mission I played was Metropolis where you traverse a flying train and I kept falling off which was embarrassing as I had a few people waiting behind me.&lt;/p&gt;
+				
+				&lt;p&gt;The graphics were insanely gorgeous. I always thought they looked fantastic and the art style is also great, but the bump from 720p to 1080p from PS3 really helps here. The only problem for me is that the game may seen a bit déjà vu, having played the PS2 classic so many times.&lt;/p&gt;
+				
+				&lt;p&gt;&lt;a href="https://robcrocombe.files.wordpress.com/2015/12/20151205_214753628_ios.jpg"&gt;&lt;img src="https://robcrocombe.files.wordpress.com/2015/12/20151205_214753628_ios.jpg?w=682" alt="20151205_214753628_iOS" /&gt;&lt;/a&gt;&lt;/p&gt;
+				
+				&lt;p&gt;Another game that hasn’t been released yet is Firewatch, a story-driven adventure set in the forests of Wyoming. It looked very interesting in the videos, and while I didn’t get to play it in-person, I could see it definitely needs some polish before release. There were quite a few frame-rate drops.&lt;/p&gt;
+				
+				&lt;div class="photoset-grid" data-layout="12"&gt;
+				&lt;img src="https://robcrocombe.files.wordpress.com/2015/12/20151205_222237769_ios.jpg?w=900.0&amp;amp;h=675.0&amp;amp;crop=1" data-pos="0" data-width="1340" data-height="1005" /&gt;
+				&lt;img src="https://robcrocombe.files.wordpress.com/2015/12/20151205_225627754_ios.jpg?w=900.0&amp;amp;h=675.0&amp;amp;crop=1" data-pos="1" data-width="1340" data-height="1005" /&gt;
+				&lt;img src="https://robcrocombe.files.wordpress.com/2015/12/20151205_205912898_ios.jpg?w=900.0&amp;amp;h=675.0&amp;amp;crop=1" data-pos="2" data-width="1340" data-height="1005" /&gt;
+				&lt;/div&gt;
+				
+				&lt;p&gt;There was, of course, demos for Uncharted 4 and Playstation VR, but the lines were so long I didn’t bother. I also missed the conference at the start of the event but not being a Playstation fan I don’t think I missed anything.&lt;/p&gt;
+				
+				&lt;p&gt;The other games I was interested in playing at the event had already been released. Just Cause 3 was fun but also had big performance issues. Hitman GO looked really nice on PS4 and I bought the iOS game because of it.&lt;/p&gt;
+				
+				&lt;div class="photoset-grid" data-layout="121"&gt;
+				&lt;img src="https://robcrocombe.files.wordpress.com/2015/12/20151205_234753959_ios.jpg?w=900.0&amp;amp;h=675.0&amp;amp;crop=1" data-pos="0" data-width="1340" data-height="1005" /&gt;
+				&lt;img src="https://robcrocombe.files.wordpress.com/2015/12/20151205_234502297_ios.jpg?w=900.0&amp;amp;h=675.0&amp;amp;crop=1" data-pos="1" data-width="1340" data-height="1005" /&gt;
+				&lt;img src="https://robcrocombe.files.wordpress.com/2015/12/20151205_221720983_ios.jpg?w=900.0&amp;amp;h=675.0&amp;amp;crop=1" data-pos="2" data-width="1340" data-height="1005" /&gt;
+				&lt;img src="https://robcrocombe.files.wordpress.com/2015/12/20151205_221842837_ios.jpg?w=900.0&amp;amp;h=675.0&amp;amp;crop=1" data-pos="3" data-width="1340" data-height="1005" /&gt;
+				&lt;/div&gt;
+				
+				&lt;p&gt;I was impressed by the size of the Moscone Centre. The expo took up three floors, the top being just for the conference/panels, and it was basically all chairs up to the stage at the front, so it felt extra huge compared to the floors below which were sectioned off into booths.&lt;/p&gt;
+				
+				&lt;p&gt;&lt;a href="https://robcrocombe.files.wordpress.com/2015/12/20151213_211028537_ios.jpg"&gt;&lt;img src="https://robcrocombe.files.wordpress.com/2015/12/20151213_211028537_ios.jpg?w=682" alt="20151213_211028537_iOS" /&gt;&lt;/a&gt;&lt;/p&gt;
+				
+				&lt;p&gt;All-in-all a very enjoyable time, even though I’m still rooting for the other team (Xbox!)&lt;/p&gt;
+			</description>
+			<pubDate>
+				Sun, 13 Dec 2015 14:01:52 -0800
+			</pubDate>
+			<link>
+				http://robcrocombe.com/2015/12/13/a-day-at-playstation-experience-2015/
+			</link>
+			<guid isPermaLink="true">
+				http://robcrocombe.com/2015/12/13/a-day-at-playstation-experience-2015/
+			</guid>
+			<category>
+				america
+			</category>
+			<category>
+				expo
+			</category>
+			<category>
+				gaming
+			</category>
+		</item>
+		<item>
+			<title>
+				A new portfolio
+			</title>
+			<description>
+				&lt;p&gt;&lt;a href="https://robcrocombe.files.wordpress.com/2015/10/portfoliointro1.png"&gt;&lt;img src="https://robcrocombe.files.wordpress.com/2015/10/portfoliointro1.png?w=682" alt="PortfolioIntro" /&gt;&lt;/a&gt;&lt;br /&gt;
+				For a while now I’ve been looking at moving my blog to something self-hosted and more customisable. &lt;a href="https://ghost.org"&gt;Ghost&lt;/a&gt; is what I would preferably like to move to, but in its current state it didn’t have all the features I want. The blog will have to wait.&lt;/p&gt;
+				
+				&lt;p&gt;While researching this I found GitHub Pages and a blog-focused, static site generator called &lt;a href="http://jekyllrb.com"&gt;Jekyll&lt;/a&gt;. It was developed by one of the founders of GitHub and has been described as “blogging for hackers”. After looking into it I found it to be extremely clever, simple, and customisable.&lt;/p&gt;
+				
+				&lt;p&gt;While I’m not ready to move my blog to a static website, it would be a fun side project to move my portfolio work from Behance. Each project on Behance could be the equivalent of a blog post in Jekyll. Here are some of the advantages:&lt;/p&gt;
+				
+				&lt;ul&gt;
+				&lt;li&gt;GitHub Pages is completely free to host on, and you can map it to a subdomain.&lt;/li&gt;
+				&lt;li&gt;GitHub also easily auto-publishes the main branch of your repository.&lt;/li&gt;
+				&lt;li&gt;It would be nice to have my work appear on a website that is also my own work.&lt;/li&gt;
+				&lt;li&gt;I’ll have more control over project page customisation.&lt;/li&gt;
+				&lt;li&gt;It won’t have Adobe branding everywhere :P&lt;/li&gt;
+				&lt;/ul&gt;
+				
+				&lt;p&gt;One of the great things about Jekyll is YAML front matter. This is a section of YAML at the start of any page on your site. Key/value pairs in this section will then be treated specially in Jekyll. For example there are pre-defined variables in Jekyll that will perform a certain behaviour. “Layout” will decide which HTML template to use - and this is nestable. So the layout of a markdown post will be “post”. The “post.html” template will have the layout set to “default” which is the root layout with headers and footers.&lt;/p&gt;
+				
+				&lt;p&gt;YAML front matter also contains your own variables, so you can declare things like text and background colours, or specify an image to use on the front page. These variables are accessed using a templating language called &lt;a href="http://liquidmarkup.org/"&gt;Liquid&lt;/a&gt;, which is similar to &lt;a href="http://handlebarsjs.com/"&gt;Handlebars&lt;/a&gt; I used for CSBlogs. Here’s an example of Liquid:&lt;/p&gt;
+				
+				&lt;pre&gt;&lt;code class="language-html"&gt;
+				---
+				layout: default
+				title: Portfolio
+				---
+				
+				&amp;lt;div class="posts"&amp;gt;
+				{% for post in site.posts %}
+				&amp;lt;a href="{{ site.baseurl }}{{ post.url }}"&amp;gt;
+				&amp;lt;article class="post"&amp;gt;
+				&amp;lt;img src="images/content/{{ post.image }}" alt="Featured Image"&amp;gt;
+				&amp;lt;div class="post-caption" style="background: #{{ post.accent }}"&amp;gt;
+				&amp;lt;p class="post-title"&amp;gt;{{ post.title }}&amp;lt;/p&amp;gt;
+				&amp;lt;p class="post-desc"&amp;gt;{{ post.description }}&amp;lt;/p&amp;gt;
+				&amp;lt;/div&amp;gt;
+				&amp;lt;/article&amp;gt;
+				&amp;lt;/a&amp;gt;
+				{% endfor %}
+				&amp;lt;/div&amp;gt;
+				
+				&lt;/code&gt;&lt;/pre&gt;
+				
+				&lt;p&gt;The site is currently in-progress. I haven’t added all my previous projects yet, and the styling isn’t fully decided upon. It is fully responsive though.&lt;/p&gt;
+				
+				&lt;blockquote&gt;
+				&lt;p&gt;EDIT 31/10/2015: I’ve found a lot of promising, fun stuff while researching for the new portfolio so I’ll probably move the whole site to Jekyll. We’ll see how it goes.&lt;/p&gt;
+				&lt;/blockquote&gt;
+			</description>
+			<pubDate>
+				Sat, 24 Oct 2015 09:19:17 -0700
+			</pubDate>
+			<link>
+				http://robcrocombe.com/2015/10/24/a-new-portfolio/
+			</link>
+			<guid isPermaLink="true">
+				http://robcrocombe.com/2015/10/24/a-new-portfolio/
+			</guid>
+			<category>
+				project
+			</category>
+			<category>
+				development
+			</category>
+			<category>
+				portfolio
+			</category>
+			<category>
+				programming
+			</category>
+		</item>
+		<item>
+			<title>
+				A better terminal experience
+			</title>
+			<description>
+				&lt;p&gt;&lt;a href="https://robcrocombe.files.wordpress.com/2015/10/iterm2.png"&gt;&lt;img src="https://robcrocombe.files.wordpress.com/2015/10/iterm2.png?w=682" alt="iTerm" /&gt;&lt;/a&gt;&lt;br /&gt;
+				Some tools I’ve picked up from working at GuideSpark include an OS X terminal replacement called iTerm2, and a shell replacement called Fish (Friendly Interactive Shell). There are probably tons of features  but the main ones that stick out for me are:&lt;/p&gt;
+				
+				&lt;ul&gt;
+				&lt;li&gt;Split-pane windows: so you can have multiple instances in one window.&lt;/li&gt;
+				&lt;li&gt;Git integration: the input line will be prefixed with some useful information on the current repository if you are inside a Git directory. The screenshot above, for example, shows I’m on the master branch and the green colour tells me there are no local uncommitted changes.&lt;/li&gt;
+				&lt;li&gt;Autocomplete: This setup has a really nifty autocomplete, helping as you type with previous commands and directory names. It also lets you change directory without typing ‘cd’.&lt;/li&gt;
+				&lt;/ul&gt;
+				
+				&lt;p&gt;I won’t go through the whole installation process, but I can tell you what I have installed. This &lt;a href="http://bleibinha.us/blog/2014/08/my-command-line-setup-with-fish"&gt;blog post&lt;/a&gt; by Stefan Bleibinhaus was also very useful. I have installed:&lt;/p&gt;
+				
+				&lt;ul&gt;
+				&lt;li&gt;&lt;a href="http://iterm2.com/"&gt;iTerm2&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href="http://fishshell.com/"&gt;Fish&lt;/a&gt; (recommended using &lt;a href="http://brew.sh/"&gt;Brew&lt;/a&gt;, like &lt;a href="http://hackercodex.com/guide/install-fish-shell-mac-ubuntu/#installing-fish-on-mac-os-x-1010-yosemite"&gt;this&lt;/a&gt;)&lt;/li&gt;
+				&lt;li&gt;&lt;a href="https://github.com/oh-my-fish/oh-my-fish"&gt;Oh-My-Fish&lt;/a&gt; (for managing themes and stuff)&lt;/li&gt;
+				&lt;li&gt;Agnoster theme (command: “omf theme agnoster”, there are other good ones)&lt;/li&gt;
+				&lt;/ul&gt;
+				
+				&lt;p&gt;Now to get the nice arrows in the Git line, you need to install the &lt;a href="https://github.com/powerline/fonts"&gt;powerline fonts&lt;/a&gt; (or a single one that you like, I’m using Sauce Code Powerline), and set them to be both the regular font and non-ASCII font in an iTerm2 profile.&lt;/p&gt;
+				
+				&lt;p&gt;You could spend quite a while fiddling around with it (also try the &lt;a href="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/schemes/Solarized%20Dark.itermcolors"&gt;Solarized Dark theme&lt;/a&gt; for iTerm), so have fun.&lt;/p&gt;
+			</description>
+			<pubDate>
+				Sun, 18 Oct 2015 10:08:36 -0700
+			</pubDate>
+			<link>
+				http://robcrocombe.com/2015/10/18/a-better-terminal-experience/
+			</link>
+			<guid isPermaLink="true">
+				http://robcrocombe.com/2015/10/18/a-better-terminal-experience/
+			</guid>
+			<category>
+				computer science
+			</category>
+			<category>
+				osx
+			</category>
+			<category>
+				programming
+			</category>
+		</item>
+		<item>
+			<title>
+				The start of a year in California
+			</title>
+			<description>
+				&lt;p&gt;&lt;a href="https://robcrocombe.files.wordpress.com/2015/09/20150906.jpg"&gt;&lt;img src="https://robcrocombe.files.wordpress.com/2015/09/20150906.jpg?w=682" alt="Hire ALL the engineers" /&gt;&lt;/a&gt;&lt;/p&gt;
+				
+				&lt;p&gt;My university life has come to an end, and now I start a new one in the big bad world of work. Earlier this year I applied for a year-long paid internship in Silicon Valley with an organisation called the &lt;a href="http://www.siliconvalleyinternship.com"&gt;Silicon Valley Internship Programme&lt;/a&gt;. I have been fortunate enough to get an internship with &lt;a href="http://www.guidespark.com"&gt;GuideSpark&lt;/a&gt; as a member of their software engineering team.&lt;/p&gt;
+				
+				&lt;p&gt;&lt;a href="https://robcrocombe.files.wordpress.com/2015/09/20150910.jpg"&gt;&lt;img src="https://robcrocombe.files.wordpress.com/2015/09/20150910.jpg?w=632" alt="20150910" /&gt;&lt;/a&gt;
+				&lt;em&gt;Outside the GuideSpark offices&lt;/em&gt;&lt;/p&gt;
+				
+				&lt;p&gt;I arrived in California on the 3rd September, spookily the same day as when I travelled back home from my &lt;a href="http://robcrocombe.com/2014/10/05/my-usa-roadtrip-2014-part-1/"&gt;road trip last year&lt;/a&gt; (and from the same San Francisco airport). I’ve had a great time so far, first socialising with my fellow interns and developers in San Francisco, then starting my new job.&lt;/p&gt;
+				
+				&lt;p&gt;&lt;a href="https://robcrocombe.files.wordpress.com/2015/09/212427.jpg"&gt;&lt;img src="https://robcrocombe.files.wordpress.com/2015/09/212427.jpg?w=682" alt="Some of the interns on the Silicon Valley Internship Programme" /&gt;&lt;/a&gt;
+				&lt;em&gt;Some of the interns on the Silicon Valley Internship Programme&lt;/em&gt;&lt;/p&gt;
+				
+				&lt;p&gt;I’m currently learning and developing with Ruby on Rails for work, and I’m happy to now have free time to work on my own projects again once I settle down (I always felt guilty to stop working at university since there’s no fixed time for work outside of lectures). This is a fantastic opportunity and I’m really excited for what the rest of the year will bring.&lt;/p&gt;
+			</description>
+			<pubDate>
+				Fri, 25 Sep 2015 21:06:48 -0700
+			</pubDate>
+			<link>
+				http://robcrocombe.com/2015/09/25/the-start-of-a-year-in-california/
+			</link>
+			<guid isPermaLink="true">
+				http://robcrocombe.com/2015/09/25/the-start-of-a-year-in-california/
+			</guid>
+			<category>
+				america
+			</category>
+			<category>
+				guidespark
+			</category>
+			<category>
+				svip
+			</category>
+		</item>
+		<item>
+			<title>
+				Code Generation as a Service
+			</title>
+			<description>
+				&lt;p&gt;&lt;a href="https://robcrocombe.files.wordpress.com/2015/06/pacs_flow_diagram.png"&gt;&lt;img src="https://robcrocombe.files.wordpress.com/2015/06/pacs_flow_diagram.png?w=682" alt="PACS_flow_diagram" /&gt;&lt;/a&gt;&lt;/p&gt;
+				
+				&lt;p&gt;It’s been a while since my last post, as I’ve been busy doing university work and figuring out a job for after my final year finishes this summer. Since April, I have been working on my summer project for my Masters degree. This is a bigger, longer project like &lt;a href="http://robcrocombe.com/tag/pascalde/"&gt;PascalDE&lt;/a&gt; from my 3rd year, and will make up 55% of my final grade.&lt;/p&gt;
+				
+				&lt;p&gt;My project is in the field of model-driven engineering. This is an area of computer science that uses abstract models to design and develop a system before implementing it. This helps reduce accidental complexity. A UML diagram is an example of a model. Code generation is a transformation from models to text. The text could be code that serves as a basis to develop your application on after designing it with models. It could also be used for statistics or viewing models visually with HTML.&lt;/p&gt;
+				
+				&lt;p&gt;Currently, if you practice model-driven engineering, and you design models of your system then generate code from them to speed up the development process, you have to have all the tools available locally. If you have a very large model to generate from, this could take a lot of time to run and slow your productivity. If you have a team or a client, and develop generators to use with their models, they potentially have to acquire the generator software and learn how to use it.&lt;/p&gt;
+				
+				&lt;p&gt;My project cuts out the majority of the process from the term “input-process-output”, helping solve the problems mentioned above. The task is to create a web service that users can publish code generators to. Generators are publicly available so anyone can use them (think &lt;a href="https://www.npmjs.com/"&gt;npm&lt;/a&gt;). A user can then upload their own models to use on a generator and in return receive the generated output. Essentially, the service offloads the generator’s work to the cloud, instead of your local machine.&lt;/p&gt;
+				
+				&lt;p&gt;The project is being implemented as a Java RESTful API, so anyone could write a client for it. The programming is coming along nicely, though I’m not too keen on writing the big report at the end.&lt;/p&gt;
+			</description>
+			<pubDate>
+				Thu, 16 Jul 2015 06:24:40 -0700
+			</pubDate>
+			<link>
+				http://robcrocombe.com/2015/07/16/code-generation-as-a-service/
+			</link>
+			<guid isPermaLink="true">
+				http://robcrocombe.com/2015/07/16/code-generation-as-a-service/
+			</guid>
+			<category>
+				project
+			</category>
+			<category>
+				computer science
+			</category>
+			<category>
+				coursework
+			</category>
+			<category>
+				PACS
+			</category>
+			<category>
+				programming
+			</category>
+			<category>
+				university of york
+			</category>
+		</item>
+		<item>
+			<title>
+				Introducing csblogs.com
+			</title>
+			<description>
+				&lt;p&gt;&lt;a href="https://robcrocombe.files.wordpress.com/2015/03/csblogs11.png"&gt;&lt;img src="https://robcrocombe.files.wordpress.com/2015/03/csblogs11.png?w=682" alt="csblogs1" /&gt;&lt;/a&gt;&lt;/p&gt;
+				
+				&lt;p&gt;A few years ago my friends set up a blog aggregation website to combine the computer science blogs from our university. Blogging was heavily encouraged by one of our lecturers &lt;a href="http://www.robmiles.com/"&gt;Rob Miles&lt;/a&gt;, and I suppose it is why I am writing this today. Blogging is a great way to present your ideas and build a portfolio of work to show. There were a lot of blogs from our CS department and the site was a great way to keep up.&lt;/p&gt;
+				
+				&lt;p&gt;The person maintaining Hull Comp Sci Blogs is no longer running the site, and instead &lt;a href="http://dannycomputerscientist.wordpress.com/"&gt;Danny Brown&lt;/a&gt; took on the project, starting completely fresh. The project is entirely open source, available on &lt;a href="http://github.com/csblogs/csblogs"&gt;GitHub&lt;/a&gt;, and hosted on Microsoft Azure. We are also using a documentation service from startup company &lt;a href="http://readme.io/"&gt;readme.io&lt;/a&gt;.&lt;/p&gt;
+				
+				&lt;p&gt;We are hoping to include the features of the old website, but expanded for other Computer Science students and enthusiasts. As well as bringing together a feed of blogs, we want to add group lists and profile pages too.&lt;/p&gt;
+				
+				&lt;p&gt;&lt;a href="https://robcrocombe.files.wordpress.com/2015/03/csblogs21.png"&gt;&lt;img src="https://robcrocombe.files.wordpress.com/2015/03/csblogs21.png?w=682" alt="" /&gt;&lt;/a&gt;&lt;/p&gt;
+				
+				&lt;p&gt;I am currently the lead on user interface design, coming up with concepts, creating vector graphics and writing &lt;a href="http://lesscss.org/"&gt;LESS&lt;/a&gt;/CSS, HTML, and JavaScript for the site. It’s been good fun and good experience after writing my “&lt;a href="http://robcrocombe.com/2015/02/05/my-first-real-web-project/"&gt;Twister&lt;/a&gt;“ social network coursework.&lt;/p&gt;
+				
+				&lt;p&gt;If you want to take a look, or contribute, or add your blog (once that feature has been added), check out &lt;a href="http://csblogs.com/"&gt;csblogs.com&lt;/a&gt;.&lt;/p&gt;
+			</description>
+			<pubDate>
+				Sat, 21 Mar 2015 09:49:59 -0700
+			</pubDate>
+			<link>
+				http://robcrocombe.com/2015/03/21/introducing-csblogs-com/
+			</link>
+			<guid isPermaLink="true">
+				http://robcrocombe.com/2015/03/21/introducing-csblogs-com/
+			</guid>
+			<category>
+				project
+			</category>
+			<category>
+				introduction
+			</category>
+			<category>
+				computer science
+			</category>
+			<category>
+				csblogs
+			</category>
+			<category>
+				university of hull
+			</category>
+			<category>
+				web
+			</category>
+		</item>
+		<item>
+			<title>
+				A PascalDE success story
+			</title>
+			<description>
+				&lt;p&gt;&lt;a href="https://robcrocombe.files.wordpress.com/2015/03/pascaldepurple.png"&gt;&lt;img src="https://robcrocombe.files.wordpress.com/2015/03/pascaldepurple.png?w=682" alt="PascalDEpurple" /&gt;&lt;/a&gt;&lt;br /&gt;
+				A few weeks ago, someone contacted me on my site’s email address for help with &lt;a href="http://www.behance.net/gallery/17421153/PascalDE"&gt;PascalDE&lt;/a&gt;. This was a great surprise - I have never had someone contact me personally about one of my projects before. After helping him with his problem (how to compile code with Free Pascal), I found out he was a teacher in a Mexican secondary school and is using my application to teach his students Pascal.&lt;/p&gt;
+				
+				&lt;p&gt;He said he found PascalDE fixed a lot of the issues he has with other Pascal IDEs, such as:&lt;/p&gt;
+				
+				&lt;ul&gt;
+				&lt;li&gt;They’re difficult to use.&lt;/li&gt;
+				&lt;li&gt;Low resolution.&lt;/li&gt;
+				&lt;li&gt;Limitations on compilers and execution.&lt;/li&gt;
+				&lt;/ul&gt;
+				
+				&lt;p&gt;These were also some of the reasons I decided to develop PascalDE in the first place. It was great to see that someone from the other side of the planet had found the application and it solved these problems for him. It’s also great to see PascalDE used in a learning environment as this is where I was using IDEs like Virtual Pascal and had usability problems on modern computers. An unexpected result, and it feels good to have my software help someone out.&lt;/p&gt;
+			</description>
+			<pubDate>
+				Fri, 20 Mar 2015 10:46:35 -0700
+			</pubDate>
+			<link>
+				http://robcrocombe.com/2015/03/20/a-pascalde-success-story/
+			</link>
+			<guid isPermaLink="true">
+				http://robcrocombe.com/2015/03/20/a-pascalde-success-story/
+			</guid>
+			<category>
+				project
+			</category>
+			<category>
+				PascalDE
+			</category>
+			<category>
+				university of hull
+			</category>
+		</item>
+	</channel>
+</rss>

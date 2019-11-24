@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+	<channel>
+		<title>
+			Example Channel
+		</title>
+		<link>
+			http://example.com/
+		</link>
+		<description>
+			My example blog
+		</description>
+		<item>
+			<title>
+				You won't believe what happened next!
+			</title>
+			<link>
+				http://example.com/what-happened-next
+			</link>
+			<description>
+				Something uninteresting, you got click baited!
+			</description>
+		</item>
+		<item>
+			<title>
+				Blog Authors hate him!
+			</title>
+			<link>
+				http://example.com/blog-authors-hate-him
+			</link>
+		</item>
+	</channel>
+</rss>

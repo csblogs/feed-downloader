@@ -1,0 +1,17 @@
+name: Download Feeds
+on:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '*/15 * * * *'
+
+jobs:
+  aggregate:
+    name:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+        uses: actions/setup-node@v1
+        with:
+          node-version: '10.x'
+      - run: npm install
+      - run: npm start
