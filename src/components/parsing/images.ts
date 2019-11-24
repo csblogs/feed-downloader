@@ -10,12 +10,16 @@ function isGravatar(imageURI): boolean {
   return imageURI.hostname().includes('gravatar.com');
 }
 
-function isWordPressAddCommentImage(imageURI): boolean {
-  return imageURI.toString().includes('http://feeds.wordpress.com/1.0/comments');
+function isWordPressCommentImageOrTracker(imageURI): boolean {
+  const imageURIString = imageURI.toString();
+  return (
+    imageURIString.includes('http://feeds.wordpress.com/1.0/comments') ||
+    imageURIString.includes('https://pixel.wp.com')
+  );
 }
 
 function isValidImage(image): boolean {
-  return !(isWordPressAddCommentImage(image) || isGravatar(image));
+  return !(isWordPressCommentImageOrTracker(image) || isGravatar(image));
 }
 
 export function extractImageURLFromDescriptionHTML(description: string): uri.URI {
@@ -32,8 +36,8 @@ export function extractRSSPostImage(post): uri.URI {
   // Let's try all of them to get one...
   let imageURI: uri.URI = null;
 
-  if (post['media:content']) {
-    const validMediaContentImageURLs = post['media:content']
+  if (post.content) {
+    const validMediaContentImageURLs = post.content
       .map(media => media.$)
       .reduce(
         (images, media) => (media.medium === 'image' ? images.concat(new URI(media.url)) : images),
@@ -59,7 +63,7 @@ export function extractRSSPostImage(post): uri.URI {
   }
 
   // Reject gravatar images and click to comment images
-  if (imageURI && !isGravatar(imageURI) && !isWordPressAddCommentImage(imageURI)) {
+  if (imageURI && isValidImage(imageURI)) {
     return removeImageSizeGetParamsFromURL(imageURI);
   }
 

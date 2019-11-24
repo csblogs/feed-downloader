@@ -222,7 +222,7 @@ describe('feeds', () => {
         expect(await parseFeed(alexCustomFeedATOM)).toEqual(expectedItems);
       });
 
-      it.skip('should correctly parse wordpress.com.rss', async () => {
+      it('should correctly parse wordpress.com.rss', async () => {
         const wordpressComRSS = readFileSync('./src/test-data/rss/wordpress.com.rss').toString();
 
         const expectedItems: IBlogPost[] = [
