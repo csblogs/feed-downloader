@@ -31,7 +31,7 @@ export function parseRSSPosts(xml2JS: any): IBlogPost[] {
     title: getTitle(item),
     link: getLink(item),
     imageUrl: getImageUrl(item),
-    description: getDescription(item),
+    description: formatDescription(getDescription(item)),
     dateUpdated: getDateUpdated(item),
     datePublished: getDatePublished(item),
   }));
