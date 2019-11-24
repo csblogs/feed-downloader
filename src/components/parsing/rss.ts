@@ -11,7 +11,13 @@ function getLink(post: any) {
 }
 
 function getImageUrl(post: any) {
-  return extractRSSPostImage(post).toString();
+  const imageUrl = extractRSSPostImage(post);
+
+  if (!imageUrl) {
+    return null;
+  }
+
+  return imageUrl.toString();
 }
 
 function getDescription(post: any) {

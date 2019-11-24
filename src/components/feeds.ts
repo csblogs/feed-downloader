@@ -113,6 +113,10 @@ export async function parseFeed(unparsedFeedXML: string): Promise<IBlogPost[]> {
 }
 
 export function formatDescription(unformattedDescription: string) {
+  if (!unformattedDescription) {
+    return null;
+  }
+
   const $ = cheerio.load(unformattedDescription);
   let textRepresentation = $.root().text();
 
