@@ -1,6 +1,6 @@
 import { IBlogPost } from '../blog-posts';
 import { formatDescription } from '../feeds';
-import { extractImageURLFromDescriptionHTML } from './images';
+import { extractImageURLFromDescriptionHTML, makeRelativeImageURLAbsolute } from './images';
 
 function getTitle(post: any) {
   if (post.title[0]._) {
@@ -32,8 +32,10 @@ function getImageUrl(post: any) {
   const description = getDescription(post);
   const imageFromDescription = extractImageURLFromDescriptionHTML(description);
 
+  const link = getLink(post.link);
+
   if (imageFromDescription) {
-    return imageFromDescription.toString();
+    return makeRelativeImageURLAbsolute(imageFromDescription.toString(), link);
   }
 
   return null;

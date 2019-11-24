@@ -65,3 +65,13 @@ export function extractRSSPostImage(post): uri.URI {
 
   return null;
 }
+
+export function makeRelativeImageURLAbsolute(imageUrl: string, postLink: string): string {
+  const imageURI = new URI(imageUrl);
+
+  if (imageURI.is('relative')) {
+    return imageURI.absoluteTo(postLink).toString();
+  }
+
+  return imageUrl;
+}
